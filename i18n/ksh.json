@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Purodha"
+		]
+	},
+	"bs-pageaccess-desc": "Beschtemmp der Zohjang om Nivoh vun einzel Sigge",
+	"bs-pageaccess-error-no-groups-given": "Kein Joppe sin aanjejovve woode.",
+	"bs-pageaccess-error-not-member-of-given-groups": "Do be nit en einer vun dä aanjejovve Jroppe.",
+	"bs-pageaccess-error-included-forbidden-template": "Do häs di Schablohn „$1“ heh ennjebonge, di ze Lässe De kei Rääsch häs. Öm Desch nit sällver vun heh dä Sigg ußzeschpärre, dähts De dat bäßer nit. Ding Änderong es jäz eets ens nit faßjehallde.",
+	"bs-pageaccess-tag-groups-desc": "Jiff de Metmaacher_Jroppe aan, di alleijns Zohjang op heh di Sigg hann sulle. Donn Kommas zwesche de Jroppe schrihve.",
+	"pageaccess": "Sigge, di över PageAccess jeseschert sin.",
+	"log-name-bs-pageaccess": "Logbohch för der Siggezohjreff",
+	"log-description-bs-pageaccess": "Logbohch vun de Ännderonge aan de Zohjreffsrääschte op Sigge.",
+	"log-show-hide-bs-pageaccess": "$1 et Logbohch för der Siggezohjreff",
+	"logentry-bs-pageaccess-change": "{{GENDER:$2|Dä Metmaacher|De Metmaacherėn|Dä Metmaacher|De Metmaacherėn|Dä Metmaacher}} $1 hät de Zohjangsrääschde vun $3 op „$4“ veränndert."
+}

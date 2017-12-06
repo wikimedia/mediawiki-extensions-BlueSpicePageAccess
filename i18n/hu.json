@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Csega"
+		]
+	},
+	"bs-pageaccess-desc": "Hozzáférés szabályozása oldal szinten",
+	"bs-pageaccess-error-no-groups-given": "Egy csoport sem lett kiválasztva."
+}

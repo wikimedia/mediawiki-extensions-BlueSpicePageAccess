@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meshkov.a",
+			"Okras",
+			"Striking Blue",
+			"Kaganer",
+			"Facenapalm",
+			"DevilishSkull"
+		]
+	},
+	"bs-pageaccess-desc": "Управление доступом на уровне страницы",
+	"bs-pageaccess-error-no-groups-given": "Группы не были указаны.",
+	"bs-pageaccess-error-not-member-of-given-groups": "Вы не входите в состав указанных групп. Чтобы уберечь вас от самоблокировки, сохранение было отключено.",
+	"bs-pageaccess-error-included-forbidden-template": "Вы пытались использовать шаблон «$1», к которому у вас нет доступа на чтение. Для того, чтобы предотвратить автоблокировку, сохранение было отключено.",
+	"bs-pageaccess-tag-groups-desc": "Определяет группы, которые должны иметь эксклюзивный доступ к странице. Несколько групп разделяются запятыми.",
+	"pageaccess": "Страница защищена с использованием PageAccess",
+	"log-name-bs-pageaccess": "Журнал доступа к страницам",
+	"log-description-bs-pageaccess": "Это журнал изменений в настройках доступа к страницам.",
+	"log-show-hide-bs-pageaccess": "$1 журнал доступа к страницам",
+	"logentry-bs-pageaccess-change": "$1 изменил{{GENDER:$2||а}} права доступа $3 на «$4»",
+	"action-pageaccess-viewspecialpage": "просмотр служебной страницы «{{int:pageaccess}}»",
+	"bs-pageaccess-column-title": "Заголовок статьи",
+	"bs-pageaccess-column-groups": "Группы",
+	"apihelp-bs-pageaccess-store-summary": "Управление доступом на уровне страницы"
+}

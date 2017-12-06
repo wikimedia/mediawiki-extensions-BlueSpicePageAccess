@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alojz.tic",
+			"Skalcaa",
+			"Dbc334"
+		]
+	},
+	"bs-pageaccess-desc": "Nadzira dostop na ravni strani",
+	"bs-pageaccess-error-no-groups-given": "Podana ni bila nobena skupina.",
+	"bs-pageaccess-error-not-member-of-given-groups": "Niste član danih skupin. Shranjevanje je bilo onemogočeno za primer preprečitve odstranitve lastnega dostopa.",
+	"bs-pageaccess-error-included-forbidden-template": "Poskusili ste uporabiti predlogo \"$1\" do katere nimate (bralskega) dostopa. Shranjevanje je bilo onemogočeno za primer preprečitve odstranitve lastnega dostopa.",
+	"bs-pageaccess-tag-groups-desc": "Določa skupine z izključnim dostopom do strani. Več skupin ločite z vejicami.",
+	"pageaccess": "Strani so zavarovane s PageAccess-om"
+}

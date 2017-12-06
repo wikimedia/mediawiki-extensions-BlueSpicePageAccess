@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ата",
+			"Piramidion",
+			"SimondR"
+		]
+	},
+	"bs-pageaccess-desc": "Контролює доступ на рівні сторінок",
+	"bs-pageaccess-error-no-groups-given": "Жодної групи не було вказано.",
+	"bs-pageaccess-error-not-member-of-given-groups": "Ви не є членом даних груп. Для того, щоб запобігти блокуванню себе, збереження було відключене.",
+	"bs-pageaccess-error-included-forbidden-template": "Ви намагалися використати шаблон «$1», до якого у вас немає доступу на читання. Для того, щоб запобігти блокування свого облікового запису, збереження було відключене.",
+	"bs-pageaccess-tag-groups-desc": "Визначає групи, які мають винятковий доступ до сторінки. Кілька груп розділяються комами.",
+	"pageaccess": "Сторінки, захищені з допомогою PageAccess",
+	"log-name-bs-pageaccess": "Журнал доступу до сторінок",
+	"log-description-bs-pageaccess": "Це журнал змін у налаштуваннях доступу до сторінок.",
+	"log-show-hide-bs-pageaccess": "$1 журнал доступу до сторінок",
+	"logentry-bs-pageaccess-change": "$1 {{GENDER:$2|змінив|змінила}} права доступу $3 до «$4»",
+	"action-pageaccess-viewspecialpage": "перегляд спеціальної сторінки «{{int:pageaccess}}»",
+	"bs-pageaccess-column-title": "Назва сторінки",
+	"bs-pageaccess-column-groups": "Групи",
+	"apihelp-bs-pageaccess-store-summary": "Контролює доступ на рівні сторінок"
+}

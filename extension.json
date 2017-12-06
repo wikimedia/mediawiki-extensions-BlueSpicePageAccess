@@ -1,0 +1,64 @@
+{
+	"name": "BlueSpicePageAccess",
+	"license-name": "GPL-3.0",
+	"version": "3.0.0-alpha",
+	"url": "https://help.bluespice.com/index.php/PageAccess",
+	"author": "Marc Reymann",
+	"descriptionmsg": "bs-pageaccess-desc",
+	"type": "bluespice",
+	"bsgExtensions": {
+		"BlueSpicePageAccess": {
+			"className": "PageAccess",
+			"extPath": "/BlueSpicePageAccess"
+		}
+	},
+	"SpecialPages": {
+		"PageAccess": "SpecialPageAccess"
+	},
+	"APIModules": {
+		"bs-pageaccess-store": "BSApiPageAccessStore"
+	},
+	"LogTypes": [
+		"bs-pageaccess"
+	],
+	"FilterLogTypes": {
+		"bs-pageaccess": true
+	},
+	"LogActionsHandlers": {
+		"bs-pageaccess/*": "LogFormatter"
+	},
+	"MessagesDirs": {
+		"BlueSpicePageAccess": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"BlueSpicePageAccessAlias": "includes/specials/SpecialPageAccess.alias.php"
+	},
+	"AutoloadClasses": {
+		"PageAccess": "PageAccess.class.php",
+		"SpecialPageAccess": "includes/specials/SpecialPageAccess.class.php",
+		"BSApiPageAccessStore": "includes/api/BSApiPageAccessStore.php"
+	},
+	"ResourceModules": {
+		"ext.PageAccess.manager": {
+			"scripts": [
+				"ext.bluespice.pageaccess.manager.js"
+			],
+			"styles": [],
+			"messages": [
+				"bs-pageaccess-column-title",
+				"bs-pageaccess-column-groups"
+			],
+			"dependencies": [
+				"ext.bluespice.extjs"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpicePageAccess/resources"
+	},
+	"load_composer_autoloader" : true,
+	"manifest_version": 1
+}

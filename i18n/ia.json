@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"bs-pageaccess-desc": "Controlo le accesso al nivello de pagina",
+	"bs-pageaccess-error-no-groups-given": "Nulle gruppo ha essite specificate.",
+	"bs-pageaccess-error-not-member-of-given-groups": "Tu non es membro del gruppos indicate. Pro impedir que tu exclude te mesme, le salveguardar ha essite disactivate.",
+	"bs-pageaccess-error-included-forbidden-template": "Tu ha essayate de usar le patrono \"$1\" pro le qual tu non ha accesso de lectura. Pro impedir que tu exclude te mesme, le salveguardar ha essite disactivate.",
+	"bs-pageaccess-tag-groups-desc": "Defini le gruppos que ha accesso exclusive a un pagina. Plure gruppos se separa per commas.",
+	"pageaccess": "Paginas protegite per PageAccess",
+	"bs-pageaccess-column-title": "Titulo del pagina",
+	"bs-pageaccess-column-groups": "Gruppos"
+}

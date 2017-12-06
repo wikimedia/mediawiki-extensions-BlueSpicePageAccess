@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alirezaaa"
+		]
+	},
+	"bs-pageaccess-desc": "دسترسی را در سطح صفحه بررسی می‌کند",
+	"bs-pageaccess-error-no-groups-given": "هیچ گروهی مشخص نشده بودند.",
+	"bs-pageaccess-error-not-member-of-given-groups": "شما عضوی از گروه‌های داده‌شده نیستید. به منظور جلوگیری از قفل‌کردن خودتان، ذخیره غیرفعال شده‌است.",
+	"pageaccess": "صفحات توسط PageAccess امن‌شده"
+}

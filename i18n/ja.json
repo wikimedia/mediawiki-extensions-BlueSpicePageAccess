@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Shirayuki",
+			"2nd-player"
+		]
+	},
+	"bs-pageaccess-desc": "ページ単位でアクセスを制御する",
+	"bs-pageaccess-error-no-groups-given": "グループが指定されていません。",
+	"bs-pageaccess-tag-groups-desc": "このページに排他的にアクセスできるグループを指定する。カンマ区切りで複数のグループを指定できる。",
+	"log-name-bs-pageaccess": "ページアクセス記録",
+	"log-description-bs-pageaccess": "これは、ページのアクセス設定の変更記録です。",
+	"log-show-hide-bs-pageaccess": "$1 ページアクセス記録",
+	"logentry-bs-pageaccess-change": "$1 が $3 のアクセス許可を「$4」に{{GENDER:$2|変更しました}}"
+}

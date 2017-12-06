@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps",
+			"InternerowyGołąb"
+		]
+	},
+	"bs-pageaccess-error-no-groups-given": "Grupy nie zostały określone.",
+	"log-description-bs-pageaccess": "Jest to rejestr zmian w ustawieniach dostępu do strony.",
+	"action-pageaccess-viewspecialpage": "zobacz stronę specjalną „{{int:pageaccess}}”",
+	"bs-pageaccess-column-title": "Tytuł strony",
+	"bs-pageaccess-column-groups": "Grupy"
+}

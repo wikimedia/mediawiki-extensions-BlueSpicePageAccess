@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rachmat.Wahidi",
+			"Rachmat04"
+		]
+	},
+	"bs-pageaccess-tag-groups-desc": "Menentukan grup yang memiliki akses eksklusif ke sebuah halaman. Beberapa grup dipisahkan dengan tanda koma."
+}

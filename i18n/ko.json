@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"action-pageaccess-viewspecialpage": "특수 문서 \"{{int:pageaccess}}\" 보기",
+	"bs-pageaccess-column-title": "문서 제목",
+	"bs-pageaccess-column-groups": "그룹"
+}

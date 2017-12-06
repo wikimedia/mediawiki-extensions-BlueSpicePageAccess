@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Felipe L. Ewald"
+		]
+	},
+	"bs-pageaccess-desc": "Controla o acesso a nível de página",
+	"bs-pageaccess-error-no-groups-given": "Nenhum grupo foi especificado.",
+	"pageaccess": "Páginas protegidas por PageAccess",
+	"log-name-bs-pageaccess": "Log de acesso da página",
+	"log-show-hide-bs-pageaccess": "$1 log de acesso da página",
+	"logentry-bs-pageaccess-change": "$1 {{GENDER:$2|alterou}} as permissões de acesso de $3 para \"$4\"",
+	"action-pageaccess-viewspecialpage": "veja a página especial \"{{int:pageaccess}}\"",
+	"bs-pageaccess-column-title": "Título da página",
+	"bs-pageaccess-column-groups": "Grupos",
+	"apihelp-bs-pageaccess-store-summary": "Controle de acesso a nível de página"
+}

@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Wladek92",
+			"Trial"
+		]
+	},
+	"bs-pageaccess-desc": "Contrôle l’accès au niveau de la page",
+	"bs-pageaccess-error-no-groups-given": "Aucun groupe n’a été spécifié",
+	"bs-pageaccess-error-not-member-of-given-groups": "Vous n’êtes pas membre des groupes indiqués. Afin de vous éviter de vous bloquer vous-même, l’enregistrement a été désactivé.",
+	"bs-pageaccess-error-included-forbidden-template": "Vous essayez d’utiliser le modèle « $1 » sur lequel vous n’avez pas d’accès en lecture. Afin de vous éviter de vous bloquer vous-même, l’enregistrement a été désactivé.",
+	"bs-pageaccess-tag-groups-desc": "Spécifie les groupes qui ont un accès exclusif à cette page. Les groupes sont séparés par des virgules.",
+	"pageaccess": "Pages sécurisées par PageAccess",
+	"log-name-bs-pageaccess": "Journal des accès aux pages",
+	"log-description-bs-pageaccess": "Ceci est un journal des modifications des paramètres d'accès aux pages.",
+	"log-show-hide-bs-pageaccess": "journal des accès à la page $1",
+	"logentry-bs-pageaccess-change": "$1 {{GENDER:$2|a modifié}} les droits d’accès à $3 en « $4 »",
+	"action-pageaccess-viewspecialpage": "afficher la page spéciale \"{{int:pageaccess}}\"",
+	"bs-pageaccess-column-title": "Titre de la page",
+	"bs-pageaccess-column-groups": "Groupes",
+	"apihelp-bs-pageaccess-store-summary": "Contrôler l'accès sur le niveau de page"
+}
