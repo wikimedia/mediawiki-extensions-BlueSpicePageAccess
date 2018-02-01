@@ -2,7 +2,7 @@
 	"name": "mediawiki/blue-spice-page-access",
 	"type": "mediawiki-extension",
 	"description": "Controls access on page level",
-	"license": "GPL-3.0",
+	"license": "GPL-3.0-only",
 	"require": {
 		"composer/installers": "~1.0"
 	},
