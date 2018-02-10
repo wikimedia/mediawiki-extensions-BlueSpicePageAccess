@@ -40,7 +40,6 @@ class PageAccess extends BsExtensionMW {
 	private static $aAllowedPairs = array(); // <page_id>-<user_id>
 
 	protected function initExt() {
-		wfProfileIn( 'BS::'.__METHOD__ );
 		$this->setHook( 'PageContentSave' );
 		$this->setHook( 'ParserFirstCallInit' );
 		$this->setHook( 'userCan' );
@@ -48,8 +47,6 @@ class PageAccess extends BsExtensionMW {
 		$this->setHook( 'BSUsageTrackerRegisterCollectors' );
 
 		$this->mCore->registerPermission( 'pageaccess-viewspecialpage', array('user'), array( 'type' => 'global' ) );
-
-		wfProfileOut( 'BS::'.__METHOD__ );
 	}
 
 	public function onPageContentSave( &$wikiPage, &$user, &$content, &$summary, $minor, $watchthis, $sectionanchor, &$flags, &$status ) {
