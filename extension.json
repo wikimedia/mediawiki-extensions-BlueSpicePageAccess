@@ -6,12 +6,39 @@
 	"author": "Marc Reymann",
 	"descriptionmsg": "bs-pageaccess-desc",
 	"type": "bluespice",
-	"bsgExtensions": {
-		"BlueSpicePageAccess": {
-			"className": "PageAccess",
-			"extPath": "/BlueSpicePageAccess"
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpicePageAccess": {
+					"className": "PageAccess",
+					"extPath": "/BlueSpicePageAccess"
+				}
+			},
+			"PermissionRegistry": {
+				"pageaccess-viewspecialpage": {
+					"type": "global",
+					"roles": [
+						"editor",
+						"admin"
+					]
+				}
+			}
 		}
 	},
+	"GroupPermissions": {
+		"*": {
+			"pageaccess-viewspecialpage": false
+		},
+		"user": {
+			"pageaccess-viewspecialpage": true
+		},
+		"sysop": {
+			"pageaccess-viewspecialpage": true
+		}
+	},
+	"AvailableRights": [
+		"pageaccess-viewspecialpage"
+	],
 	"SpecialPages": {
 		"PageAccess": "SpecialPageAccess"
 	},
@@ -60,5 +87,5 @@
 		"remoteExtPath": "BlueSpicePageAccess/resources"
 	},
 	"load_composer_autoloader" : true,
-	"manifest_version": 1
+	"manifest_version": 2
 }

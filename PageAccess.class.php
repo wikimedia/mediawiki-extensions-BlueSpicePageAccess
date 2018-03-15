@@ -45,8 +45,6 @@ class PageAccess extends BsExtensionMW {
 		$this->setHook( 'userCan' );
 		$this->setHook( 'BSInsertMagicAjaxGetData', 'onBSInsertMagicAjaxGetData' );
 		$this->setHook( 'BSUsageTrackerRegisterCollectors' );
-
-		$this->mCore->registerPermission( 'pageaccess-viewspecialpage', array('user'), array( 'type' => 'global' ) );
 	}
 
 	public function onPageContentSave( &$wikiPage, &$user, &$content, &$summary, $minor, $watchthis, $sectionanchor, &$flags, &$status ) {
