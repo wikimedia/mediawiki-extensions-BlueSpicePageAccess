@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Guycn2"
+		]
+	},
+	"bs-pageaccess-desc": "הגבלת גישה לקריאה על בסיס דף",
+	"bs-pageaccess-error-no-groups-given": "לא צוינו קבוצות.",
+	"bs-pageaccess-error-not-member-of-given-groups": "{{GENDER:|אתה נמצא|את נמצאת|אתם נמצאים}} בקבוצות שצוינו. כדי למנוע מצב שבו לא {{GENDER:|תוכל|תוכלי|תוכלו}} לגשת לדף, השמירה בוטלה.",
+	"bs-pageaccess-error-included-forbidden-template": "{{GENDER:|ניסית|ניסית|ניסיתם}} להשתמש בתבנית \"$1\", ואין {{GENDER:|לך|לך|לכם}} גישה לקריאתה. כדי למנוע מצב שבו לא {{GENDER:|תוכל|תוכלי|תוכלו}} לגשת לדף, השמירה בוטלה.",
+	"bs-pageaccess-tag-groups-desc": "הגדרת הקבוצות שיש להן גישה לקריאת דפים מוגבלים.\nהקבוצות מופרדות באמצעות פסיקים.",
+	"pageaccess": "דפים שהוגבלו על־ידי ההרחבה PageAccess",
+	"log-name-bs-pageaccess": "יומן גישה לדפים",
+	"log-description-bs-pageaccess": "יומן זה מציג את השינויים בהגדרות הגישה לדפים.",
+	"log-show-hide-bs-pageaccess": "$1 יומן גישה לדפים",
+	"logentry-bs-pageaccess-change": "$1 {{GENDER:$2|שינה|שינתה}} את הרשאות הגישה לדף $3 לקבוצות \"$4\"",
+	"action-pageaccess-viewspecialpage": "לצפות בדף המיוחד \"{{int:pageaccess}}\"",
+	"bs-pageaccess-column-title": "כותרת הדף",
+	"bs-pageaccess-column-groups": "קבוצות",
+	"apihelp-bs-pageaccess-store-summary": "הגבלת גישה לקריאה על בסיס דף"
+}
