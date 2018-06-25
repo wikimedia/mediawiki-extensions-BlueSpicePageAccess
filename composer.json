@@ -1,5 +1,5 @@
 {
-	"name": "mediawiki/blue-spice-page-access",
+	"name": "bluespice/pageaccess",
 	"type": "mediawiki-extension",
 	"description": "Controls access on page level",
 	"license": "GPL-3.0-only",
@@ -25,5 +25,8 @@
 			"BlueSpice\\PageAccess\\" : "src",
 			"BlueSpice\\PageAccess\\Tests\\" : "tests/phpunit"
 		}
+	},
+	"extra": {
+		"installer-name": "BlueSpicePageAccess"
 	}
 }
