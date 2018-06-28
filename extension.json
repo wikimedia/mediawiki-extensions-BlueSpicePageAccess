@@ -67,6 +67,12 @@
 		"SpecialPageAccess": "includes/specials/SpecialPageAccess.class.php",
 		"BSApiPageAccessStore": "includes/api/BSApiPageAccessStore.php"
 	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\PageAccess\\": "src/"
+	},
+	"Hooks": {
+		"BSInsertMagicAjaxGetData": "\\BlueSpice\\PageAccess\\Hook\\BSInsertMagicAjaxGetData\\AddPageAccessTag::callback"
+	},
 	"ResourceModules": {
 		"ext.PageAccess.manager": {
 			"scripts": [

@@ -43,7 +43,6 @@ class PageAccess extends BsExtensionMW {
 		$this->setHook( 'PageContentSave' );
 		$this->setHook( 'ParserFirstCallInit' );
 		$this->setHook( 'userCan' );
-		$this->setHook( 'BSInsertMagicAjaxGetData', 'onBSInsertMagicAjaxGetData' );
 		$this->setHook( 'BSUsageTrackerRegisterCollectors' );
 	}
 
@@ -204,27 +203,6 @@ class PageAccess extends BsExtensionMW {
 		if ( $sOldAccessGroups ) $args['groups'] = $sOldAccessGroups . "," . $args['groups'];
 		$parser->getOutput()->setProperty( 'bs-page-access', $args['groups'] );
 		return '';
-	}
-
-	public function onBSInsertMagicAjaxGetData( &$oResponse, $type ) {
-		if( $type != 'tags' ) return true;
-
-		$oDescriptor = new stdClass();
-		$oDescriptor->id = 'bs:pageaccess';
-		$oDescriptor->type = 'tag';
-		$oDescriptor->name = 'pageaccess';
-		$oDescriptor->desc = wfMessage( 'bs-pageaccess-tag-groups-desc' )->plain();
-		$oDescriptor->code = '<bs:pageaccess groups="GROUP" />';
-		$oDescriptor->previewable = false;
-		$oDescriptor->examples = array(
-			array(
-				'code' => '<bs:pageaccess groups="sysop" />'
-			)
-		);
-		$oDescriptor->helplink = 'https://help.bluespice.com/index.php/PageAccess';
-		$oResponse->result[] = $oDescriptor;
-
-		return true;
 	}
 
 	/**
