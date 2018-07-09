@@ -6,6 +6,9 @@
 	"author": "Marc Reymann",
 	"descriptionmsg": "bs-pageaccess-desc",
 	"type": "bluespice",
+	"requires": {
+		"MediaWiki": ">= 1.31.0"
+	},
 	"attributes": {
 		"BlueSpiceFoundation": {
 			"Extensions": {
