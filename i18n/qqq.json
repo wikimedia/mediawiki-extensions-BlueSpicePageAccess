@@ -18,6 +18,7 @@
 	"log-name-bs-pageaccess": "Used in [[Special:Log]], title of the log type",
 	"log-description-bs-pageaccess": "Used in [[Special:Log]], description of the log type",
 	"log-show-hide-bs-pageaccess": "Used in [[Special:Log]]. Parameters:\n* $1 - link text; one of {{msg-mw|Show}} or {{msg-mw|Hide}}\n{{Related|Log-show-hide}}",
+	"logeventslist-bs-pageaccess-log": "Page access log option label on [[Special:Log]]",
 	"logentry-bs-pageaccess-change": "Log message about changes on the access settings for a page.\nParameters:\n* $4 - comma separated list of the allowed groups",
 	"action-pageaccess-viewspecialpage": "placeholder to describe that view of special page \"{{int:pageaccess}}\" is restricted for the current user.\n\n{{Doc-action|pageaccess-viewspecialpage}}",
 	"bs-pageaccess-column-title": "Extjs grid calumn label for Pagetitle\n{{Identical|Page title}}",
