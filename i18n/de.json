@@ -16,6 +16,7 @@
 	"log-name-bs-pageaccess": "Seitenberechtigungs-Logbuch",
 	"log-description-bs-pageaccess": "Logbuch von Änderungen an den Seitenberechtigungen.",
 	"log-show-hide-bs-pageaccess": "$1 Seitenberechtigung-Logbuch",
+	"logeventslist-bs-pageaccess-log": "Seitenzugriffs-Logbuch",
 	"logentry-bs-pageaccess-change": "$1 {{GENDER:$2|hat}} die Zugriffsberechtigungen von $3 zu \"$4\" geändert",
 	"action-pageaccess-viewspecialpage": "die Spezialseite „{{int:pageaccess}}“ anzusehen",
 	"bs-pageaccess-column-title": "Seitentitel",
