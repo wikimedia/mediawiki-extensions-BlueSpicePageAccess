@@ -6,7 +6,8 @@
 			"Striking Blue",
 			"Kaganer",
 			"Facenapalm",
-			"DevilishSkull"
+			"DevilishSkull",
+			"Vlad5250"
 		]
 	},
 	"bs-pageaccess-desc": "Управление доступом на уровне страницы",
@@ -18,6 +19,7 @@
 	"log-name-bs-pageaccess": "Журнал доступа к страницам",
 	"log-description-bs-pageaccess": "Это журнал изменений в настройках доступа к страницам.",
 	"log-show-hide-bs-pageaccess": "$1 журнал доступа к страницам",
+	"logeventslist-bs-pageaccess-log": "Журнал доступа к страницам",
 	"logentry-bs-pageaccess-change": "$1 изменил{{GENDER:$2||а}} права доступа $3 на «$4»",
 	"action-pageaccess-viewspecialpage": "просмотр служебной страницы «{{int:pageaccess}}»",
 	"bs-pageaccess-column-title": "Заголовок статьи",

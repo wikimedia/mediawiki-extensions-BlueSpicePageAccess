@@ -15,6 +15,7 @@
 	"log-name-bs-pageaccess": "Logg för sidåtkomst",
 	"log-description-bs-pageaccess": "Detta är en logg över ändringar i sidans åtkomstinställningar.",
 	"log-show-hide-bs-pageaccess": "$1 logg för sidåtkomst",
+	"logeventslist-bs-pageaccess-log": "Logg för sidåtkomst",
 	"logentry-bs-pageaccess-change": "$1 {{GENDER:$2|har ändrat}} åtkomstbehörigheten för $3 till \"$4\"",
 	"action-pageaccess-viewspecialpage": "visa specialsidan \"{{int:pageaccess}}\"",
 	"bs-pageaccess-column-title": "Sidtitel",

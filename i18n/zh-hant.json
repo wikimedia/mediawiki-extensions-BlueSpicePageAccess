@@ -14,6 +14,7 @@
 	"log-name-bs-pageaccess": "頁面存取日誌",
 	"log-description-bs-pageaccess": "此為頁面存取設定的更改日誌。",
 	"log-show-hide-bs-pageaccess": "$1頁面存取日誌",
+	"logeventslist-bs-pageaccess-log": "頁面存取日誌",
 	"logentry-bs-pageaccess-change": "$1 已將 $3 的存取權限{{GENDER:$2|更改}}成「$4」",
 	"action-pageaccess-viewspecialpage": "檢視特殊頁面「{{int:pageaccess}}」",
 	"bs-pageaccess-column-title": "頁面標題",
