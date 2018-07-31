@@ -14,6 +14,7 @@
 	"log-name-bs-pageaccess": "Log de acesso da página",
 	"log-description-bs-pageaccess": "Este é um registo de alterações de configurações de acesso às páginas.",
 	"log-show-hide-bs-pageaccess": "$1 log de acesso da página",
+	"logeventslist-bs-pageaccess-log": "Registo de acessos a páginas",
 	"logentry-bs-pageaccess-change": "$1 {{GENDER:$2|alterou}} as permissões de acesso de $3 para \"$4\"",
 	"action-pageaccess-viewspecialpage": "veja a página especial \"{{int:pageaccess}}\"",
 	"bs-pageaccess-column-title": "Título da página",
