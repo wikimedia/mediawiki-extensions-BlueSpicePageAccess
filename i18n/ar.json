@@ -14,6 +14,7 @@
 	"log-name-bs-pageaccess": "سجل الوصول للصفحة",
 	"log-description-bs-pageaccess": "هذا سجل التغييرات في إعدادات الوصول إلى الصفحة.",
 	"log-show-hide-bs-pageaccess": "$1 سجل الوصول لصفحة",
+	"logeventslist-bs-pageaccess-log": "سجل الوصول للصفحات",
 	"logentry-bs-pageaccess-change": "$1 {{GENDER:$2|غير|غيرت}} صلاحيات الوصول لـ$3 إلى \"$4\"",
 	"action-pageaccess-viewspecialpage": "عرض الصفحة الخاصة \"{{int:pageaccess}}\"",
 	"bs-pageaccess-column-title": "عنوان الصفحة",
