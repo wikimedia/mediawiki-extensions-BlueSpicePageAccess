@@ -19,5 +19,6 @@
 	"action-pageaccess-viewspecialpage":"view the special page \"{{int:pageaccess}}\"",
 	"bs-pageaccess-column-title": "Page title",
 	"bs-pageaccess-column-groups": "Groups",
-	"apihelp-bs-pageaccess-store-summary": "Control access on page level"
+	"apihelp-bs-pageaccess-store-summary": "Control access on page level",
+	"right-pageaccess-viewspecialpage": "Grants access to the special page [[Special:PageAccess]]."
 }

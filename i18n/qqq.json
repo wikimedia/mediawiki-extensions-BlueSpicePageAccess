@@ -23,5 +23,6 @@
 	"action-pageaccess-viewspecialpage": "placeholder to describe that view of special page \"{{int:pageaccess}}\" is restricted for the current user.\n\n{{Doc-action|pageaccess-viewspecialpage}}",
 	"bs-pageaccess-column-title": "Extjs grid calumn label for Pagetitle\n{{Identical|Page title}}",
 	"bs-pageaccess-column-groups": "Extjs grid calumn label for Groups\n{{Identical|Group}}",
-	"apihelp-bs-pageaccess-store-summary": "{{doc-apihelp-summary|bs-pageaccess-store}}"
+	"apihelp-bs-pageaccess-store-summary": "{{doc-apihelp-summary|bs-pageaccess-store}}",
+	"right-pageaccess-viewspecialpage": "Grants access to the special page [[Special:PageAccess]].\n{{doc-right|pageaccess-viewspecialpage}}"
 }
