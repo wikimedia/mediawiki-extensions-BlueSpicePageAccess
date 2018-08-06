@@ -20,5 +20,6 @@
 	"action-pageaccess-viewspecialpage": "afficher la page spéciale \"{{int:pageaccess}}\"",
 	"bs-pageaccess-column-title": "Titre de la page",
 	"bs-pageaccess-column-groups": "Groupes",
-	"apihelp-bs-pageaccess-store-summary": "Contrôler l'accès sur le niveau de page"
+	"apihelp-bs-pageaccess-store-summary": "Contrôler l'accès sur le niveau de page",
+	"right-pageaccess-viewspecialpage": "Donne les droits d'accès à la page spéciale [[Special:PageAccess]]."
 }

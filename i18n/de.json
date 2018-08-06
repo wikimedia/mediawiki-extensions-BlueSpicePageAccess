@@ -20,5 +20,6 @@
 	"logentry-bs-pageaccess-change": "$1 {{GENDER:$2|hat}} die Zugriffsberechtigungen von $3 zu \"$4\" geändert",
 	"action-pageaccess-viewspecialpage": "die Spezialseite „{{int:pageaccess}}“ anzusehen",
 	"bs-pageaccess-column-title": "Seitentitel",
-	"bs-pageaccess-column-groups": "Gruppen"
+	"bs-pageaccess-column-groups": "Gruppen",
+	"right-pageaccess-viewspecialpage": "Zugriff auf die Spezialseite [[Special:PageAccess]] gewähren."
 }

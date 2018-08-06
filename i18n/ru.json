@@ -24,5 +24,6 @@
 	"action-pageaccess-viewspecialpage": "просмотр служебной страницы «{{int:pageaccess}}»",
 	"bs-pageaccess-column-title": "Заголовок статьи",
 	"bs-pageaccess-column-groups": "Группы",
-	"apihelp-bs-pageaccess-store-summary": "Управление доступом на уровне страницы"
+	"apihelp-bs-pageaccess-store-summary": "Управление доступом на уровне страницы",
+	"right-pageaccess-viewspecialpage": "доступ к служебной странице [[Special:PageAccess]]"
 }

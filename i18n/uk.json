@@ -3,7 +3,8 @@
 		"authors": [
 			"Ата",
 			"Piramidion",
-			"SimondR"
+			"SimondR",
+			"Vlad5250"
 		]
 	},
 	"bs-pageaccess-desc": "Контролює доступ на рівні сторінок",
@@ -19,5 +20,6 @@
 	"action-pageaccess-viewspecialpage": "перегляд спеціальної сторінки «{{int:pageaccess}}»",
 	"bs-pageaccess-column-title": "Назва сторінки",
 	"bs-pageaccess-column-groups": "Групи",
-	"apihelp-bs-pageaccess-store-summary": "Контролює доступ на рівні сторінок"
+	"apihelp-bs-pageaccess-store-summary": "Контролює доступ на рівні сторінок",
+	"right-pageaccess-viewspecialpage": "доступ до спеціальної сторінки [[Special:PageAccess]]."
 }
