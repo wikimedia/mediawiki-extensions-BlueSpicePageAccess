@@ -19,5 +19,6 @@
 	"action-pageaccess-viewspecialpage": "عرض الصفحة الخاصة \"{{int:pageaccess}}\"",
 	"bs-pageaccess-column-title": "عنوان الصفحة",
 	"bs-pageaccess-column-groups": "المجموعات",
-	"apihelp-bs-pageaccess-store-summary": "التحكم في الوصول على مستوى الصفحة"
+	"apihelp-bs-pageaccess-store-summary": "التحكم في الوصول على مستوى الصفحة",
+	"right-pageaccess-viewspecialpage": "يمنح الوصول إلى الصفحة الخاصة [[Special:PageAccess]]."
 }
