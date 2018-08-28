@@ -4,7 +4,8 @@
 			"Marc Reymann <reymann@hallowelt.biz>",
 			"Stephan Muggli <muggli@hallowelt.biz>",
 			"Metalhead64",
-			"Jkonrad"
+			"Jkonrad",
+			"Hwboehm"
 		]
 	},
 	"bs-pageaccess-desc": "Regelt den Zugriff auf Seitenebene",
@@ -21,5 +22,6 @@
 	"action-pageaccess-viewspecialpage": "die Spezialseite „{{int:pageaccess}}“ anzusehen",
 	"bs-pageaccess-column-title": "Seitentitel",
 	"bs-pageaccess-column-groups": "Gruppen",
+	"apihelp-bs-pageaccess-store-summary": "Regelt den Zugriff auf Seitenebene",
 	"right-pageaccess-viewspecialpage": "Zugriff auf die Spezialseite [[Special:PageAccess]] gewähren."
 }
