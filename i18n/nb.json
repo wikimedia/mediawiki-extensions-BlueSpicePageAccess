@@ -13,6 +13,7 @@
 	"log-name-bs-pageaccess": "Sidetilgangslogg",
 	"log-description-bs-pageaccess": "Dette er en logg over endringer i sidetilgangsinnstillingene.",
 	"log-show-hide-bs-pageaccess": "$1 sidetilgangslogg",
+	"logeventslist-bs-pageaccess-log": "Logg for sidetilgang",
 	"logentry-bs-pageaccess-change": "$1 {{GENDER:$2|har endret}} tilgangstillatelsene for $3 til «$4»",
 	"action-pageaccess-viewspecialpage": "vise spesialsiden «{{int:pageaccess}}»",
 	"bs-pageaccess-column-title": "Sidetittel",
