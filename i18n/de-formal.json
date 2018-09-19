@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Marc Reymann <reymann@hallowelt.biz>",
-			"Stephan Muggli <muggli@hallowelt.biz>"
+			"Stephan Muggli <muggli@hallowelt.biz>",
+			"Hwboehm"
 		]
 	},
 	"bs-pageaccess-error-not-member-of-given-groups": "Sie sind nicht Mitglied der angegebenen Gruppen. Um zu verhindern, dass Sie sich aus der Seite aussperren, wurde das Speichern deaktiviert.",
 	"bs-pageaccess-error-included-forbidden-template": "Sie haben das Template \"$1\" eingebunden, auf das Sie keine Leseberechtigung haben. Um zu verhindern, dass Sie sich aus der Seite aussperren, wurde das Speichern deaktiviert.",
-	"bs-pageaccess-tag-groups-desc": "Geben Sie die Gruppen an, die exklusiven Zugriff auf die Seite erhalten sollen. Mehrere Gruppen können durch Kommata getrennt werden.",
+	"bs-pageaccess-tag-groups-desc": "Definiert die Gruppen, die exklusiven Zugriff auf eine Seite haben. Mehrere Gruppen werden durch Kommata getrennt.",
 	"pageaccess": "Durch PageAccess geschützte Seiten"
 }
