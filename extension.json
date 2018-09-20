@@ -21,8 +21,9 @@
 				"pageaccess-viewspecialpage": {
 					"type": "global",
 					"roles": [
-						"editor",
-						"admin"
+						"admin",
+						"maintenanceadmin",
+						"structuremanager"
 					]
 				}
 			}
