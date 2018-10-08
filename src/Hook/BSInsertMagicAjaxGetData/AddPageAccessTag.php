@@ -14,16 +14,17 @@ class AddPageAccessTag extends BSInsertMagicAjaxGetData {
 		$descriptor = new \stdClass();
 		$descriptor->id = 'bs:pageaccess';
 		$descriptor->type = 'tag';
-		$descriptor->name = 'pageaccess';
+		$descriptor->name = wfMessage( 'bs-pageaccess-tag-pageaccess-title' )->plain();
 		$descriptor->desc = wfMessage( 'pageaccess' )->plain();
 		$descriptor->code = '<bs:pageaccess groups="GROUP" />';
+		$descriptor->mwvecommand = 'pageAccessCommand';
 		$descriptor->previewable = false;
 		$descriptor->examples = array(
 			array(
 				'code' => '<bs:pageaccess groups="sysop" />'
 			)
 		);
-		$descriptor->helplink = 'https://help.bluespice.com/index.php/PageAccess';
+		$descriptor->helplink = 'https://en.wiki.bluespice.com/wiki/Reference:PageAccess';
 		$this->response->result[] = $descriptor;
 
 		return true;

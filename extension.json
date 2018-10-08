@@ -27,6 +27,11 @@
 					]
 				}
 			}
+		},
+		"BlueSpiceVisualEditorConnector": {
+			"TagDefinitions": [
+				"ext.bluespice.pageaccess.visualEditorTagDefinition"
+			]
 		}
 	},
 	"GroupPermissions": {
@@ -89,6 +94,17 @@
 			],
 			"dependencies": [
 				"ext.bluespice.extjs"
+			]
+		},
+		"ext.bluespice.pageaccess.visualEditorTagDefinition": {
+			"scripts": [
+				"bs.pgaccss/util/tag/PageAccessDefinition.js"
+			],
+			"messages": [
+				"bs-pageaccess-tag-pageaccess-desc",
+				"bs-pageaccess-tag-pageaccess-title",
+				"bs-pageaccess-ve-pageaccessinspector-groups",
+				"bs-pageaccess-tag-pageaccess-desc-param-groups"
 			]
 		}
 	},

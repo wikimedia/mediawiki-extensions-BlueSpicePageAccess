@@ -23,5 +23,10 @@
 	"bs-pageaccess-column-title": "Seitentitel",
 	"bs-pageaccess-column-groups": "Gruppen",
 	"apihelp-bs-pageaccess-store-summary": "Regelt den Zugriff auf Seitenebene",
-	"right-pageaccess-viewspecialpage": "Zugriff auf die Spezialseite [[Special:PageAccess]] gewähren."
+	"right-pageaccess-viewspecialpage": "Zugriff auf die Spezialseite [[Special:PageAccess]] gewähren.",
+	"bs-pageaccess-access-restricted": "Der Zugriff auf diese Seite ist beschränkt auf {{PLURAL:$1|die Gruppe|die Gruppen}} <strong>$2</strong>.",
+	"bs-pageaccess-tag-pageaccess-title":"Seitenzugriff",
+	"bs-pageaccess-tag-pageaccess-desc":"Beschränkt den lesenden und schreibenden Zugriff zu dieser Seite auf die angegebenen Gruppen",
+	"bs-pageaccess-ve-pageaccessinspector-groups":"Gruppen",
+	"bs-pageaccess-tag-pageaccess-desc-param-groups":"Nur die hier genannten Gruppen haben Zugriff auf die Seite."
 }
