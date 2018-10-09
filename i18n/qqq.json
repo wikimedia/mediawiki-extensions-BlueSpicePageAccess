@@ -26,8 +26,8 @@
 	"apihelp-bs-pageaccess-store-summary": "{{doc-apihelp-summary|bs-pageaccess-store}}",
 	"right-pageaccess-viewspecialpage": "Grants access to the special page [[Special:PageAccess]].\n{{doc-right|pageaccess-viewspecialpage}}",
 	"bs-pageaccess-access-restricted": "Text output of the page access tag indicating that a page is protected",
-	"bs-pageaccess-tag-pageaccess-title":"Title for visual editor inspector for page access tag",
-	"bs-pageaccess-tag-pageaccess-desc":"Description of page access tag used in visual editor inspector",
-	"bs-pageaccess-ve-pageaccessinspector-groups":"Label for groups parameter in visual editor tag inspector",
-	"bs-pageaccess-tag-pageaccess-desc-param-groups":"Help text for groups parameter in visual editor tag inspector"
+	"bs-pageaccess-tag-pageaccess-title": "Title for visual editor inspector for page access tag",
+	"bs-pageaccess-tag-pageaccess-desc": "Description of page access tag used in visual editor inspector",
+	"bs-pageaccess-ve-pageaccessinspector-groups": "Label for groups parameter in visual editor tag inspector",
+	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Help text for groups parameter in visual editor tag inspector"
 }
