@@ -2,7 +2,7 @@
 	"name": "BlueSpicePageAccess",
 	"license-name": "GPL-3.0-only",
 	"version": "3.0.0-beta",
-	"url": "https://help.bluespice.com/index.php/PageAccess",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:PageAccess",
 	"author": "Marc Reymann",
 	"descriptionmsg": "bs-pageaccess-desc",
 	"type": "bluespice",
