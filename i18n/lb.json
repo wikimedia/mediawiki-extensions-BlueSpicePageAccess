@@ -8,5 +8,6 @@
 	"bs-pageaccess-error-included-forbidden-template": "Dir hutt probéiert d'Schabloun \"$1\" ze benotzen, op déi Dir awer keen Zougrëff hutt. Fir ze verhënneren datt Dir Iech selwer ausspäert gouf d'Späicheren desaktivéiert.",
 	"action-pageaccess-viewspecialpage": "d'Spezialsäit \"{{int:pageaccess}}\" ze kucken",
 	"bs-pageaccess-column-title": "Titel vun der Säit",
-	"bs-pageaccess-column-groups": "Gruppen"
+	"bs-pageaccess-column-groups": "Gruppen",
+	"bs-pageaccess-ve-pageaccessinspector-groups": "Gruppen"
 }

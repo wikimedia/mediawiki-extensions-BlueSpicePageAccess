@@ -20,5 +20,10 @@
 	"bs-pageaccess-column-title": "عنوان الصفحة",
 	"bs-pageaccess-column-groups": "المجموعات",
 	"apihelp-bs-pageaccess-store-summary": "التحكم في الوصول على مستوى الصفحة",
-	"right-pageaccess-viewspecialpage": "يمنح الوصول إلى الصفحة الخاصة [[Special:PageAccess]]."
+	"right-pageaccess-viewspecialpage": "يمنح الوصول إلى الصفحة الخاصة [[Special:PageAccess]].",
+	"bs-pageaccess-access-restricted": "يقتصر الدخول إلى هذه الصفحة على {{PLURAL:$1|المجموعة|المجموعات}} <strong>$2</strong>.",
+	"bs-pageaccess-tag-pageaccess-title": "الوصول إلى الصفحة",
+	"bs-pageaccess-tag-pageaccess-desc": "يقيد الوصول إلى هذه الصفحة وكتابتها على الوصول إلى المجموعات المُدرجة أدناه",
+	"bs-pageaccess-ve-pageaccessinspector-groups": "المجموعات",
+	"bs-pageaccess-tag-pageaccess-desc-param-groups": "هذه المجموعات فقط لديها حق الوصول إلى الصفحة"
 }

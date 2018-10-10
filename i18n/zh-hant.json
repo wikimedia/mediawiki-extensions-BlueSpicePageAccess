@@ -20,5 +20,10 @@
 	"bs-pageaccess-column-title": "頁面標題",
 	"bs-pageaccess-column-groups": "群組",
 	"apihelp-bs-pageaccess-store-summary": "在頁面層級上的控制存取",
-	"right-pageaccess-viewspecialpage": "授予存取特殊頁面 [[Special:PageAccess]] 的權限。"
+	"right-pageaccess-viewspecialpage": "授予存取特殊頁面 [[Special:PageAccess]] 的權限。",
+	"bs-pageaccess-access-restricted": "{{PLURAL:$1|群組|群組}}<strong>$2</strong>受限於存取此頁面。",
+	"bs-pageaccess-tag-pageaccess-title": "頁面存取",
+	"bs-pageaccess-tag-pageaccess-desc": "限制此頁面對於以下所命名群組的讀寫存取",
+	"bs-pageaccess-ve-pageaccessinspector-groups": "群組",
+	"bs-pageaccess-tag-pageaccess-desc-param-groups": "僅有這些群組可以存取頁面"
 }

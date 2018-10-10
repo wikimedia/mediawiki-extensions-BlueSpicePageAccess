@@ -6,7 +6,8 @@
 			"Shirayuki",
 			"Leonid Verhovskij <verhovskij@hallowelt.com>",
 			"Beta16",
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Robby"
 		]
 	},
 	"bs-pageaccess-desc": "Used in [{{canonicalurl:Special:WikiAdmin|mode=ExtensionInfo}} Special:WikiAdmin?mode=ExtensionInfo], description of page access extension",
@@ -28,6 +29,6 @@
 	"bs-pageaccess-access-restricted": "Text output of the page access tag indicating that a page is protected",
 	"bs-pageaccess-tag-pageaccess-title": "Title for visual editor inspector for page access tag",
 	"bs-pageaccess-tag-pageaccess-desc": "Description of page access tag used in visual editor inspector",
-	"bs-pageaccess-ve-pageaccessinspector-groups": "Label for groups parameter in visual editor tag inspector",
+	"bs-pageaccess-ve-pageaccessinspector-groups": "Label for groups parameter in visual editor tag inspector\n{{Identical|Group}}",
 	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Help text for groups parameter in visual editor tag inspector"
 }

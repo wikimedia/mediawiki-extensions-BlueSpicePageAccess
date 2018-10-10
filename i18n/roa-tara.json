@@ -5,5 +5,8 @@
 		]
 	},
 	"bs-pageaccess-column-title": "Titole d'a vôsce",
-	"bs-pageaccess-column-groups": "Gruppe"
+	"bs-pageaccess-column-groups": "Gruppe",
+	"bs-pageaccess-tag-pageaccess-title": "Accesse 'a pàgene",
+	"bs-pageaccess-ve-pageaccessinspector-groups": "Gruppe",
+	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Sole chiste gruppe onne accesse a 'a pàgene"
 }

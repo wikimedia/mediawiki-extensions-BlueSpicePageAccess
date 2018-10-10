@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog"
+		]
+	},
+	"bs-pageaccess-access-restricted": "Приступ овој страници је ограничен на {{PLURAL:$1|групу|групе}} <strong>$2</strong>.",
+	"bs-pageaccess-tag-pageaccess-title": "Приступ страници",
+	"bs-pageaccess-tag-pageaccess-desc": "Ограничава приступ читања и писања за ову страницу на долеименоване групе",
+	"bs-pageaccess-ve-pageaccessinspector-groups": "Групе",
+	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Само ове групе имају приступ страници"
+}

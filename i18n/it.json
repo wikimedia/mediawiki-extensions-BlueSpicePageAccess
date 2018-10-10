@@ -13,5 +13,7 @@
 	"logentry-bs-pageaccess-change": "$1 {{GENDER:$2|Ha cambiato}} le autorizzazioni di accesso di $3 a \"$4\"",
 	"action-pageaccess-viewspecialpage": "visualizzare la pagina speciale \"{{int:pageaccess}}\"",
 	"bs-pageaccess-column-title": "Titolo della pagina",
-	"bs-pageaccess-column-groups": "Gruppi"
+	"bs-pageaccess-column-groups": "Gruppi",
+	"bs-pageaccess-ve-pageaccessinspector-groups": "Gruppi",
+	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Solo questi gruppi hanno accesso alla pagina"
 }
