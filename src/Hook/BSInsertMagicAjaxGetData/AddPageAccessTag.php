@@ -24,7 +24,8 @@ class AddPageAccessTag extends BSInsertMagicAjaxGetData {
 				'code' => '<bs:pageaccess groups="sysop" />'
 			)
 		);
-		$descriptor->helplink = 'https://en.wiki.bluespice.com/wiki/Reference:PageAccess';
+		$extension =  $this->getServices()->getBSExtensionFactory()->getExtension( 'BlueSpicePageAccess' );
+		$descriptor->helplink = $extension->getUrl();
 		$this->response->result[] = $descriptor;
 
 		return true;
