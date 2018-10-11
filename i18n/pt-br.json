@@ -20,5 +20,9 @@
 	"bs-pageaccess-column-title": "Título da página",
 	"bs-pageaccess-column-groups": "Grupos",
 	"apihelp-bs-pageaccess-store-summary": "Controle de acesso a nível de página",
-	"right-pageaccess-viewspecialpage": "Concede acesso à página especial [[Special:PageAccess]]."
+	"right-pageaccess-viewspecialpage": "Concede acesso à página especial [[Special:PageAccess]].",
+	"bs-pageaccess-tag-pageaccess-title": "Acessos à página",
+	"bs-pageaccess-tag-pageaccess-desc": "Restringe o acesso de leitura e gravação para esta página aos grupos nomeados abaixo",
+	"bs-pageaccess-ve-pageaccessinspector-groups": "Grupos",
+	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Somente esses grupos têm acesso à página"
 }

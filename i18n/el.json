@@ -11,5 +11,6 @@
 	"action-pageaccess-viewspecialpage": "προβολή της ειδικής σελίδας \"{{int:pageaccess}}\"",
 	"bs-pageaccess-column-title": "Τίτλος σελίδας",
 	"bs-pageaccess-column-groups": "Ομάδες",
-	"apihelp-bs-pageaccess-store-summary": "Ελέγχει την πρόσβαση σε επίπεδο σελίδας"
+	"apihelp-bs-pageaccess-store-summary": "Ελέγχει την πρόσβαση σε επίπεδο σελίδας",
+	"bs-pageaccess-ve-pageaccessinspector-groups": "Ομάδες"
 }
