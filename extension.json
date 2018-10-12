@@ -87,7 +87,6 @@
 			"scripts": [
 				"ext.bluespice.pageaccess.manager.js"
 			],
-			"styles": [],
 			"messages": [
 				"bs-pageaccess-column-title",
 				"bs-pageaccess-column-groups"
