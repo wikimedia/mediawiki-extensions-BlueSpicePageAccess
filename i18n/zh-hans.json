@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"A Chinese Wikipedian"
 		]
 	},
 	"bs-pageaccess-desc": "页面级别上控制访问",
@@ -17,5 +18,8 @@
 	"action-pageaccess-viewspecialpage": "查看特殊页面“{{int:pageaccess}}”",
 	"bs-pageaccess-column-title": "页面标题",
 	"bs-pageaccess-column-groups": "用户组",
-	"apihelp-bs-pageaccess-store-summary": "页面级别上的控制访问"
+	"apihelp-bs-pageaccess-store-summary": "页面级别上的控制访问",
+	"bs-pageaccess-tag-pageaccess-title": "管理访问",
+	"bs-pageaccess-ve-pageaccessinspector-groups": "用户组",
+	"bs-pageaccess-tag-pageaccess-desc-param-groups": "只有这些用户组才可以访问页面。"
 }
