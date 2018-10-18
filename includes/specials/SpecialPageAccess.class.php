@@ -12,7 +12,7 @@
  * @filesource
  */
 
-class SpecialPageAccess extends BsSpecialPage {
+class SpecialPageAccess extends \BlueSpice\SpecialPage {
 
 	public function __construct() {
 		parent::__construct( 'PageAccess', 'pageaccess-viewspecialpage' );
@@ -28,7 +28,4 @@ class SpecialPageAccess extends BsSpecialPage {
 		]));
 	}
 
-	protected function getGroupName() {
-		return 'bluespice';
-	}
 }
