@@ -8,5 +8,6 @@
 	"action-pageaccess-viewspecialpage": "특수 문서 \"{{int:pageaccess}}\" 보기",
 	"bs-pageaccess-column-title": "문서 제목",
 	"bs-pageaccess-column-groups": "그룹",
+	"bs-pageaccess-tag-pageaccess-title": "페이지 접근",
 	"bs-pageaccess-ve-pageaccessinspector-groups": "그룹"
 }
