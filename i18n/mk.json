@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Bjankuloski06"
+			"Bjankuloski06",
+			"Vlad5250"
 		]
 	},
 	"bs-pageaccess-desc": "Контролира пристап на ниво на страница",
@@ -13,5 +14,6 @@
 	"log-name-bs-pageaccess": "Дневник за пристап до страници",
 	"log-description-bs-pageaccess": "Ова е дневник на промени во поставките за пристап до страниците.",
 	"log-show-hide-bs-pageaccess": "$1 дневник на пристап до страници",
+	"logeventslist-bs-pageaccess-log": "Дневник за пристап до страници",
 	"logentry-bs-pageaccess-change": "$1 {{GENDER:$2|ги измени}} дозволите за пристап до $3 на „$4“"
 }

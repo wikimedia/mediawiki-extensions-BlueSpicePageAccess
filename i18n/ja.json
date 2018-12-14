@@ -13,5 +13,7 @@
 	"log-description-bs-pageaccess": "これは、ページのアクセス設定の変更記録です。",
 	"log-show-hide-bs-pageaccess": "$1 ページアクセス記録",
 	"logentry-bs-pageaccess-change": "$1 が $3 のアクセス許可を「$4」に{{GENDER:$2|変更しました}}",
-	"right-pageaccess-viewspecialpage": "特別ページ [[Special:PageAccess]] の利用を許可します。"
+	"bs-pageaccess-column-groups": "グループ",
+	"right-pageaccess-viewspecialpage": "特別ページ [[Special:PageAccess]] の利用を許可します。",
+	"bs-pageaccess-ve-pageaccessinspector-groups": "グループ"
 }

@@ -7,7 +7,8 @@
 			"Kaganer",
 			"Facenapalm",
 			"DevilishSkull",
-			"Vlad5250"
+			"Vlad5250",
+			"Kareyac"
 		]
 	},
 	"bs-pageaccess-desc": "Управление доступом на уровне страницы",
@@ -25,5 +26,10 @@
 	"bs-pageaccess-column-title": "Заголовок статьи",
 	"bs-pageaccess-column-groups": "Группы",
 	"apihelp-bs-pageaccess-store-summary": "Управление доступом на уровне страницы",
-	"right-pageaccess-viewspecialpage": "доступ к служебной странице [[Special:PageAccess]]"
+	"right-pageaccess-viewspecialpage": "доступ к служебной странице [[Special:PageAccess]]",
+	"bs-pageaccess-access-restricted": "Доступ к этой странице ограничен для {{PLURAL:$1|группы|групп}} <strong>$2</strong>.",
+	"bs-pageaccess-tag-pageaccess-title": "Доступ к странице",
+	"bs-pageaccess-tag-pageaccess-desc": "Ограничение доступа к чтению и записи страницы для указанных ниже групп",
+	"bs-pageaccess-ve-pageaccessinspector-groups": "Группы",
+	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Только эти группы имеют доступ к странице"
 }
