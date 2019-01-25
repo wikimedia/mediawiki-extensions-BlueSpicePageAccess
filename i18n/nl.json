@@ -18,6 +18,8 @@
 	"log-show-hide-bs-pageaccess": "Paginatoegangslogboek $1",
 	"logentry-bs-pageaccess-change": "$1 {{GENDER:$2|heeft}} de toegangsrechten van $3 gewijzigd naar \"$4\"",
 	"action-pageaccess-viewspecialpage": "bekijk de speciale pagina \"{{int:pageaccess}}\"",
+	"bs-pageaccess-column-title": "Paginanaam",
+	"bs-pageaccess-column-groups": "Groepen",
 	"bs-pageaccess-tag-pageaccess-title": "Paginatoegang",
 	"bs-pageaccess-ve-pageaccessinspector-groups": "Groepen"
 }
