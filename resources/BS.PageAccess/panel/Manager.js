@@ -57,14 +57,9 @@ Ext.define( 'BS.PageAccess.panel.Manager', {
 	},
 
 	renderGroups: function( val ) {
-		var res = '';
-		for( var i = 0; i < val.length; i++ ) {
-			if( i > 0 ) {
-				res += ", ";
-			}
-			res += val[i].displayname;
-		}
-		return res;
+		return val.map( function ( elem ) {
+			return elem.displayname;
+		} ).join( ', ' );
 	},
 
 	renderPage: function( val ) {
