@@ -13,9 +13,12 @@
 		"BlueSpiceFoundation": {
 			"Extensions": {
 				"BlueSpicePageAccess": {
-					"className": "PageAccess",
+					"className": "\\BlueSpice\\PageAccess\\Extension",
 					"extPath": "/BlueSpicePageAccess"
 				}
+			},
+			"TagRegistry": {
+				"pageaccess": "\\BlueSpice\\PageAccess\\Tag\\PageAccess"
 			},
 			"PermissionRegistry": {
 				"pageaccess-viewspecialpage": {
@@ -72,15 +75,20 @@
 		"BlueSpicePageAccessAlias": "includes/specials/SpecialPageAccess.alias.php"
 	},
 	"AutoloadClasses": {
-		"PageAccess": "PageAccess.class.php",
-		"SpecialPageAccess": "includes/specials/SpecialPageAccess.class.php",
+		"SpecialPageAccess": "includes/specials/SpecialPageAccess.php",
 		"BSApiPageAccessStore": "includes/api/BSApiPageAccessStore.php"
 	},
+	"ServiceWiringFiles": [
+		"includes/ServiceWiring.php"
+	],
 	"AutoloadNamespaces": {
 		"BlueSpice\\PageAccess\\": "src/"
 	},
 	"Hooks": {
-		"BSInsertMagicAjaxGetData": "\\BlueSpice\\PageAccess\\Hook\\BSInsertMagicAjaxGetData\\AddPageAccessTag::callback"
+		"BSInsertMagicAjaxGetData": "\\BlueSpice\\PageAccess\\Hook\\BSInsertMagicAjaxGetData\\AddPageAccessTag::callback",
+		"PageContentSave": "\\BlueSpice\\PageAccess\\Hook\\PageContentSave\\EditPageAccess::callback",
+		"userCan": "\\BlueSpice\\PageAccess\\Hook\\UserCan\\PageAccessPermissionCheck::callback",
+		"BSUsageTrackerRegisterCollectors": "\\BlueSpice\\PageAccess\\Extension::onBSUsageTrackerRegisterCollectors"
 	},
 	"ResourceModules": {
 		"ext.PageAccess.manager": {

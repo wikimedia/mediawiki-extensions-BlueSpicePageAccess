@@ -1,12 +1,12 @@
 <?php
-$specialPageAliases = array();
+$specialPageAliases = [];
 
 /** English */
-$specialPageAliases['en'] = array(
-	'PageAccess' => array( 'PageAccess', 'Page Access' ),
-);
+$specialPageAliases['en'] = [
+	'PageAccess' => [ 'PageAccess', 'Page Access' ],
+];
 
 /** German (Deutsch) */
-$specialPageAliases['de'] = array(
-	'PageAccess' => array( 'PageAccess', 'Page Access' ),
-);
+$specialPageAliases['de'] = [
+	'PageAccess' => [ 'PageAccess', 'Page Access' ],
+];

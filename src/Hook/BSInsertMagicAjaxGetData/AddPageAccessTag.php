@@ -16,16 +16,12 @@ class AddPageAccessTag extends BSInsertMagicAjaxGetData {
 		$descriptor->type = 'tag';
 		$descriptor->name = wfMessage( 'bs-pageaccess-tag-pageaccess-title' )->plain();
 		$descriptor->desc = wfMessage( 'pageaccess' )->plain();
-		$descriptor->code = '<bs:pageaccess groups="GROUP" />';
+		$descriptor->code = '<bs:pageaccess groups="sysop" />';
 		$descriptor->mwvecommand = 'pageAccessCommand';
 		$descriptor->previewable = false;
-		$descriptor->examples = array(
-			array(
-				'code' => '<bs:pageaccess groups="sysop" />'
-			)
-		);
-		$extension =  $this->getServices()->getBSExtensionFactory()->getExtension( 'BlueSpicePageAccess' );
-		$descriptor->helplink = $extension->getUrl();
+		$descriptor->examples = [ [ 'code' => '<bs:pageaccess groups="sysop" />' ] ];
+		$descriptor->helplink = $this->getServices()->getBSExtensionFactory()
+			->getExtension( 'BlueSpicePageAccess' )->getUrl();
 		$this->response->result[] = $descriptor;
 
 		return true;

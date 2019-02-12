@@ -33,13 +33,13 @@ class BSApiPageAccessStoreTest extends BSApiExtJSStoreTestBase {
 	}
 
 	protected function createStoreFixtureData() {
-		$aFixtures = array(
-			array( 'Template:Test', "<bs:pageaccess groups='sysop' />"),
-			array( 'Test page', "<bs:pageaccess groups='user' />"),
-			array( 'Test page 2', "Dummy text")
+		$aFixtures = [
+			[ 'Template:Test', "<bs:pageaccess groups='sysop' />" ],
+			[ 'Test page', "<bs:pageaccess groups='user' />" ],
+			[ 'Test page 2', "Dummy text" ]
 
-		);
-		foreach( $aFixtures as $aFixture ) {
+		];
+		foreach ( $aFixtures as $aFixture ) {
 			$this->insertPage( $aFixture[0], $aFixture[1] );
 		}
 
@@ -79,7 +79,7 @@ class BSApiPageAccessStoreTest extends BSApiExtJSStoreTestBase {
 	}
 
 	public function provideKeyItemData() {
-		return[
+		return [
 			'Test Template:Test for page_title' => [ "page_title", "Test" ],
 			'Test Template:Test for page_namespace' => [ "page_namespace", 10 ],
 		];
