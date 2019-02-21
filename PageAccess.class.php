@@ -203,7 +203,10 @@ class PageAccess extends BsExtensionMW {
 		if ( $sOldAccessGroups ) $args['groups'] = $sOldAccessGroups . "," . $args['groups'];
 		$parser->getOutput()->setProperty( 'bs-page-access', $args['groups'] );
 		return '<div class="alert alert-info">'
-					. wfMessage( 'bs-pageaccess-access-restricted', count( explode($args[groups], ',') ), $args[groups] )
+					. wfMessage(
+							'bs-pageaccess-access-restricted',
+							count( explode( $args['groups'], ',' ) ),
+							$args['groups'] )
 					. '</div>';
 	}
 
