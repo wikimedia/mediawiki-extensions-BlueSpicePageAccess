@@ -11,9 +11,10 @@
 	"bs-pageaccess-tag-groups-desc": "このページに排他的にアクセスできるグループを指定する。カンマ区切りで複数のグループを指定できる。",
 	"log-name-bs-pageaccess": "ページアクセス記録",
 	"log-description-bs-pageaccess": "これは、ページのアクセス設定の変更記録です。",
-	"log-show-hide-bs-pageaccess": "$1 ページアクセス記録",
+	"log-show-hide-bs-pageaccess": "ページアクセス記録を$1",
 	"logentry-bs-pageaccess-change": "$1 が $3 のアクセス許可を「$4」に{{GENDER:$2|変更しました}}",
+	"action-pageaccess-viewspecialpage": "特別ページ「{{int:pageaccess}}」の閲覧",
 	"bs-pageaccess-column-groups": "グループ",
-	"right-pageaccess-viewspecialpage": "特別ページ [[Special:PageAccess]] の利用を許可します。",
+	"right-pageaccess-viewspecialpage": "特別ページ [[Special:PageAccess]] を利用",
 	"bs-pageaccess-ve-pageaccessinspector-groups": "グループ"
 }
