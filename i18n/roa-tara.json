@@ -4,6 +4,8 @@
 			"Joetaras"
 		]
 	},
+	"bs-pageaccess-desc": "Condrolle l'accesse a levèlle de pàgene",
+	"bs-pageaccess-error-no-groups-given": "Nisciune gruppe ha state specificate.",
 	"bs-pageaccess-column-title": "Titole d'a vôsce",
 	"bs-pageaccess-column-groups": "Gruppe",
 	"bs-pageaccess-tag-pageaccess-title": "Accesse 'a pàgene",
