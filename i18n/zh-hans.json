@@ -23,7 +23,7 @@
 	"bs-pageaccess-column-groups": "用户组",
 	"apihelp-bs-pageaccess-store-summary": "页面级别上的控制访问",
 	"right-pageaccess-viewspecialpage": "授予对特殊页的访问权限[[Special:PageAccess]]。",
-	"bs-pageaccess-access-restricted": "此页面仅限于 <strong>$2</strong> 访问。",
+	"bs-pageaccess-access-restricted": "此页面仅限于{{PLURAL:$1|权限组}} <strong>$2</strong> 访问。",
 	"bs-pageaccess-tag-pageaccess-title": "管理访问",
 	"bs-pageaccess-tag-pageaccess-desc": "限制下方群组对此页面的读写权限",
 	"bs-pageaccess-ve-pageaccessinspector-groups": "用户组",
