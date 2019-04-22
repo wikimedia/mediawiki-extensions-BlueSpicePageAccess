@@ -4,6 +4,7 @@
 			"Ykhwong"
 		]
 	},
+	"bs-pageaccess-error-no-groups-given": "지정된 그룹이 없습니다.",
 	"logeventslist-bs-pageaccess-log": "문서 접근 기록",
 	"action-pageaccess-viewspecialpage": "특수 문서 \"{{int:pageaccess}}\" 보기",
 	"bs-pageaccess-column-title": "문서 제목",
