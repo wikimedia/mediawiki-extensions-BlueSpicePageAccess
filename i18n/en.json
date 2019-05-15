@@ -20,7 +20,7 @@
 	"bs-pageaccess-column-title": "Page title",
 	"bs-pageaccess-column-groups": "Groups",
 	"apihelp-bs-pageaccess-store-summary": "Control access on page level",
-	"right-pageaccess-viewspecialpage": "Grants access to the special page [[Special:PageAccess]].",
+	"right-pageaccess-viewspecialpage": "Access to the special page [[Special:PageAccess]]",
 	"bs-pageaccess-access-restricted": "Access to this page is restricted to {{PLURAL:$1|the group|the groups}} <strong>$2</strong>.",
 	"bs-pageaccess-tag-pageaccess-title":"Page access",
 	"bs-pageaccess-tag-pageaccess-desc":"Restricts read and write access for this page to the groups named below",
