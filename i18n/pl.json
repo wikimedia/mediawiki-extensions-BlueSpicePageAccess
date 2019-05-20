@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Chrumps",
-			"InternerowyGołąb"
+			"InternerowyGołąb",
+			"Railfail536"
 		]
 	},
 	"bs-pageaccess-error-no-groups-given": "Grupy nie zostały określone.",
@@ -10,6 +11,7 @@
 	"action-pageaccess-viewspecialpage": "zobacz stronę specjalną „{{int:pageaccess}}”",
 	"bs-pageaccess-column-title": "Tytuł strony",
 	"bs-pageaccess-column-groups": "Grupy",
+	"right-pageaccess-viewspecialpage": "Dostęp do strony specjalnej [[Special:PageAccess]]",
 	"bs-pageaccess-ve-pageaccessinspector-groups": "Grupy",
 	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Tylko te grupy mają dostęp do strony"
 }

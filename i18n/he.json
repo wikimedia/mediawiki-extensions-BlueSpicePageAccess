@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Guycn2"
+			"Guycn2",
+			"Erelon"
 		]
 	},
 	"bs-pageaccess-desc": "הגבלת גישה לקריאה על בסיס דף",
@@ -17,5 +18,6 @@
 	"action-pageaccess-viewspecialpage": "לצפות בדף המיוחד \"{{int:pageaccess}}\"",
 	"bs-pageaccess-column-title": "כותרת הדף",
 	"bs-pageaccess-column-groups": "קבוצות",
-	"apihelp-bs-pageaccess-store-summary": "הגבלת גישה לקריאה על בסיס דף"
+	"apihelp-bs-pageaccess-store-summary": "הגבלת גישה לקריאה על בסיס דף",
+	"bs-pageaccess-ve-pageaccessinspector-groups": "קבוצות"
 }

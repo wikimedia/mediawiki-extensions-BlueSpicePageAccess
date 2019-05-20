@@ -22,7 +22,7 @@
 	"bs-pageaccess-column-title": "Назва сторінки",
 	"bs-pageaccess-column-groups": "Групи",
 	"apihelp-bs-pageaccess-store-summary": "Контролює доступ на рівні сторінок",
-	"right-pageaccess-viewspecialpage": "доступ до спеціальної сторінки [[Special:PageAccess]].",
+	"right-pageaccess-viewspecialpage": "доступ до спеціальної сторінки [[Special:PageAccess]]",
 	"bs-pageaccess-access-restricted": "Доступ до цієї сторінки дозволений лише для {{PLURAL:$1|групи|груп}} <strong>$2</strong>.",
 	"bs-pageaccess-tag-pageaccess-title": "Доступ до сторінки",
 	"bs-pageaccess-tag-pageaccess-desc": "Обмежує доступ до перегляду й змін цієї сторінки до груп, наведених нижче",

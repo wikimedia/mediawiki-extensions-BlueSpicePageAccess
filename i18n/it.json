@@ -14,6 +14,7 @@
 	"action-pageaccess-viewspecialpage": "visualizzare la pagina speciale \"{{int:pageaccess}}\"",
 	"bs-pageaccess-column-title": "Titolo della pagina",
 	"bs-pageaccess-column-groups": "Gruppi",
+	"right-pageaccess-viewspecialpage": "Accede alla pagina speciale [[Special:PageAccess]]",
 	"bs-pageaccess-ve-pageaccessinspector-groups": "Gruppi",
 	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Solo questi gruppi hanno accesso alla pagina"
 }
