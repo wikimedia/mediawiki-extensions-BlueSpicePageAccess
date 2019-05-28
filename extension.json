@@ -29,6 +29,9 @@
 						"structuremanager"
 					]
 				}
+			},
+			"PermissionLockdownRegistry": {
+				"pageaccess-blockactionsontagpageaccess": "\\BlueSpice\\PageAccess\\Permission\\Lockdown\\Module\\BlockActionsOnTagPageAccess::getInstance"
 			}
 		},
 		"BlueSpiceVisualEditorConnector": {
@@ -87,7 +90,6 @@
 	"Hooks": {
 		"BSInsertMagicAjaxGetData": "\\BlueSpice\\PageAccess\\Hook\\BSInsertMagicAjaxGetData\\AddPageAccessTag::callback",
 		"PageContentSave": "\\BlueSpice\\PageAccess\\Hook\\PageContentSave\\EditPageAccess::callback",
-		"userCan": "\\BlueSpice\\PageAccess\\Hook\\UserCan\\PageAccessPermissionCheck::callback",
 		"BSUsageTrackerRegisterCollectors": "\\BlueSpice\\PageAccess\\Extension::onBSUsageTrackerRegisterCollectors"
 	},
 	"ResourceModules": {
@@ -118,6 +120,17 @@
 	"ResourceFileModulePaths": {
 		"localBasePath": "resources",
 		"remoteExtPath": "BlueSpicePageAccess/resources"
+	},
+	"config_prefix": "bsg",
+	"config": {
+		"PageAccessBlockableActions": {
+			"value": [
+				"read",
+				"edit",
+				"delete",
+				"move"
+			]
+		}
 	},
 	"load_composer_autoloader" : true,
 	"manifest_version": 2
