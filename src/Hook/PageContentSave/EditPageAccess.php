@@ -48,18 +48,16 @@ class EditPageAccess extends PageContentSave {
 		}
 
 		# Also check if user includes forbidden templates
-		$service = $this->getServices()->getBSUtilityFactory();
 		$templateTitles = $this->getTemplateTitles( $this->content->getNativeData() );
 		foreach ( $templateTitles as $templateTitle ) {
-			if ( !$checkAccessService->isUserAllowed( $templateTitle, $this->user,
-					$service ) ) {
+			if ( !$checkAccessService->isUserAllowed( $templateTitle, $this->user ) ) {
 				$this->status->fatal(
 					'bs-pageaccess-error-included-forbidden-template',
 					$templateTitle->getText() );
 				return false;
 			}
 		}
-
+		$service = $this->getServices()->getBSUtilityFactory();
 		$accessGroupsOld = $checkAccessService->groupsStringToArray(
 			$service->getPagePropHelper( $this->wikipage->getTitle() )->getPageProp( 'bs-page-access' )
 		);

@@ -2,20 +2,24 @@
 
 namespace BlueSpice\PageAccess;
 
+use Title;
 use User;
 use Hooks;
+use Config;
+use BlueSpice\Services;
+use BlueSpice\IServiceProvider;
 
-class CheckAccess {
+class CheckAccess implements IServiceProvider {
 
 	/**
-	 * @var \Config
+	 * @var Config
 	 */
 	protected $config = null;
 
 	/**
-	 * @param \Config $config
+	 * @param Config $config
 	 */
-	public function __construct( \Config $config ) {
+	public function __construct( Config $config ) {
 		$this->config = $config;
 	}
 
@@ -45,24 +49,51 @@ class CheckAccess {
 	 * Checks if user is allowed to view page
 	 * @param Title $title title object
 	 * @param User $user the current user
-	 * @param Service $service
 	 * @return bool
 	 */
-	public function isUserAllowed( $title, $user, $service ) {
+	public function isUserAllowed( Title $title, User $user ) {
+		return !$this->processGroups( $user, $this->getAccessGroups( $title ) );
+	}
+
+	/**
+	 *
+	 * @param Title $title
+	 * @return string[]
+	 */
+	public function getAccessGroups( Title $title ) {
 		$allTitles = $title->getTemplateLinksFrom();
 		$allTitles[] = $title;
-
+		$accessGroups = [];
 		foreach ( $allTitles as $titleToCheck ) {
-			$prop = $service->getPagePropHelper( $titleToCheck )->getPageProp( 'bs-page-access' );
+			$prop = $this->getPagePropHelper( $titleToCheck )->getPageProp(
+				'bs-page-access'
+			);
 			if ( !$prop ) {
 				continue;
 			}
-			$accessGroups = $this->groupsStringToArray( $prop );
-			if ( $this->processGroups( $user, $accessGroups ) ) {
-				return false;
-			}
+			$accessGroups = array_merge(
+				$accessGroups,
+				$this->groupsStringToArray( $prop )
+			);
 		}
-		return true;
+		return array_unique( $accessGroups );
+	}
+
+	/**
+	 *
+	 * @param Title $title
+	 * @return \BlueSpice\Utility\PagePropHelper
+	 */
+	protected function getPagePropHelper( Title $title ) {
+		return $this->getServices()->getBSUtilityFactory()->getPagePropHelper( $title );
+	}
+
+	/**
+	 *
+	 * @return Services
+	 */
+	public function getServices() {
+		return Services::getInstance();
 	}
 
 }
