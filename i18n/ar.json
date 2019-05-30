@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"محمد أحمد عبد الفتاح",
-			"ديفيد"
+			"ديفيد",
+			"Meno25"
 		]
 	},
 	"bs-pageaccess-desc": "يتحكم في الوصول على مستوى الصفحة",
@@ -25,5 +26,6 @@
 	"bs-pageaccess-tag-pageaccess-title": "الوصول إلى الصفحة",
 	"bs-pageaccess-tag-pageaccess-desc": "يقيد الوصول إلى هذه الصفحة وكتابتها على الوصول إلى المجموعات المُدرجة أدناه",
 	"bs-pageaccess-ve-pageaccessinspector-groups": "المجموعات",
-	"bs-pageaccess-tag-pageaccess-desc-param-groups": "هذه المجموعات فقط لديها حق الوصول إلى الصفحة"
+	"bs-pageaccess-tag-pageaccess-desc-param-groups": "هذه المجموعات فقط لديها حق الوصول إلى الصفحة",
+	"bs-pageaccess-blockactionsontag-lockdown-reason": "اتخاذ الإجراء \"$1\" متوفر فقط لل{{PLURAL:$2|مجموعة|مجموعات}} $3"
 }

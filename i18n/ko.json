@@ -13,5 +13,6 @@
 	"bs-pageaccess-access-restricted": "이 문서의 접근은 <strong>$2</strong> {{PLURAL:$1|그룹}}으로 제한되어 있습니다.",
 	"bs-pageaccess-tag-pageaccess-title": "페이지 접근",
 	"bs-pageaccess-tag-pageaccess-desc": "이 문서의 읽기 및 쓰기 권한을 아래에 명시된 그룹으로 제한합니다",
-	"bs-pageaccess-ve-pageaccessinspector-groups": "그룹"
+	"bs-pageaccess-ve-pageaccessinspector-groups": "그룹",
+	"bs-pageaccess-blockactionsontag-lockdown-reason": "\"$1\" 동작은 $3 {{PLURAL:$2|그룹}}에만 사용할 수 있습니다"
 }
