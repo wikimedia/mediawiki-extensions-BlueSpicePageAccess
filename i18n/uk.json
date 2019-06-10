@@ -27,5 +27,6 @@
 	"bs-pageaccess-tag-pageaccess-title": "Доступ до сторінки",
 	"bs-pageaccess-tag-pageaccess-desc": "Обмежує доступ до перегляду й змін цієї сторінки до груп, наведених нижче",
 	"bs-pageaccess-ve-pageaccessinspector-groups": "Групи",
-	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Лише ці групи мають доступ до цієї сторінки"
+	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Лише ці групи мають доступ до цієї сторінки",
+	"bs-pageaccess-blockactionsontag-lockdown-reason": "Дія «$1» доступна лише для {{PLURAL:$2|групи|груп}} $3"
 }
