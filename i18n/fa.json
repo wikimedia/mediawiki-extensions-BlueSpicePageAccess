@@ -1,11 +1,22 @@
 {
 	"@metadata": {
 		"authors": [
-			"Alirezaaa"
+			"Alirezaaa",
+			"FarsiNevis"
 		]
 	},
 	"bs-pageaccess-desc": "دسترسی را در سطح صفحه بررسی می‌کند",
 	"bs-pageaccess-error-no-groups-given": "هیچ گروهی مشخص نشده بودند.",
 	"bs-pageaccess-error-not-member-of-given-groups": "شما عضوی از گروه‌های داده‌شده نیستید. به منظور جلوگیری از قفل‌کردن خودتان، ذخیره غیرفعال شده‌است.",
-	"pageaccess": "صفحات توسط PageAccess امن‌شده"
+	"pageaccess": "صفحات توسط PageAccess امن‌شده",
+	"log-name-bs-pageaccess": "سیاههٔ دسترسی به صفحه",
+	"log-description-bs-pageaccess": "این، سیاهه‌ای از تغییرات تنظیمات دسترسی به صفحه است.",
+	"log-show-hide-bs-pageaccess": "$1 سیاههٔ دسترسی به صفحه",
+	"logeventslist-bs-pageaccess-log": "سیاههٔ دسترسی به صفحه",
+	"bs-pageaccess-column-title": "عنوان صفحه",
+	"bs-pageaccess-column-groups": "گروه‌ها",
+	"right-pageaccess-viewspecialpage": "دسترسی به صفحهٔ ویژهٔ [[Special:PageAccess]]",
+	"bs-pageaccess-tag-pageaccess-title": "دسترسی به صفحه",
+	"bs-pageaccess-ve-pageaccessinspector-groups": "گروه‌ها",
+	"bs-pageaccess-tag-pageaccess-desc-param-groups": "فقط این گروه‌ها دسترسی به صفحه دارند"
 }

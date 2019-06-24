@@ -15,5 +15,16 @@
 	"log-description-bs-pageaccess": "Ова е дневник на промени во поставките за пристап до страниците.",
 	"log-show-hide-bs-pageaccess": "$1 дневник на пристап до страници",
 	"logeventslist-bs-pageaccess-log": "Дневник за пристап до страници",
-	"logentry-bs-pageaccess-change": "$1 {{GENDER:$2|ги измени}} дозволите за пристап до $3 на „$4“"
+	"logentry-bs-pageaccess-change": "$1 {{GENDER:$2|ги измени}} дозволите за пристап до $3 на „$4“",
+	"action-pageaccess-viewspecialpage": "преглед на службената страница „{{int:pageaccess}}“",
+	"bs-pageaccess-column-title": "Наслов на страницата",
+	"bs-pageaccess-column-groups": "Групи",
+	"apihelp-bs-pageaccess-store-summary": "Контролира пристап на ниво на страница",
+	"right-pageaccess-viewspecialpage": "Пристап до службената страница [[Special:PageAccess]]",
+	"bs-pageaccess-access-restricted": "Пристапот до оваа страница е ограничен на {{PLURAL:$1|групата|групите}} <strong>$2</strong>.",
+	"bs-pageaccess-tag-pageaccess-title": "Пристап до страница",
+	"bs-pageaccess-tag-pageaccess-desc": "Ограничува пристап за читање и пишување за оваа страница на долунаведените групи",
+	"bs-pageaccess-ve-pageaccessinspector-groups": "Групи",
+	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Само овие групи имаат пристап до страницата",
+	"bs-pageaccess-blockactionsontag-lockdown-reason": "Дејството „$1“ е достапно само за {{PLURAL:$2|групата|групите}} $3"
 }

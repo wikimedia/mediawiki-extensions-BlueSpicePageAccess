@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Guycn2",
-			"Erelon"
+			"Erelon",
+			"Steeve815"
 		]
 	},
 	"bs-pageaccess-desc": "הגבלת גישה לקריאה על בסיס דף",
@@ -14,10 +15,14 @@
 	"log-name-bs-pageaccess": "יומן גישה לדפים",
 	"log-description-bs-pageaccess": "יומן זה מציג את השינויים בהגדרות הגישה לדפים.",
 	"log-show-hide-bs-pageaccess": "$1 יומן גישה לדפים",
+	"logeventslist-bs-pageaccess-log": "יומן גישה לדפים",
 	"logentry-bs-pageaccess-change": "$1 {{GENDER:$2|שינה|שינתה}} את הרשאות הגישה לדף $3 לקבוצות \"$4\"",
 	"action-pageaccess-viewspecialpage": "לצפות בדף המיוחד \"{{int:pageaccess}}\"",
 	"bs-pageaccess-column-title": "כותרת הדף",
 	"bs-pageaccess-column-groups": "קבוצות",
 	"apihelp-bs-pageaccess-store-summary": "הגבלת גישה לקריאה על בסיס דף",
-	"bs-pageaccess-ve-pageaccessinspector-groups": "קבוצות"
+	"bs-pageaccess-access-restricted": "הגישה לדף זה מאופשרת ל{{PLURAL:$1|קבוצה|קבוצות}} <strong>$2</strong>.",
+	"bs-pageaccess-tag-pageaccess-title": "גישה לדפים",
+	"bs-pageaccess-ve-pageaccessinspector-groups": "קבוצות",
+	"bs-pageaccess-blockactionsontag-lockdown-reason": "הפעולה \"$1\" זמינה רק ל{{PLURAL:$2|קבוצה|קבוצות}} $3"
 }
