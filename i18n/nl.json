@@ -20,6 +20,11 @@
 	"action-pageaccess-viewspecialpage": "bekijk de speciale pagina \"{{int:pageaccess}}\"",
 	"bs-pageaccess-column-title": "Paginanaam",
 	"bs-pageaccess-column-groups": "Groepen",
+	"right-pageaccess-viewspecialpage": "Toegang hebben tot de speciale pagina [[Special:PageAccess]]",
+	"bs-pageaccess-access-restricted": "Toegang tot deze pagina is beperkt tot de {{PLURAL:$1|volgende groep|volgende groepen}} <strong>$2</strong>.",
 	"bs-pageaccess-tag-pageaccess-title": "Paginatoegang",
-	"bs-pageaccess-ve-pageaccessinspector-groups": "Groepen"
+	"bs-pageaccess-tag-pageaccess-desc": "Beperkt de lees- en schrijfrechten voor deze pagina tot de groepen die hieronder worden genoemd",
+	"bs-pageaccess-ve-pageaccessinspector-groups": "Groepen",
+	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Alleen deze groepen hebben toegang tot deze pagina",
+	"bs-pageaccess-blockactionsontag-lockdown-reason": "De handeling \"$1\" is alleen beschikbaar voor de {{PLURAL:$2|groep|groepen}} $3"
 }
