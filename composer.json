@@ -9,7 +9,7 @@
 	"require-dev": {
 		"jakub-onderka/php-parallel-lint": "1.0.0",
 		"jakub-onderka/php-console-highlighter": "0.3.2",
-		"mediawiki/mediawiki-codesniffer": "25.0.0",
+		"mediawiki/mediawiki-codesniffer": "26.0.0",
 		"mediawiki/minus-x": "0.3.1"
 	},
 	"scripts": {
@@ -23,10 +23,10 @@
 			"minus-x fix ."
 		]
 	},
-	"autoload" : {
+	"autoload": {
 		"psr-4": {
-			"BlueSpice\\PageAccess\\" : "src",
-			"BlueSpice\\PageAccess\\Tests\\" : "tests/phpunit"
+			"BlueSpice\\PageAccess\\": "src",
+			"BlueSpice\\PageAccess\\Tests\\": "tests/phpunit"
 		}
 	},
 	"extra": {
