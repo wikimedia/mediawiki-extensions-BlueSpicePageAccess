@@ -23,6 +23,7 @@ class PageAccess extends Tag {
 		) {
 		return new PageAccessHandler( $processedInput, $processedArgs, $parser, $frame );
 	}
+
 	/**
 	 *
 	 * @return \ParamDefinition[]
@@ -38,12 +39,14 @@ class PageAccess extends Tag {
 			)
 		];
 	}
+
 	/**
 	 * @return string[]
 	 */
 	public function getTagNames() {
 		return [ 'bs:pageaccess', 'pageaccess' ];
 	}
+
 	/**
 	 * @return bool
 	 */
