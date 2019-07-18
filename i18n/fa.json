@@ -13,6 +13,7 @@
 	"log-description-bs-pageaccess": "این، سیاهه‌ای از تغییرات تنظیمات دسترسی به صفحه است.",
 	"log-show-hide-bs-pageaccess": "$1 سیاههٔ دسترسی به صفحه",
 	"logeventslist-bs-pageaccess-log": "سیاههٔ دسترسی به صفحه",
+	"action-pageaccess-viewspecialpage": "مشاهدهٔ صفحهٔ ویژهٔ «{{int:pageaccess}}»",
 	"bs-pageaccess-column-title": "عنوان صفحه",
 	"bs-pageaccess-column-groups": "گروه‌ها",
 	"right-pageaccess-viewspecialpage": "دسترسی به صفحهٔ ویژهٔ [[Special:PageAccess]]",
