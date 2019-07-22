@@ -21,10 +21,11 @@
 	"bs-pageaccess-column-title": "Título da página",
 	"bs-pageaccess-column-groups": "Grupos",
 	"apihelp-bs-pageaccess-store-summary": "Controla o acesso ao nível da página",
-	"right-pageaccess-viewspecialpage": "Concede acesso à página especial [[Special:PageAccess]].",
+	"right-pageaccess-viewspecialpage": "Acesso à página especial [[Special:PageAccess]]",
 	"bs-pageaccess-access-restricted": "O acesso a está página está limitado {{PLURAL:$1|ao grupo|aos grupos}} <strong>$2</strong>.",
 	"bs-pageaccess-tag-pageaccess-title": "Acesso à página",
 	"bs-pageaccess-tag-pageaccess-desc": "Limita o acesso de leitura e escrita desta página aos grupos nomeados abaixo",
 	"bs-pageaccess-ve-pageaccessinspector-groups": "Grupos",
-	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Só estes grupos têm acesso à página"
+	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Só estes grupos têm acesso à página",
+	"bs-pageaccess-blockactionsontag-lockdown-reason": "A operação \"$1\" só está disponível para {{PLURAL:$2|o grupo|os grupos}} $3"
 }
