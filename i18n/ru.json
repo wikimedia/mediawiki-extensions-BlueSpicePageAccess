@@ -8,7 +8,8 @@
 			"Facenapalm",
 			"DevilishSkull",
 			"Vlad5250",
-			"Kareyac"
+			"Kareyac",
+			"Movses"
 		]
 	},
 	"bs-pageaccess-desc": "Управление доступом на уровне страницы",
@@ -31,5 +32,6 @@
 	"bs-pageaccess-tag-pageaccess-title": "Доступ к странице",
 	"bs-pageaccess-tag-pageaccess-desc": "Ограничение доступа к чтению и записи страницы для указанных ниже групп",
 	"bs-pageaccess-ve-pageaccessinspector-groups": "Группы",
-	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Только эти группы имеют доступ к странице"
+	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Только эти группы имеют доступ к странице",
+	"bs-pageaccess-blockactionsontag-lockdown-reason": "Действие «$1» доступно лишь для {{PLURAL:$2|группы|групп}} «$3»"
 }
