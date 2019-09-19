@@ -5,7 +5,8 @@
 			"Stephan Muggli <muggli@hallowelt.biz>",
 			"Metalhead64",
 			"Jkonrad",
-			"Hwboehm"
+			"Hwboehm",
+			"Mglaser"
 		]
 	},
 	"bs-pageaccess-desc": "Regelt den Zugriff auf Seitenebene",
@@ -28,5 +29,6 @@
 	"bs-pageaccess-tag-pageaccess-title": "Seitenzugriff",
 	"bs-pageaccess-tag-pageaccess-desc": "Beschränkt den lesenden und schreibenden Zugriff zu dieser Seite auf die angegebenen Gruppen",
 	"bs-pageaccess-ve-pageaccessinspector-groups": "Gruppen",
-	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Nur die hier genannten Gruppen haben Zugriff auf die Seite."
+	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Nur die hier genannten Gruppen haben Zugriff auf die Seite.",
+	"bs-pageaccess-blockactionsontag-lockdown-reason": "Die Aktion \"$1\" ist nur für die {{PLURAL:$2|Gruppe|Gruppen}} $3 verfügbar"
 }
