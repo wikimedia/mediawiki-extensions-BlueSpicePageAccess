@@ -2,7 +2,10 @@
 	"@metadata": {
 		"authors": [
 			"Liuxinyu970226",
-			"A Chinese Wikipedian"
+			"A Chinese Wikipedian",
+			"Ff98sha",
+			"佛壁灯",
+			"科劳"
 		]
 	},
 	"bs-pageaccess-desc": "页面级别上控制访问",
@@ -14,12 +17,16 @@
 	"log-name-bs-pageaccess": "页面访问日志",
 	"log-description-bs-pageaccess": "这是页面访问设置中的更改日志。",
 	"log-show-hide-bs-pageaccess": "$1页面访问日志",
+	"logeventslist-bs-pageaccess-log": "页面访问日志",
 	"logentry-bs-pageaccess-change": "$1{{GENDER:$2|更改}}了$3的访问权限至“$4”",
 	"action-pageaccess-viewspecialpage": "查看特殊页面“{{int:pageaccess}}”",
 	"bs-pageaccess-column-title": "页面标题",
 	"bs-pageaccess-column-groups": "用户组",
 	"apihelp-bs-pageaccess-store-summary": "页面级别上的控制访问",
+	"right-pageaccess-viewspecialpage": "访问[[Special:PageAccess]]的权限。",
+	"bs-pageaccess-access-restricted": "此页面仅限于{{PLURAL:$1|权限组}} <strong>$2</strong> 访问。",
 	"bs-pageaccess-tag-pageaccess-title": "管理访问",
+	"bs-pageaccess-tag-pageaccess-desc": "限制下方群组对此页面的读写权限",
 	"bs-pageaccess-ve-pageaccessinspector-groups": "用户组",
 	"bs-pageaccess-tag-pageaccess-desc-param-groups": "只有这些用户组才可以访问页面。"
 }

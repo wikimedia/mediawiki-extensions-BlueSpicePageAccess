@@ -1,13 +1,16 @@
 {
 	"name": "BlueSpicePageAccess",
 	"license-name": "GPL-3.0-only",
-	"version": "3.0.1",
+	"version": "3.1.0",
 	"url": "https://en.wiki.bluespice.com/wiki/Reference:PageAccess",
 	"author": "Marc Reymann",
 	"descriptionmsg": "bs-pageaccess-desc",
 	"type": "bluespice",
 	"requires": {
-		"MediaWiki": ">= 1.31.0"
+		"MediaWiki": "~1.31",
+		"extensions": {
+			"BlueSpiceFoundation": "~3.1"
+		}
 	},
 	"attributes": {
 		"BlueSpiceFoundation": {
@@ -29,6 +32,9 @@
 						"structuremanager"
 					]
 				}
+			},
+			"PermissionLockdownRegistry": {
+				"pageaccess-blockactionsontagpageaccess": "\\BlueSpice\\PageAccess\\Permission\\Lockdown\\Module\\BlockActionsOnTagPageAccess::getInstance"
 			}
 		},
 		"BlueSpiceVisualEditorConnector": {
@@ -87,7 +93,6 @@
 	"Hooks": {
 		"BSInsertMagicAjaxGetData": "\\BlueSpice\\PageAccess\\Hook\\BSInsertMagicAjaxGetData\\AddPageAccessTag::callback",
 		"PageContentSave": "\\BlueSpice\\PageAccess\\Hook\\PageContentSave\\EditPageAccess::callback",
-		"userCan": "\\BlueSpice\\PageAccess\\Hook\\UserCan\\PageAccessPermissionCheck::callback",
 		"BSUsageTrackerRegisterCollectors": "\\BlueSpice\\PageAccess\\Extension::onBSUsageTrackerRegisterCollectors"
 	},
 	"ResourceModules": {
@@ -118,6 +123,17 @@
 	"ResourceFileModulePaths": {
 		"localBasePath": "resources",
 		"remoteExtPath": "BlueSpicePageAccess/resources"
+	},
+	"config_prefix": "bsg",
+	"config": {
+		"PageAccessBlockableActions": {
+			"value": [
+				"read",
+				"edit",
+				"delete",
+				"move"
+			]
+		}
 	},
 	"load_composer_autoloader" : true,
 	"manifest_version": 2

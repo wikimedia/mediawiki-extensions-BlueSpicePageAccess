@@ -16,10 +16,17 @@
 	"log-name-bs-pageaccess": "Журнал доступу до сторінок",
 	"log-description-bs-pageaccess": "Це журнал змін у налаштуваннях доступу до сторінок.",
 	"log-show-hide-bs-pageaccess": "$1 журнал доступу до сторінок",
+	"logeventslist-bs-pageaccess-log": "Журнал доступу до сторінок",
 	"logentry-bs-pageaccess-change": "$1 {{GENDER:$2|змінив|змінила}} права доступу $3 до «$4»",
 	"action-pageaccess-viewspecialpage": "перегляд спеціальної сторінки «{{int:pageaccess}}»",
 	"bs-pageaccess-column-title": "Назва сторінки",
 	"bs-pageaccess-column-groups": "Групи",
 	"apihelp-bs-pageaccess-store-summary": "Контролює доступ на рівні сторінок",
-	"right-pageaccess-viewspecialpage": "доступ до спеціальної сторінки [[Special:PageAccess]]."
+	"right-pageaccess-viewspecialpage": "доступ до спеціальної сторінки [[Special:PageAccess]]",
+	"bs-pageaccess-access-restricted": "Доступ до цієї сторінки дозволений лише для {{PLURAL:$1|групи|груп}} <strong>$2</strong>.",
+	"bs-pageaccess-tag-pageaccess-title": "Доступ до сторінки",
+	"bs-pageaccess-tag-pageaccess-desc": "Обмежує доступ до перегляду й змін цієї сторінки до груп, наведених нижче",
+	"bs-pageaccess-ve-pageaccessinspector-groups": "Групи",
+	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Лише ці групи мають доступ до цієї сторінки",
+	"bs-pageaccess-blockactionsontag-lockdown-reason": "Дія «$1» доступна лише для {{PLURAL:$2|групи|груп}} $3"
 }

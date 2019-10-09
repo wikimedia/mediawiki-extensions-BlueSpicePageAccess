@@ -8,5 +8,22 @@
 	"bs-pageaccess-column-groups": "Gruppe",
 	"bs-pageaccess-tag-pageaccess-title": "Accesse 'a pàgene",
 	"bs-pageaccess-ve-pageaccessinspector-groups": "Gruppe",
-	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Sole chiste gruppe onne accesse a 'a pàgene"
+	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Sole chiste gruppe onne accesse a 'a pàgene",
+	"bs-pageaccess-desc": "Condrolle l'accesse a levèlle de pàgene",
+	"bs-pageaccess-error-no-groups-given": "Nisciune gruppe ha state specificate.",
+	"bs-pageaccess-error-not-member-of-given-groups": "Non ge sì membre de ste gruppe. Pe no te fà bloccà da sule, le reggistrazziune onne state disabbilitate.",
+	"bs-pageaccess-error-included-forbidden-template": "Ste pruève a ausà 'u modelle \"$1\" 'u quale non ge tène l'accesse in letture. Pe no te fà bloccà da sule, le reggistrazziune onne state disabbilitate.",
+	"bs-pageaccess-tag-groups-desc": "Definisce le gruppe ca onne accesse esclusive a'na pàgene. Cchiù gruppe avènene separate da 'a virgole.",
+	"pageaccess": "Pàggene prutette da PageAccess",
+	"log-name-bs-pageaccess": "Archivije de le trasute jndr'à pàgene",
+	"log-description-bs-pageaccess": "Quiste jè 'n'archivije de cangiaminde jndr'à le 'mbostaziune de accesse d'a pàgene.",
+	"log-show-hide-bs-pageaccess": "$1 archivije de le trasute jndr'à pàgene",
+	"logeventslist-bs-pageaccess-log": "Archivije de le trasute jndr'à pàgene",
+	"logentry-bs-pageaccess-change": "$1 {{GENDER:$2|ave cangiate}} le autorizzazziune de accesse de $3 a \"$4\"",
+	"action-pageaccess-viewspecialpage": "'ndruche 'a pàgena speciale \"{{int:pageaccess}}\"",
+	"apihelp-bs-pageaccess-store-summary": "Condrolle l'accesse a levèlle de pàgene",
+	"right-pageaccess-viewspecialpage": "Tràse jndr'à pàgena speciale [[Special:PageAccess]]",
+	"bs-pageaccess-access-restricted": "L'accesse jndr'à sta pàgene jè ristrette a {{PLURAL:$1|'u|le}} gruppe <strong>$2</strong>.",
+	"bs-pageaccess-tag-pageaccess-desc": "Restringe l'accesse a letture e scretture pe sta pàgene a le gruppe nnomenate aqquà sotte",
+	"bs-pageaccess-blockactionsontag-lockdown-reason": "L'azione \"$1\" jè sulamende disponibbele {{PLURAL:$2|pu|pe le}} gruppe $3"
 }

@@ -4,5 +4,6 @@
 			"Fitoschido"
 		]
 	},
-	"bs-pageaccess-error-no-groups-given": "No s’ha especificat cap grup."
+	"bs-pageaccess-error-no-groups-given": "No s’ha especificat cap grup.",
+	"bs-pageaccess-blockactionsontag-lockdown-reason": "L’acció «$1» només està disponible per al{{PLURAL:$2| grup|s grups}} $3"
 }

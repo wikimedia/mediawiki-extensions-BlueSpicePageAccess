@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ykhwong"
+			"Ykhwong",
+			"D6283"
 		]
 	},
 	"logeventslist-bs-pageaccess-log": "문서 접근 기록",
@@ -11,5 +12,13 @@
 	"bs-pageaccess-access-restricted": "이 문서의 접근은 <strong>$2</strong> {{PLURAL:$1|그룹}}으로 제한되어 있습니다.",
 	"bs-pageaccess-tag-pageaccess-title": "페이지 접근",
 	"bs-pageaccess-tag-pageaccess-desc": "이 문서의 읽기 및 쓰기 권한을 아래에 명시된 그룹으로 제한합니다",
-	"bs-pageaccess-ve-pageaccessinspector-groups": "그룹"
+	"bs-pageaccess-ve-pageaccessinspector-groups": "그룹",
+	"bs-pageaccess-error-no-groups-given": "지정된 그룹이 없습니다.",
+	"log-name-bs-pageaccess": "문서 접근 기록",
+	"log-description-bs-pageaccess": "다음은 문서 접근 설정의 변경 기록입니다.",
+	"log-show-hide-bs-pageaccess": "문서 접근 기록 $1",
+	"logentry-bs-pageaccess-change": "$1님이 $3의 접근 권한을 \"$4\"(으)로 {{GENDER:$2|변경했습니다}}",
+	"right-pageaccess-viewspecialpage": "[[Special:PageAccess]] 특수 문서로 접근",
+	"bs-pageaccess-tag-pageaccess-desc-param-groups": "이 그룹만 문서 접근 권한이 있습니다",
+	"bs-pageaccess-blockactionsontag-lockdown-reason": "\"$1\" 동작은 $3 {{PLURAL:$2|그룹}}에만 사용할 수 있습니다"
 }

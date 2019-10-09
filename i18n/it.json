@@ -15,5 +15,6 @@
 	"bs-pageaccess-column-title": "Titolo della pagina",
 	"bs-pageaccess-column-groups": "Gruppi",
 	"bs-pageaccess-ve-pageaccessinspector-groups": "Gruppi",
-	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Solo questi gruppi hanno accesso alla pagina"
+	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Solo questi gruppi hanno accesso alla pagina",
+	"right-pageaccess-viewspecialpage": "Accede alla pagina speciale [[Special:PageAccess]]"
 }
