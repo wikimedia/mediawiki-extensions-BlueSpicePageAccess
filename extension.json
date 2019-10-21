@@ -23,6 +23,9 @@
 			"TagRegistry": {
 				"pageaccess": "\\BlueSpice\\PageAccess\\Tag\\PageAccess"
 			},
+			"AlertProviderRegistry": {
+				"bs-pageaccess-accessstate": "\\BlueSpice\\PageAccess\\AlertProvider\\AccessState::factory"
+			},
 			"PermissionRegistry": {
 				"pageaccess-viewspecialpage": {
 					"type": "global",

@@ -13,16 +13,7 @@ class PageAccessHandler extends Handler {
 		}
 		$this->parser->getOutput()->setProperty( 'bs-page-access', $this->processedArgs['groups'] );
 
-		$html = \Html::rawElement(
-				'div', [ 'class' => 'alert alert-info' ],
-				wfMessage(
-					'bs-pageaccess-access-restricted',
-					count( explode( ',', $this->processedArgs['groups'] ) ),
-					$this->processedArgs['groups']
-				)->parse()
-		);
-
-		return $html;
+		return '';
 	}
 
 }
