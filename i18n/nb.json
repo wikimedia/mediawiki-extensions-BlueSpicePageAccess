@@ -19,5 +19,11 @@
 	"bs-pageaccess-column-title": "Sidetittel",
 	"bs-pageaccess-column-groups": "Grupper",
 	"apihelp-bs-pageaccess-store-summary": "Kontroller tilgang på sidenivå",
-	"right-pageaccess-viewspecialpage": "Gir tilgang til spesialsiden [[Special:PageAccess]]."
+	"right-pageaccess-viewspecialpage": "Tilgang til spesialsiden [[Special:PageAccess]].",
+	"bs-pageaccess-access-restricted": "Tilgang til denne siden er begrenset til {{PLURAL:$1|gruppa|gruppene}} <strong>$2</strong>.",
+	"bs-pageaccess-tag-pageaccess-title": "Sidetilgang",
+	"bs-pageaccess-tag-pageaccess-desc": "Begrenser lese- og skrivetilgang for denne siden til gruppene som nevnes nedenfor",
+	"bs-pageaccess-ve-pageaccessinspector-groups": "Grupper",
+	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Bare disse gruppene har tilgang til siden",
+	"bs-pageaccess-blockactionsontag-lockdown-reason": "Handlingen «$1» er bare tilgjengelig for {{PLURAL:$2|gruppa|gruppene}} $3"
 }
