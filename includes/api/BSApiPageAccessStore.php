@@ -3,7 +3,6 @@
 class BSApiPageAccessStore extends BSApiExtJSStoreBase {
 
 	/**
-	 * @global array $wgAdditionalGroups
 	 * @param string $sQuery
 	 * @return array
 	 */
