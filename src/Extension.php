@@ -42,18 +42,4 @@
 namespace BlueSpice\PageAccess;
 
 class Extension extends \BlueSpice\Extension {
-
-	/**
-	 * Register tag with UsageTracker extension
-	 * @param array &$collectorsConfig
-	 * @return Always true to keep hook running
-	 */
-	public static function onBSUsageTrackerRegisterCollectors( &$collectorsConfig ) {
-		$collectorsConfig['bs:pageaccess'] = [
-			'class' => 'Property',
-			'config' => [ 'identifier' => 'bs-tag-pageaccess' ]
-		];
-		return true;
-	}
-
 }

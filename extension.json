@@ -96,7 +96,7 @@
 	"Hooks": {
 		"BSInsertMagicAjaxGetData": "\\BlueSpice\\PageAccess\\Hook\\BSInsertMagicAjaxGetData\\AddPageAccessTag::callback",
 		"PageContentSave": "\\BlueSpice\\PageAccess\\Hook\\PageContentSave\\EditPageAccess::callback",
-		"BSUsageTrackerRegisterCollectors": "\\BlueSpice\\PageAccess\\Extension::onBSUsageTrackerRegisterCollectors"
+		"BSUsageTrackerRegisterCollectors": "\\BlueSpice\\PageAccess\\Hook\\BSUsageTrackerRegisterCollectors\\AddPageAccessTag::callback"
 	},
 	"ResourceModules": {
 		"ext.PageAccess.manager": {
