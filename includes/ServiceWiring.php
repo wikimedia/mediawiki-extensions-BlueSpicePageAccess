@@ -1,7 +1,7 @@
 <?php
 
-use MediaWiki\MediaWikiServices;
 use BlueSpice\PageAccess\CheckAccess;
+use MediaWiki\MediaWikiServices;
 
 return [
 	'BSPageAccessCheckAccess' => function ( MediaWikiServices $services ) {

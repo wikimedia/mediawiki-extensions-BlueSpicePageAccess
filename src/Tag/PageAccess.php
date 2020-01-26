@@ -2,9 +2,9 @@
 
 namespace BlueSpice\PageAccess\Tag;
 
-use BlueSpice\Tag\Tag;
 use BlueSpice\ParamProcessor\ParamDefinition;
 use BlueSpice\ParamProcessor\ParamType;
+use BlueSpice\Tag\Tag;
 
 class PageAccess extends Tag {
 	/**

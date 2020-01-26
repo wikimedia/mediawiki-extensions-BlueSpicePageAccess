@@ -3,8 +3,8 @@
 namespace BlueSpice\PageAccess\Hook\PageContentSave;
 
 use BlueSpice\Hook\PageContentSave;
-use Title;
 use ManualLogEntry;
+use Title;
 
 class EditPageAccess extends PageContentSave {
 
@@ -21,7 +21,7 @@ class EditPageAccess extends PageContentSave {
 		$templateTitles = [];
 		foreach ( $matches[1] as $templateTitleText ) {
 			$tmpTitle = Title::newFromText( $templateTitleText );
-			if ( !is_null( $tmpTitle ) ) {
+			if ( $tmpTitle !== null ) {
 				$templateTitles[] = $tmpTitle;
 			}
 		}

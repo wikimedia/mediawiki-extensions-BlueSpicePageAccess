@@ -2,13 +2,13 @@
 
 namespace BlueSpice\PageAccess\Permission\Lockdown\Module;
 
-use IContextSource;
+use BlueSpice\PageAccess\CheckAccess;
+use BlueSpice\Services;
 use Config;
+use IContextSource;
 use Message;
 use Title;
 use User;
-use BlueSpice\Services;
-use BlueSpice\PageAccess\CheckAccess;
 
 class BlockActionsOnTagPageAccess extends \BlueSpice\Permission\Lockdown\Module {
 

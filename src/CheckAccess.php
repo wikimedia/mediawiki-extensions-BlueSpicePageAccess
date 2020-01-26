@@ -2,12 +2,12 @@
 
 namespace BlueSpice\PageAccess;
 
+use BlueSpice\IServiceProvider;
+use BlueSpice\Services;
+use Config;
+use Hooks;
 use Title;
 use User;
-use Hooks;
-use Config;
-use BlueSpice\Services;
-use BlueSpice\IServiceProvider;
 
 class CheckAccess implements IServiceProvider {
 
