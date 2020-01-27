@@ -14,7 +14,7 @@ class AddPageAccessTag extends BSInsertMagicAjaxGetData {
 		$descriptor = new \stdClass();
 		$descriptor->id = 'bs:pageaccess';
 		$descriptor->type = 'tag';
-		$descriptor->name = wfMessage( 'bs-pageaccess-tag-pageaccess-title' )->plain();
+		$descriptor->name = 'pageaccess';
 		$descriptor->desc = wfMessage( 'pageaccess' )->plain();
 		$descriptor->code = '<bs:pageaccess groups="sysop" />';
 		$descriptor->mwvecommand = 'pageAccessCommand';
