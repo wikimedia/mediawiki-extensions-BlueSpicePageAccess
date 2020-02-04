@@ -3,7 +3,8 @@
 		"authors": [
 			"Fitoschido",
 			"Themasterriot",
-			"Macofe"
+			"Macofe",
+			"DannyS712"
 		]
 	},
 	"bs-pageaccess-desc": "Controla el acceso a nivel de página",
@@ -20,7 +21,7 @@
 	"action-pageaccess-viewspecialpage": "ver la página especial \"{{int:pageaccess}}\"",
 	"bs-pageaccess-column-title": "Título de página",
 	"bs-pageaccess-column-groups": "Grupos",
-	"right-pageaccess-viewspecialpage": "Otorga acceso a la página especial [[Special:PageAccess]].",
+	"right-pageaccess-viewspecialpage": "Acceso a la página especial [[Special:PageAccess]]",
 	"bs-pageaccess-ve-pageaccessinspector-groups": "Grupos",
 	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Solo estos grupos tienen acceso a la página",
 	"bs-pageaccess-blockactionsontag-lockdown-reason": "La acción «$1» solo está disponible para {{PLURAL:$2|el grupo|los grupos}} $3"
