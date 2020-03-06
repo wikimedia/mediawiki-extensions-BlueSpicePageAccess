@@ -57,7 +57,7 @@ class EditPageAccess extends PageContentSave {
 				return false;
 			}
 		}
-		$service = $this->getServices()->getBSUtilityFactory();
+		$service = $this->getServices()->getService( 'BSUtilityFactory' );
 		$accessGroupsOld = $checkAccessService->groupsStringToArray(
 			$service->getPagePropHelper( $this->wikipage->getTitle() )->getPageProp( 'bs-page-access' )
 		);

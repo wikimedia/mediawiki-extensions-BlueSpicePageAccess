@@ -85,7 +85,7 @@ class CheckAccess implements IServiceProvider {
 	 * @return \BlueSpice\Utility\PagePropHelper
 	 */
 	protected function getPagePropHelper( Title $title ) {
-		return $this->getServices()->getBSUtilityFactory()->getPagePropHelper( $title );
+		return $this->getServices()->getService( 'BSUtilityFactory' )->getPagePropHelper( $title );
 	}
 
 	/**
