@@ -13,7 +13,7 @@ class AccessState extends AlertProviderBase {
 	 * @return string
 	 */
 	public function getHTML() {
-		$groups = Services::getInstance()->getBSUtilityFactory()
+		$groups = Services::getInstance()->getService( 'BSUtilityFactory' )
 					->getPagePropHelper( $this->skin->getTitle() )
 					->getPageProp( 'bs-page-access' );
 
