@@ -3,7 +3,8 @@
 		"authors": [
 			"Jopparn",
 			"Lokal Profil",
-			"WikiPhoenix"
+			"WikiPhoenix",
+			"Technic2"
 		]
 	},
 	"bs-pageaccess-desc": "Kontrollerar åtkomst på sidnivå",
@@ -20,7 +21,7 @@
 	"action-pageaccess-viewspecialpage": "visa specialsidan \"{{int:pageaccess}}\"",
 	"bs-pageaccess-column-title": "Sidtitel",
 	"bs-pageaccess-column-groups": "Grupper",
-	"right-pageaccess-viewspecialpage": "Ger åtkomst till specialsidan [[Special:PageAccess]].",
+	"right-pageaccess-viewspecialpage": "Åtkomst till specialsidan [[Special:PageAccess]].",
 	"bs-pageaccess-tag-pageaccess-title": "Sidåtkomst",
 	"bs-pageaccess-ve-pageaccessinspector-groups": "Grupper"
 }
