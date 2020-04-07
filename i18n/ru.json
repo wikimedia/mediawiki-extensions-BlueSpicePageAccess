@@ -1,15 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
+			"DevilishSkull",
+			"Facenapalm",
+			"Kaganer",
+			"Kareyac",
 			"Meshkov.a",
+			"Movses",
 			"Okras",
 			"Striking Blue",
-			"Kaganer",
-			"Facenapalm",
-			"DevilishSkull",
-			"Vlad5250",
-			"Kareyac",
-			"Movses"
+			"Vlad5250"
 		]
 	},
 	"bs-pageaccess-desc": "Управление доступом на уровне страницы",

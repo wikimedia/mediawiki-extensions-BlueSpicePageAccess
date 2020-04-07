@@ -2,10 +2,10 @@
 	"@metadata": {
 		"authors": [
 			"Esketti",
-			"Siebrand",
-			"Sjoerddebruin",
 			"Mainframe98",
-			"Ndecouck"
+			"Ndecouck",
+			"Siebrand",
+			"Sjoerddebruin"
 		]
 	},
 	"bs-pageaccess-desc": "Regelt de toegang op pagina niveau",

@@ -1,10 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ата",
 			"Piramidion",
 			"SimondR",
-			"Vlad5250"
+			"Vlad5250",
+			"Ата"
 		]
 	},
 	"bs-pageaccess-desc": "Контролює доступ на рівні сторінок",
