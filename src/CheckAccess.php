@@ -17,6 +17,11 @@ class CheckAccess implements IServiceProvider {
 	protected $config = null;
 
 	/**
+	 * @var string[]
+	 */
+	protected static $accessGroupsByPageId = [];
+
+	/**
 	 * @param Config $config
 	 */
 	public function __construct( Config $config ) {
@@ -61,6 +66,9 @@ class CheckAccess implements IServiceProvider {
 	 * @return string[]
 	 */
 	public function getAccessGroups( Title $title ) {
+		if ( isset( static::$accessGroupsByPageId[ $title->getArticleID() ] ) ) {
+			return static::$accessGroupsByPageId[ $title->getArticleID() ];
+		}
 		$allTitles = $title->getTemplateLinksFrom();
 		$allTitles[] = $title;
 		$accessGroups = [];
@@ -76,7 +84,9 @@ class CheckAccess implements IServiceProvider {
 				$this->groupsStringToArray( $prop )
 			);
 		}
-		return array_unique( $accessGroups );
+
+		static::$accessGroupsByPageId[ $title->getArticleID() ] = array_unique( $accessGroups );
+		return static::$accessGroupsByPageId[ $title->getArticleID() ];
 	}
 
 	/**
