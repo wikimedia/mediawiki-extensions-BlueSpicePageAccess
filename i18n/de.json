@@ -1,12 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Marc Reymann <reymann@hallowelt.biz>",
-			"Stephan Muggli <muggli@hallowelt.biz>",
-			"Metalhead64",
-			"Jkonrad",
 			"Hwboehm",
-			"Mglaser"
+			"Jkonrad",
+			"Marc Reymann <reymann@hallowelt.biz>",
+			"Metalhead64",
+			"Mglaser",
+			"Stephan Muggli <muggli@hallowelt.biz>"
 		]
 	},
 	"bs-pageaccess-desc": "Regelt den Zugriff auf Seitenebene",

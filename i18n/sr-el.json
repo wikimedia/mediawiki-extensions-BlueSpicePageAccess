@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"bs-pageaccess-desc": "Kontrola pristupa na nivou stranice",
 	"bs-pageaccess-error-no-groups-given": "Nisu navedene grupe.",
 	"bs-pageaccess-error-not-member-of-given-groups": "Niste član date grupe. Da bi ste sprečili da se zaključate, čuvanje je onemogućeno.",

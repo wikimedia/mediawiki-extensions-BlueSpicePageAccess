@@ -1,13 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Marc Reymann <reymann@hallowelt.biz>",
-			"Stephan Muggli <muggli@hallowelt.biz>",
-			"Shirayuki",
-			"Leonid Verhovskij <verhovskij@hallowelt.com>",
 			"Beta16",
+			"Leonid Verhovskij <verhovskij@hallowelt.com>",
 			"Liuxinyu970226",
-			"Robby"
+			"Marc Reymann <reymann@hallowelt.biz>",
+			"Robby",
+			"Shirayuki",
+			"Stephan Muggli <muggli@hallowelt.biz>"
 		]
 	},
 	"bs-pageaccess-desc": "Used in [{{canonicalurl:Special:WikiAdmin|mode=ExtensionInfo}} Special:WikiAdmin?mode=ExtensionInfo], description of page access extension",

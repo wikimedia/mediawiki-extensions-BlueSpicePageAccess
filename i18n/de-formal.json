@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
+			"Hwboehm",
 			"Marc Reymann <reymann@hallowelt.biz>",
-			"Stephan Muggli <muggli@hallowelt.biz>",
-			"Hwboehm"
+			"Stephan Muggli <muggli@hallowelt.biz>"
 		]
 	},
 	"bs-pageaccess-error-not-member-of-given-groups": "Sie sind nicht Mitglied der angegebenen Gruppen. Um zu verhindern, dass Sie sich aus der Seite aussperren, wurde das Speichern deaktiviert.",
