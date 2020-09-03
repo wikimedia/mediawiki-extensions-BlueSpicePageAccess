@@ -3,9 +3,9 @@
 namespace BlueSpice\PageAccess\Permission\Lockdown\Module;
 
 use BlueSpice\PageAccess\CheckAccess;
-use BlueSpice\Services;
 use Config;
 use IContextSource;
+use MediaWiki\MediaWikiServices;
 use Message;
 use Title;
 use User;
@@ -28,12 +28,12 @@ class BlockActionsOnTagPageAccess extends \BlueSpice\Permission\Lockdown\Module 
 	 *
 	 * @param Config $config
 	 * @param IContextSource $context
-	 * @param Services $services
+	 * @param MediaWikiServices $services
 	 * @param array $blockableActions
 	 * @param CheckAccess $accessFactory
 	 */
-	protected function __construct( Config $config, IContextSource $context, Services $services,
-		array $blockableActions, CheckAccess $accessFactory ) {
+	protected function __construct( Config $config, IContextSource $context,
+		MediaWikiServices $services, array $blockableActions, CheckAccess $accessFactory ) {
 		parent::__construct( $config, $context, $services );
 
 		$this->blockableActions = $blockableActions;
@@ -44,13 +44,13 @@ class BlockActionsOnTagPageAccess extends \BlueSpice\Permission\Lockdown\Module 
 	 *
 	 * @param Config $config
 	 * @param IContextSource $context
-	 * @param Services $services
+	 * @param MediaWikiServices $services
 	 * @param array|null $blockableActions
 	 * @param CheckAccess|null $accessFactory
 	 * @return \static
 	 */
 	public static function getInstance( Config $config, IContextSource $context,
-		Services $services, array $blockableActions = null,
+		MediaWikiServices $services, array $blockableActions = null,
 		CheckAccess $accessFactory = null ) {
 		if ( !$blockableActions ) {
 			$blockableActions = [];

@@ -3,9 +3,9 @@
 namespace BlueSpice\PageAccess;
 
 use BlueSpice\IServiceProvider;
-use BlueSpice\Services;
 use Config;
 use Hooks;
+use MediaWiki\MediaWikiServices;
 use Title;
 use User;
 
@@ -100,10 +100,10 @@ class CheckAccess implements IServiceProvider {
 
 	/**
 	 *
-	 * @return Services
+	 * @return MediaWikiServices
 	 */
 	public function getServices() {
-		return Services::getInstance();
+		return MediaWikiServices::getInstance();
 	}
 
 }
