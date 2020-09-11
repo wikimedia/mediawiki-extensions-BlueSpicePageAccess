@@ -4,7 +4,7 @@ namespace BlueSpice\PageAccess\AlertProvider;
 
 use BlueSpice\AlertProviderBase;
 use BlueSpice\IAlertProvider;
-use BlueSpice\Services;
+use MediaWiki\MediaWikiServices;
 
 class AccessState extends AlertProviderBase {
 
@@ -13,9 +13,9 @@ class AccessState extends AlertProviderBase {
 	 * @return string
 	 */
 	public function getHTML() {
-		$groups = Services::getInstance()->getService( 'BSUtilityFactory' )
-					->getPagePropHelper( $this->skin->getTitle() )
-					->getPageProp( 'bs-page-access' );
+		$groups = MediaWikiServices::getInstance()->getService( 'BSUtilityFactory' )
+			->getPagePropHelper( $this->skin->getTitle() )
+			->getPageProp( 'bs-page-access' );
 
 		if ( !$groups ) {
 			return '';
