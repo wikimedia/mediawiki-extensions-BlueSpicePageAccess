@@ -22,6 +22,7 @@
 	"bs-pageaccess-column-title": "Título de página",
 	"bs-pageaccess-column-groups": "Grupos",
 	"right-pageaccess-viewspecialpage": "Acceso a la página especial [[Special:PageAccess]]",
+	"bs-pageaccess-tag-pageaccess-title": "Acceso a la página",
 	"bs-pageaccess-ve-pageaccessinspector-groups": "Grupos",
 	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Solo estos grupos tienen acceso a la página",
 	"bs-pageaccess-blockactionsontag-lockdown-reason": "La acción «$1» solo está disponible para {{PLURAL:$2|el grupo|los grupos}} $3"
