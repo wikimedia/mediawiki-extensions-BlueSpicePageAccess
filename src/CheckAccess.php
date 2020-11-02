@@ -4,7 +4,6 @@ namespace BlueSpice\PageAccess;
 
 use BlueSpice\IServiceProvider;
 use Config;
-use Hooks;
 use MediaWiki\MediaWikiServices;
 use Title;
 use User;
@@ -45,7 +44,9 @@ class CheckAccess implements IServiceProvider {
 		if ( empty( $accessGroupsList ) ) {
 			return false;
 		}
-		Hooks::run( 'BSPageAccessAddAdditionalAccessGroups', [ &$accessGroupsList ] );
+		$this->getServices()->getHookContainer()->run( 'BSPageAccessAddAdditionalAccessGroups', [
+			&$accessGroupsList
+		] );
 		$userGroups = array_merge( $user->getGroups(), $user->getImplicitGroups() );
 		return empty( array_intersect( $accessGroupsList, $userGroups ) );
 	}
