@@ -24,7 +24,6 @@ class SpecialPageAccess extends \BlueSpice\SpecialPage {
 	/**
 	 * Renders special page output.
 	 * @param string $param URL parameters to special page.
-	 * @return bool Allow other hooked methods to be executed. Always true.
 	 */
 	public function execute( $param ) {
 		parent::execute( $param );
