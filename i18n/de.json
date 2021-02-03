@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Marc Reymann <reymann@hallowelt.biz>",
-			"Stephan Muggli <muggli@hallowelt.biz>",
-			"Metalhead64",
-			"Jkonrad",
 			"Hwboehm",
-			"Mglaser"
+			"Jkonrad",
+			"Marc Reymann <reymann@hallowelt.biz>",
+			"Metalhead64",
+			"Mglaser",
+			"Stephan Muggli <muggli@hallowelt.biz>",
+			"Umherirrender"
 		]
 	},
 	"bs-pageaccess-desc": "Regelt den Zugriff auf Seitenebene",
@@ -19,7 +20,7 @@
 	"log-description-bs-pageaccess": "Logbuch von Änderungen an den Seitenberechtigungen.",
 	"log-show-hide-bs-pageaccess": "$1 Seitenberechtigung-Logbuch",
 	"logeventslist-bs-pageaccess-log": "Seitenzugriffs-Logbuch",
-	"logentry-bs-pageaccess-change": "$1 {{GENDER:$2|hat}} die Zugriffsberechtigungen von $3 zu \"$4\" geändert",
+	"logentry-bs-pageaccess-change": "$1 {{GENDER:$2|hat}} die Zugriffsberechtigungen von $3 zu „$4“ geändert",
 	"action-pageaccess-viewspecialpage": "die Spezialseite „{{int:pageaccess}}“ anzusehen",
 	"bs-pageaccess-column-title": "Seitentitel",
 	"bs-pageaccess-column-groups": "Gruppen",
@@ -30,5 +31,5 @@
 	"bs-pageaccess-tag-pageaccess-desc": "Beschränkt den lesenden und schreibenden Zugriff zu dieser Seite auf die angegebenen Gruppen",
 	"bs-pageaccess-ve-pageaccessinspector-groups": "Gruppen",
 	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Nur die hier genannten Gruppen haben Zugriff auf die Seite.",
-	"bs-pageaccess-blockactionsontag-lockdown-reason": "Die Aktion \"$1\" ist nur für die {{PLURAL:$2|Gruppe|Gruppen}} $3 verfügbar"
+	"bs-pageaccess-blockactionsontag-lockdown-reason": "Die Aktion „$1“ ist nur für die {{PLURAL:$2|Gruppe|Gruppen}} $3 verfügbar"
 }
