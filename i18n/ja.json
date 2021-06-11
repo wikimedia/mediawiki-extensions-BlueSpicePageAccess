@@ -3,12 +3,13 @@
 		"authors": [
 			"2nd-player",
 			"Shirayuki",
-			"Suyama"
+			"Suyama",
+			"UsagiNeko"
 		]
 	},
 	"bs-pageaccess-desc": "ページ単位でアクセスを制御する",
 	"bs-pageaccess-error-no-groups-given": "グループが指定されていません。",
-	"bs-pageaccess-tag-groups-desc": "このページに排他的にアクセスできるグループを指定する。カンマ区切りで複数のグループを指定できる。",
+	"bs-pageaccess-tag-groups-desc": "ページに排他的にアクセスできるグループを定義する。カンマ区切りで複数のグループを指定する。",
 	"log-name-bs-pageaccess": "ページアクセス記録",
 	"log-description-bs-pageaccess": "これは、ページのアクセス設定の変更記録です。",
 	"log-show-hide-bs-pageaccess": "ページアクセス記録を$1",
