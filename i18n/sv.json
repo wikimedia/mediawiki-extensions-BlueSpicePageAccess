@@ -3,6 +3,7 @@
 		"authors": [
 			"Jopparn",
 			"Lokal Profil",
+			"Sabelöga",
 			"Technic2",
 			"WikiPhoenix"
 		]
@@ -23,5 +24,10 @@
 	"bs-pageaccess-column-groups": "Grupper",
 	"right-pageaccess-viewspecialpage": "Åtkomst till specialsidan [[Special:PageAccess]].",
 	"bs-pageaccess-tag-pageaccess-title": "Sidåtkomst",
-	"bs-pageaccess-ve-pageaccessinspector-groups": "Grupper"
+	"bs-pageaccess-ve-pageaccessinspector-groups": "Grupper",
+	"apihelp-bs-pageaccess-store-summary": "Kontrollera åtkomst på sidnivå",
+	"bs-pageaccess-access-restricted": "Åtkomst till den här sidan begränsas till {{PLURAL:$1|gruppen|grupperna}} <strong>$2</strong>.",
+	"bs-pageaccess-tag-pageaccess-desc": "Begränsar läs- och skrivåtkomst för denna sida till grupperna som listas nedan",
+	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Endast dessa grupper har åtkomst till sidan",
+	"bs-pageaccess-blockactionsontag-lockdown-reason": "Åtgärden \"$1\" är endast tillgänglig för {{PLURAL:$2|gruppen|grupperna}} $3"
 }
