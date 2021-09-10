@@ -27,5 +27,8 @@
 	"bs-pageaccess-access-restricted": "Toegang tot deze pagina is beperkt tot de {{PLURAL:$1|volgende groep|volgende groepen}} <strong>$2</strong>.",
 	"bs-pageaccess-tag-pageaccess-desc": "Beperkt de lees- en schrijfrechten voor deze pagina tot de groepen die hieronder worden genoemd",
 	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Alleen deze groepen hebben toegang tot deze pagina",
-	"bs-pageaccess-blockactionsontag-lockdown-reason": "De handeling \"$1\" is alleen beschikbaar voor de {{PLURAL:$2|groep|groepen}} $3"
+	"bs-pageaccess-blockactionsontag-lockdown-reason": "De handeling \"$1\" is alleen beschikbaar voor de {{PLURAL:$2|groep|groepen}} $3",
+	"log-description-bs-pageaccess": "Dit is een logboek van wijzigingen in de instellingen voor paginatoegang.",
+	"logeventslist-bs-pageaccess-log": "Paginatoegangslogboek",
+	"apihelp-bs-pageaccess-store-summary": "De toegang regelen op paginaniveau"
 }
