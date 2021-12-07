@@ -80,6 +80,11 @@ class BlockActionsOnTagPageAccess extends \BlueSpice\Permission\Lockdown\Module 
 	 * @return bool
 	 */
 	public function applies( Title $title, User $user ) {
+		if ( in_array( 'sysop', $user->getGroups() ) ) {
+			// ERM:20238 Never lockdown sysops or there could be a page that can
+			// never be edited again
+			return false;
+		}
 		return $title->exists() && $title->getNamespace() >= 0;
 	}
 
