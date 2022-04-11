@@ -3,28 +3,29 @@
 		"authors": [
 			"Alirezaaa",
 			"FarsiNevis",
-			"Jeeputer"
+			"Jeeputer",
+			"Beginneruser"
 		]
 	},
 	"bs-pageaccess-desc": "دسترسی را در سطح صفحه بررسی می‌کند",
 	"bs-pageaccess-error-no-groups-given": "هیچ گروهی مشخص نشده بودند.",
 	"bs-pageaccess-error-not-member-of-given-groups": "شما عضوی از گروه‌های داده‌شده نیستید. به منظور جلوگیری از قفل‌کردن خودتان، ذخیره غیرفعال شده‌است.",
-	"pageaccess": "صفحات توسط PageAccess امن‌شده",
+	"bs-pageaccess-error-included-forbidden-template": "شما تلاش کردید از الگوی «$1»، که دسترسی خواندن آن را ندارید، استفاده کنید. جهت جلوگیری از قفل شدن شما، ذخیره غیرفعال شد.",
+	"bs-pageaccess-tag-groups-desc": "گروه‌هایی که دسترسی اختصاصی به یک صفحه دارند را تعریف می‌کند. گروه‌های متعدد با ویرگول از هم جدا شده‌اند.",
+	"pageaccess": "صفحه‌های امن‌شده توسط PageAccess",
 	"log-name-bs-pageaccess": "سیاههٔ دسترسی به صفحه",
 	"log-description-bs-pageaccess": "این، سیاهه‌ای از تغییرات تنظیمات دسترسی به صفحه است.",
 	"log-show-hide-bs-pageaccess": "$1 سیاههٔ دسترسی به صفحه",
 	"logeventslist-bs-pageaccess-log": "سیاههٔ دسترسی به صفحه",
+	"logentry-bs-pageaccess-change": "$1 مجوزهای دسترسی $3 را به «$4» {{GENDER:$2|تغییر داد}}",
 	"action-pageaccess-viewspecialpage": "مشاهدهٔ صفحهٔ ویژهٔ «{{int:pageaccess}}»",
 	"bs-pageaccess-column-title": "عنوان صفحه",
 	"bs-pageaccess-column-groups": "گروه‌ها",
 	"right-pageaccess-viewspecialpage": "دسترسی به صفحهٔ ویژهٔ [[Special:PageAccess]]",
+	"bs-pageaccess-access-restricted": "دسترسی به این صفحه به {{PLURAL:$1|گروه|گروه‌های}} <strong>$2</strong> محدود شده‌است.",
 	"bs-pageaccess-tag-pageaccess-title": "دسترسی به صفحه",
+	"bs-pageaccess-tag-pageaccess-desc": "دسترسی خواندن و نوشتن این صفحه را به گروه‌های زیر محدود می‌کند",
 	"bs-pageaccess-ve-pageaccessinspector-groups": "گروه‌ها",
 	"bs-pageaccess-tag-pageaccess-desc-param-groups": "فقط این گروه‌ها دسترسی به صفحه دارند",
-	"bs-pageaccess-error-included-forbidden-template": "شما تلاش کردید از الگوی «$1»، که دسترسی خواندن آن را ندارید، استفاده کنید. جهت جلوگیری از قفل شدن شما، ذخیره غیرفعال شد.",
-	"bs-pageaccess-tag-groups-desc": "گروه‌هایی که دسترسی اختصاصی به یک صفحه دارند را تعریف می‌کند. گروه‌های متعدد با ویرگول از هم جدا شده‌اند.",
-	"logentry-bs-pageaccess-change": "$1 مجوزهای دسترسی $3 را به «$4» {{GENDER:$2|تغییر داد}}",
-	"bs-pageaccess-access-restricted": "دسترسی به این صفحه به {{PLURAL:$1|گروه|گروه‌های}} <strong>$2</strong> محدود شده‌است.",
-	"bs-pageaccess-tag-pageaccess-desc": "دسترسی خواندن و نوشتن این صفحه را به گروه‌های زیر محدود می‌کند",
 	"bs-pageaccess-blockactionsontag-lockdown-reason": "عمل «$1» تنها برای {{PLURAL:$2|گروه|گروه‌های}} $3 مقدور است"
 }
