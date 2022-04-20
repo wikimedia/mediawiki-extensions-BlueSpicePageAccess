@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"DannyS712",
+			"DiegoAmbrocio",
 			"Fitoschido",
 			"Macofe",
 			"Themasterriot"
@@ -25,5 +26,6 @@
 	"bs-pageaccess-ve-pageaccessinspector-groups": "Grupos",
 	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Solo estos grupos tienen acceso a la página",
 	"bs-pageaccess-blockactionsontag-lockdown-reason": "La acción «$1» solo está disponible para {{PLURAL:$2|el grupo|los grupos}} $3",
-	"bs-pageaccess-tag-pageaccess-title": "Acceso a la página"
+	"bs-pageaccess-tag-pageaccess-title": "Acceso a la página",
+	"apihelp-bs-pageaccess-store-summary": "Control de acceso a nivel de página"
 }

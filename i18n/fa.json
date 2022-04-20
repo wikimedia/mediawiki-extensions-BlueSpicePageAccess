@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Alirezaaa",
+			"Beginneruser",
 			"FarsiNevis",
 			"Jeeputer"
 		]
@@ -9,7 +10,7 @@
 	"bs-pageaccess-desc": "دسترسی را در سطح صفحه بررسی می‌کند",
 	"bs-pageaccess-error-no-groups-given": "هیچ گروهی مشخص نشده بودند.",
 	"bs-pageaccess-error-not-member-of-given-groups": "شما عضوی از گروه‌های داده‌شده نیستید. به منظور جلوگیری از قفل‌کردن خودتان، ذخیره غیرفعال شده‌است.",
-	"pageaccess": "صفحات توسط PageAccess امن‌شده",
+	"pageaccess": "صفحه‌های امن‌شده توسط PageAccess",
 	"log-name-bs-pageaccess": "سیاههٔ دسترسی به صفحه",
 	"log-description-bs-pageaccess": "این، سیاهه‌ای از تغییرات تنظیمات دسترسی به صفحه است.",
 	"log-show-hide-bs-pageaccess": "$1 سیاههٔ دسترسی به صفحه",
