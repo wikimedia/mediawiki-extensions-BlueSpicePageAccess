@@ -26,5 +26,5 @@
 	"bs-pageaccess-tag-pageaccess-desc": "Limita l'accesso in lettura e scrittura per questa pagina ai gruppi indicati sotto",
 	"bs-pageaccess-ve-pageaccessinspector-groups": "Gruppi",
 	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Solo questi gruppi hanno accesso alla pagina",
-	"bs-pageaccess-blockactionsontag-lockdown-reason": "L'azione \"$1\" è disponibile solo {{PLURAL:$2|il gruppo|i gruppi}} $3"
+	"bs-pageaccess-blockactionsontag-lockdown-reason": "L'azione \"$1\" è disponibile solo per {{PLURAL:$2|il gruppo|i gruppi}} $3"
 }
