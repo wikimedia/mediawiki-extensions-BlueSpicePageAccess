@@ -3,7 +3,8 @@
 		"authors": [
 			"Erelon",
 			"Guycn2",
-			"Steeve815"
+			"Steeve815",
+			"Ex-Diktator"
 		]
 	},
 	"bs-pageaccess-desc": "הגבלת גישה לקריאה על בסיס דף",
@@ -21,8 +22,11 @@
 	"bs-pageaccess-column-title": "כותרת הדף",
 	"bs-pageaccess-column-groups": "קבוצות",
 	"apihelp-bs-pageaccess-store-summary": "הגבלת גישה לקריאה על בסיס דף",
+	"right-pageaccess-viewspecialpage": "גישה לדף המיוחד [[Special:PageAccess]]",
 	"bs-pageaccess-access-restricted": "הגישה לדף זה מאופשרת ל{{PLURAL:$1|קבוצה|קבוצות}} <strong>$2</strong>.",
 	"bs-pageaccess-tag-pageaccess-title": "גישה לדפים",
+	"bs-pageaccess-tag-pageaccess-desc": "הגבלת גישת קריאה וכתיבה לדף הזה לקבוצות הרשומות למטה",
 	"bs-pageaccess-ve-pageaccessinspector-groups": "קבוצות",
-	"bs-pageaccess-blockactionsontag-lockdown-reason": "הפעולה \"$1\" זמינה רק ל{{PLURAL:$2|קבוצה|קבוצות}} $3"
+	"bs-pageaccess-tag-pageaccess-desc-param-groups": "רק לקבוצות הבאות יש גישה לדף",
+	"bs-pageaccess-blockactionsontag-lockdown-reason": "הפעולה \"$1\" זמינה רק {{PLURAL:$2|לקבוצה|לקבוצות}} $3"
 }
