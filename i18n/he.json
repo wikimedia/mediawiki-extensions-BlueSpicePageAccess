@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Erelon",
+			"Ex-Diktator",
 			"Guycn2",
 			"Steeve815"
 		]
@@ -24,5 +25,8 @@
 	"bs-pageaccess-access-restricted": "הגישה לדף זה מאופשרת ל{{PLURAL:$1|קבוצה|קבוצות}} <strong>$2</strong>.",
 	"bs-pageaccess-tag-pageaccess-title": "גישה לדפים",
 	"bs-pageaccess-ve-pageaccessinspector-groups": "קבוצות",
-	"bs-pageaccess-blockactionsontag-lockdown-reason": "הפעולה \"$1\" זמינה רק ל{{PLURAL:$2|קבוצה|קבוצות}} $3"
+	"bs-pageaccess-blockactionsontag-lockdown-reason": "הפעולה \"$1\" זמינה רק {{PLURAL:$2|לקבוצה|לקבוצות}} $3",
+	"right-pageaccess-viewspecialpage": "גישה לדף המיוחד [[Special:PageAccess]]",
+	"bs-pageaccess-tag-pageaccess-desc": "הגבלת גישת קריאה וכתיבה לדף הזה לקבוצות הרשומות למטה",
+	"bs-pageaccess-tag-pageaccess-desc-param-groups": "רק לקבוצות הבאות יש גישה לדף"
 }

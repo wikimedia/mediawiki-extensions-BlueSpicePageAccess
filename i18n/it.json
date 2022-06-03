@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Beta16",
+			"GpieroMW",
 			"PeppeAeco",
 			"Selven"
 		]
@@ -16,5 +17,14 @@
 	"bs-pageaccess-column-groups": "Gruppi",
 	"right-pageaccess-viewspecialpage": "Accede alla pagina speciale [[Special:PageAccess]]",
 	"bs-pageaccess-ve-pageaccessinspector-groups": "Gruppi",
-	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Solo questi gruppi hanno accesso alla pagina"
+	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Solo questi gruppi hanno accesso alla pagina",
+	"bs-pageaccess-error-not-member-of-given-groups": "Non sei un membro del gruppo indicato. Per impedire che l'accesso venga bloccato è stato disabilitato il salvataggio.",
+	"log-name-bs-pageaccess": "Registro di accesso pagina",
+	"log-show-hide-bs-pageaccess": "$1 registro di accesso pagina",
+	"logeventslist-bs-pageaccess-log": "Registro di accesso pagina",
+	"apihelp-bs-pageaccess-store-summary": "Controllo di accesso a livello di pagina",
+	"bs-pageaccess-access-restricted": "L'accesso a questa pagina è limitata {{PLURAL:$1|al gruppo|ai gruppi}} <strong>$2</strong>.",
+	"bs-pageaccess-tag-pageaccess-title": "Accesso alla pagina",
+	"bs-pageaccess-tag-pageaccess-desc": "Limita l'accesso in lettura e scrittura per questa pagina ai gruppi indicati sotto",
+	"bs-pageaccess-blockactionsontag-lockdown-reason": "L'azione \"$1\" è disponibile solo per {{PLURAL:$2|il gruppo|i gruppi}} $3"
 }
