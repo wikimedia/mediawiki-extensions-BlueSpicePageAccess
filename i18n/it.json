@@ -26,5 +26,6 @@
 	"bs-pageaccess-access-restricted": "L'accesso a questa pagina è limitata {{PLURAL:$1|al gruppo|ai gruppi}} <strong>$2</strong>.",
 	"bs-pageaccess-tag-pageaccess-title": "Accesso alla pagina",
 	"bs-pageaccess-tag-pageaccess-desc": "Limita l'accesso in lettura e scrittura per questa pagina ai gruppi indicati sotto",
-	"bs-pageaccess-blockactionsontag-lockdown-reason": "L'azione \"$1\" è disponibile solo per {{PLURAL:$2|il gruppo|i gruppi}} $3"
+	"bs-pageaccess-blockactionsontag-lockdown-reason": "L'azione \"$1\" è disponibile solo per {{PLURAL:$2|il gruppo|i gruppi}} $3",
+	"bs-pageaccess-error-included-forbidden-template": "Si è cercato di utilizzare il template \"$1\", per il quale non si ha accesso in lettura. Per evitare che l'utente venga bloccato, il salvataggio è stato disabilitato."
 }
