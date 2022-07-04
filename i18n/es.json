@@ -4,6 +4,7 @@
 			"DannyS712",
 			"DiegoAmbrocio",
 			"Fitoschido",
+			"Francodiaz7",
 			"Macofe",
 			"Themasterriot"
 		]
@@ -24,7 +25,9 @@
 	"bs-pageaccess-column-groups": "Grupos",
 	"apihelp-bs-pageaccess-store-summary": "Control de acceso a nivel de página",
 	"right-pageaccess-viewspecialpage": "Acceso a la página especial [[Special:PageAccess]]",
+	"bs-pageaccess-access-restricted": "El acceso a esta página está restringido a {{PLURAL:$1| el grupo|los grupos}} <strong>$2</strong>.",
 	"bs-pageaccess-tag-pageaccess-title": "Acceso a la página",
+	"bs-pageaccess-tag-pageaccess-desc": "Restringe el acceso de lectura y escritura para esta página a los grupos nombrados a continuación",
 	"bs-pageaccess-ve-pageaccessinspector-groups": "Grupos",
 	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Solo estos grupos tienen acceso a la página",
 	"bs-pageaccess-blockactionsontag-lockdown-reason": "La acción «$1» solo está disponible para {{PLURAL:$2|el grupo|los grupos}} $3"
