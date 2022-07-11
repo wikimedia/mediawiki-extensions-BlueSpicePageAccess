@@ -8,12 +8,13 @@
 			"Meshkov.a",
 			"Movses",
 			"Okras",
+			"Pacha Tchernof",
 			"Striking Blue",
 			"Vlad5250"
 		]
 	},
 	"bs-pageaccess-desc": "Управление доступом на уровне страницы",
-	"bs-pageaccess-error-no-groups-given": "Группы не были указаны.",
+	"bs-pageaccess-error-no-groups-given": "Ни одной группы не было указано.",
 	"bs-pageaccess-error-not-member-of-given-groups": "Вы не входите в состав указанных групп. Чтобы уберечь вас от самоблокировки, сохранение было отключено.",
 	"bs-pageaccess-error-included-forbidden-template": "Вы пытались использовать шаблон «$1», к которому у вас нет доступа на чтение. Для того, чтобы предотвратить автоблокировку, сохранение было отключено.",
 	"bs-pageaccess-tag-groups-desc": "Определяет группы, которые должны иметь эксклюзивный доступ к странице. Несколько групп разделяются запятыми.",
