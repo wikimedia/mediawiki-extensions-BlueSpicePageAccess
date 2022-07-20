@@ -4,5 +4,7 @@
 			"Yupik"
 		]
 	},
-	"action-pageaccess-viewspecialpage": "ǩiččâd tuåimmseeid \"{{int:pageaccess}}\""
+	"action-pageaccess-viewspecialpage": "ǩiččâd tuåimmseeid \"{{int:pageaccess}}\"",
+	"bs-pageaccess-column-title": "Seiddnõmm",
+	"bs-pageaccess-column-groups": "Joouk"
 }
