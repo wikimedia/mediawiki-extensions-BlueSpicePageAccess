@@ -7,7 +7,7 @@ use BlueSpice\Tag\Handler;
 class PageAccessHandler extends Handler {
 
 	public function handle() {
-		$oldAccessGroups = $this->parser->getOutput()->getProperty( 'bs-page-access' );
+		$oldAccessGroups = $this->parser->getOutput()->getPageProperty( 'bs-page-access' );
 		if ( $oldAccessGroups ) {
 			$this->processedArgs['groups'] = $oldAccessGroups . "," . $this->processedArgs['groups'];
 		}

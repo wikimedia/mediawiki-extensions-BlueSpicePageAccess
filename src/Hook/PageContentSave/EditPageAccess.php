@@ -34,7 +34,7 @@ class EditPageAccess extends PageContentSave {
 			$this->content, null, $this->user
 		);
 
-		$prop = $editInfo->output->getProperty( 'bs-page-access' );
+		$prop = $editInfo->getOutput()->getPageProperty( 'bs-page-access' );
 		$checkAccessService = $this->getServices()->getService( 'BSPageAccessCheckAccess' );
 
 		if ( $prop ) {
