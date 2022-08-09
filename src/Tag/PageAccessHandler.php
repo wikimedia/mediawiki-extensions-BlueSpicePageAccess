@@ -11,9 +11,8 @@ class PageAccessHandler extends Handler {
 		if ( $oldAccessGroups ) {
 			$this->processedArgs['groups'] = $oldAccessGroups . "," . $this->processedArgs['groups'];
 		}
-		$this->parser->getOutput()->setProperty( 'bs-page-access', $this->processedArgs['groups'] );
+		$this->parser->getOutput()->setPageProperty( 'bs-page-access', $this->processedArgs['groups'] );
 
 		return '';
 	}
-
 }
