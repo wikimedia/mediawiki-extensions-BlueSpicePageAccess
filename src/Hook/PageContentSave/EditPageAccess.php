@@ -4,6 +4,7 @@ namespace BlueSpice\PageAccess\Hook\PageContentSave;
 
 use BlueSpice\Hook\PageContentSave;
 use ManualLogEntry;
+use TextContent;
 use Title;
 
 class EditPageAccess extends PageContentSave {
@@ -48,7 +49,8 @@ class EditPageAccess extends PageContentSave {
 		}
 
 		# Also check if user includes forbidden templates
-		$templateTitles = $this->getTemplateTitles( $this->content->getNativeData() );
+		$contentText = ( $this->content instanceof TextContent ) ? $this->content->getText() : '';
+		$templateTitles = $this->getTemplateTitles( $contentText );
 		foreach ( $templateTitles as $templateTitle ) {
 			if ( !$checkAccessService->isUserAllowed( $templateTitle, $this->user ) ) {
 				$this->status->fatal(
