@@ -4,6 +4,7 @@ namespace BlueSpice\PageAccess\Hook\PageContentSave;
 
 use BlueSpice\Hook\PageContentSave;
 use ManualLogEntry;
+use MediaWiki\Revision\SlotRecord;
 use TextContent;
 use Title;
 
@@ -31,11 +32,12 @@ class EditPageAccess extends PageContentSave {
 
 	protected function doProcess() {
 		# Prevent user from locking himself out of his own page
-		$editInfo = $this->wikipage->prepareContentForEdit(
-			$this->content, null, $this->user
-		);
+		$updater = $this->wikipage->newPageUpdater( $this->user );
+		$updater->setContent( SlotRecord::MAIN, $this->content );
+		$preparedUpdate = $updater->prepareUpdate();
+		$output = $preparedUpdate->getCanonicalParserOutput();
 
-		$prop = $editInfo->getOutput()->getPageProperty( 'bs-page-access' );
+		$prop = $output->getPageProperty( 'bs-page-access' );
 		$checkAccessService = $this->getServices()->getService( 'BSPageAccessCheckAccess' );
 
 		if ( $prop ) {
