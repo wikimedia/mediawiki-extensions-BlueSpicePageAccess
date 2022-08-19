@@ -127,6 +127,9 @@
 				"bs-pageaccess-tag-pageaccess-title",
 				"bs-pageaccess-ve-pageaccessinspector-groups",
 				"bs-pageaccess-tag-pageaccess-desc-param-groups"
+			],
+			"dependencies": [
+				"ext.bluespice.visualEditorConnector.tags.classes"
 			]
 		}
 	},
