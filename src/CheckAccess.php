@@ -47,10 +47,8 @@ class CheckAccess implements IServiceProvider {
 		$this->getServices()->getHookContainer()->run( 'BSPageAccessAddAdditionalAccessGroups', [
 			&$accessGroupsList
 		] );
-		$userGroups = array_merge(
-			$this->getServices()->getUserGroupManager()->getUserGroups( $user ),
-			$user->getImplicitGroups()
-		);
+		$userGroupManager = $this->getServices()->getUserGroupManager();
+		$userGroups = $userGroupManager->getUserEffectiveGroups( $user );
 		return empty( array_intersect( $accessGroupsList, $userGroups ) );
 	}
 
