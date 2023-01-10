@@ -32,5 +32,10 @@
 	},
 	"extra": {
 		"installer-name": "BlueSpicePageAccess"
+	},
+	"config": {
+		"allow-plugins": {
+			"composer/installers": true
+		}
 	}
 }
