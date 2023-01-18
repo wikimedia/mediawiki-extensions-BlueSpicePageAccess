@@ -13,8 +13,13 @@ class AccessState extends AlertProviderBase {
 	 * @return string
 	 */
 	public function getHTML() {
+		$title = $this->skin->getTitle();
+		if ( !$title ) {
+			return '';
+		}
+
 		$groups = MediaWikiServices::getInstance()->getService( 'BSUtilityFactory' )
-			->getPagePropHelper( $this->skin->getTitle() )
+			->getPagePropHelper( $title )
 			->getPageProp( 'bs-page-access' );
 
 		if ( !$groups ) {
