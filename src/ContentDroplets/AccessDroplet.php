@@ -4,7 +4,6 @@ namespace BlueSpice\PageAccess\ContentDroplets;
 
 use MediaWiki\Extension\ContentDroplets\Droplet\TagDroplet;
 use Message;
-use RawMessage;
 
 class AccessDroplet extends TagDroplet {
 
@@ -12,21 +11,21 @@ class AccessDroplet extends TagDroplet {
 	 * @inheritDoc
 	 */
 	public function getName(): Message {
-		return new RawMessage( 'PageAccess' );
+		return Message::newFromKey( 'bs-pageaccess-droplet-name' );
 	}
 
 	/**
 	 * @inheritDoc
 	 */
 	public function getDescription(): Message {
-		return new RawMessage( "PageAccess description" );
+		return Message::newFromKey( 'bs-pageaccess-droplet-description' );
 	}
 
 	/**
 	 * @inheritDoc
 	 */
 	public function getIcon(): string {
-		return 'key';
+		return 'droplet-pageaccess';
 	}
 
 	/**

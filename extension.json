@@ -122,6 +122,7 @@
 			"scripts": [
 				"bs.pgaccss/util/tag/PageAccessDefinition.js"
 			],
+			"styles": "stylesheets/bluespice.pageaccess.droplet.css",
 			"messages": [
 				"bs-pageaccess-tag-pageaccess-desc",
 				"bs-pageaccess-tag-pageaccess-title",
