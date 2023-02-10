@@ -32,8 +32,8 @@ class AccessDroplet extends TagDroplet {
 	/**
 	 * @inheritDoc
 	 */
-	public function getRLModule(): string {
-		return 'ext.bluespice.pageaccess.visualEditorTagDefinition';
+	public function getRLModules(): array {
+		return [ 'ext.bluespice.pageaccess.visualEditorTagDefinition' ];
 	}
 
 	/**
