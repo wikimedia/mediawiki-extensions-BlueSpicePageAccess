@@ -30,5 +30,7 @@
 	"bs-pageaccess-blockactionsontag-lockdown-reason": "De handeling \"$1\" is alleen beschikbaar voor de {{PLURAL:$2|groep|groepen}} $3",
 	"log-description-bs-pageaccess": "Dit is een logboek van wijzigingen in de instellingen voor paginatoegang.",
 	"logeventslist-bs-pageaccess-log": "Paginatoegangslogboek",
-	"apihelp-bs-pageaccess-store-summary": "De toegang regelen op paginaniveau"
+	"apihelp-bs-pageaccess-store-summary": "De toegang regelen op paginaniveau",
+	"bs-pageaccess-droplet-name": "Paginatoegang",
+	"bs-pageaccess-droplet-description": "Beperkt de toegang tot de pagina tot de opgegeven groepen"
 }
