@@ -25,5 +25,7 @@
 	"bs-pageaccess-tag-pageaccess-desc": "Limita le accesso de lectura e scriptura a iste pagina al gruppos indicate hic infra",
 	"bs-pageaccess-ve-pageaccessinspector-groups": "Gruppos",
 	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Solmente iste gruppos ha accesso al pagina",
-	"bs-pageaccess-blockactionsontag-lockdown-reason": "Le action \"$1\" es solmente disponibile pro le gruppo{{PLURAL:$2||s}} $3"
+	"bs-pageaccess-blockactionsontag-lockdown-reason": "Le action \"$1\" es solmente disponibile pro le gruppo{{PLURAL:$2||s}} $3",
+	"bs-pageaccess-droplet-name": "Accesso al pagina",
+	"bs-pageaccess-droplet-description": "Restringe accesso al pagina al gruppos specificate"
 }
