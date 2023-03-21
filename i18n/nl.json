@@ -30,5 +30,7 @@
 	"bs-pageaccess-tag-pageaccess-desc": "Beperkt de lees- en schrijfrechten voor deze pagina tot de groepen die hieronder worden genoemd",
 	"bs-pageaccess-ve-pageaccessinspector-groups": "Groepen",
 	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Alleen deze groepen hebben toegang tot deze pagina",
-	"bs-pageaccess-blockactionsontag-lockdown-reason": "De handeling \"$1\" is alleen beschikbaar voor de {{PLURAL:$2|groep|groepen}} $3"
+	"bs-pageaccess-blockactionsontag-lockdown-reason": "De handeling \"$1\" is alleen beschikbaar voor de {{PLURAL:$2|groep|groepen}} $3",
+	"bs-pageaccess-droplet-name": "Paginatoegang",
+	"bs-pageaccess-droplet-description": "Beperkt de toegang tot de pagina tot de opgegeven groepen"
 }
