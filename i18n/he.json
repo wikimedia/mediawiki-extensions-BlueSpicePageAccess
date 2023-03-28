@@ -4,7 +4,8 @@
 			"Erelon",
 			"Ex-Diktator",
 			"Guycn2",
-			"Steeve815"
+			"Steeve815",
+			"Amire80"
 		]
 	},
 	"bs-pageaccess-desc": "הגבלת גישה לקריאה על בסיס דף",
@@ -28,5 +29,7 @@
 	"bs-pageaccess-tag-pageaccess-desc": "הגבלת גישת קריאה וכתיבה לדף הזה לקבוצות הרשומות למטה",
 	"bs-pageaccess-ve-pageaccessinspector-groups": "קבוצות",
 	"bs-pageaccess-tag-pageaccess-desc-param-groups": "רק לקבוצות הבאות יש גישה לדף",
-	"bs-pageaccess-blockactionsontag-lockdown-reason": "הפעולה \"$1\" זמינה רק {{PLURAL:$2|לקבוצה|לקבוצות}} $3"
+	"bs-pageaccess-blockactionsontag-lockdown-reason": "הפעולה \"$1\" זמינה רק {{PLURAL:$2|לקבוצה|לקבוצות}} $3",
+	"bs-pageaccess-droplet-name": "גישה לדף",
+	"bs-pageaccess-droplet-description": "הגבלת הגישה לדף לקבוצות שצוינו"
 }
