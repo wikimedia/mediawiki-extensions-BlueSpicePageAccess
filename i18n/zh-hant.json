@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Kly",
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Winston Sung"
 		]
 	},
 	"bs-pageaccess-desc": "在頁面層級上的控制存取",
@@ -26,5 +27,6 @@
 	"bs-pageaccess-tag-pageaccess-desc": "限制此頁面對於以下所命名群組的讀寫存取",
 	"bs-pageaccess-ve-pageaccessinspector-groups": "群組",
 	"bs-pageaccess-tag-pageaccess-desc-param-groups": "僅有這些群組可以存取頁面",
-	"bs-pageaccess-blockactionsontag-lockdown-reason": "操作「$1」僅對{{PLURAL:$2|群組}}$3可用"
+	"bs-pageaccess-blockactionsontag-lockdown-reason": "操作「$1」僅對{{PLURAL:$2|群組}}$3可用",
+	"bs-pageaccess-droplet-name": "頁面存取"
 }
