@@ -2,13 +2,12 @@
 
 namespace BlueSpice\PageAccess;
 
-use BlueSpice\IServiceProvider;
 use Config;
 use MediaWiki\MediaWikiServices;
 use Title;
 use User;
 
-class CheckAccess implements IServiceProvider {
+class CheckAccess {
 
 	/**
 	 * @var Config
