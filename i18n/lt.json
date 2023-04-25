@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Eitvys200",
-			"Zygimantus"
+			"Zygimantus",
+			"Nokeoo"
 		]
 	},
 	"bs-pageaccess-desc": "Kontroliuoja prieigą puslapio lygyje",
@@ -14,6 +15,18 @@
 	"log-name-bs-pageaccess": "Puslapio prieigos žurnalas",
 	"log-description-bs-pageaccess": "Tai yra puslapio prieigos nustatymų pakeitimų žurnalas.",
 	"log-show-hide-bs-pageaccess": "$1 puslapio prieigos žurnalas",
+	"logeventslist-bs-pageaccess-log": "Puslapio prieigos žurnalas",
 	"logentry-bs-pageaccess-change": "$1 {{GENDER:$2|pakeitė}} prieigos teises iš $3 į „$4“",
-	"action-pageaccess-viewspecialpage": "žiūrėti specialų puslapį „{{int:pageaccess}}“"
+	"action-pageaccess-viewspecialpage": "žiūrėti specialų puslapį „{{int:pageaccess}}“",
+	"bs-pageaccess-column-title": "Puslapio pavadinimas",
+	"bs-pageaccess-column-groups": "Grupės",
+	"apihelp-bs-pageaccess-store-summary": "Valdyti prieigą puslapio lygiu",
+	"right-pageaccess-viewspecialpage": "Prieiga prie specialaus puslapio [[Special:PageAccess]]",
+	"bs-pageaccess-access-restricted": "Prieiga prie šio puslapio ribojama iki {{PLURAL:$1|grupės|grupių}} <strong>$2</strong>.",
+	"bs-pageaccess-tag-pageaccess-title": "Prieiga prie puslapio",
+	"bs-pageaccess-ve-pageaccessinspector-groups": "Grupės",
+	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Tik šios grupės turi prieigą prie puslapio",
+	"bs-pageaccess-blockactionsontag-lockdown-reason": "Veiksmas „$1“ galimas tik {{PLURAL:$2|grupei|grupėms}} $3",
+	"bs-pageaccess-droplet-name": "Prieiga prie puslapio",
+	"bs-pageaccess-droplet-description": "Apriboja prieigą prie puslapio nurodytoms grupėms"
 }

@@ -25,5 +25,7 @@
 	"bs-pageaccess-tag-pageaccess-desc": "Begrenser lese- og skrivetilgang for denne siden til gruppene som nevnes nedenfor",
 	"bs-pageaccess-ve-pageaccessinspector-groups": "Grupper",
 	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Bare disse gruppene har tilgang til siden",
-	"bs-pageaccess-blockactionsontag-lockdown-reason": "Handlingen «$1» er bare tilgjengelig for {{PLURAL:$2|gruppa|gruppene}} $3"
+	"bs-pageaccess-blockactionsontag-lockdown-reason": "Handlingen «$1» er bare tilgjengelig for {{PLURAL:$2|gruppa|gruppene}} $3",
+	"bs-pageaccess-droplet-name": "Sidetilgang",
+	"bs-pageaccess-droplet-description": "Begrenser tilgangen til sider til spesifiserte grupper"
 }
