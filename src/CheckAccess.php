@@ -27,10 +27,13 @@ class CheckAccess {
 	}
 
 	/**
-	 * @param string $groups a comma separated list of user groups
+	 * @param string|null $groups a comma separated list of user groups
 	 * @return array
 	 */
-	public function groupsStringToArray( $groups ) {
+	public function groupsStringToArray( ?string $groups ): array {
+		if ( $groups === null ) {
+			return [];
+		}
 		return array_map( "trim", explode( ',', $groups ) );
 	}
 
