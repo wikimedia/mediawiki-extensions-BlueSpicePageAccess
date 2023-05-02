@@ -4,6 +4,7 @@ namespace BlueSpice\PageAccess\Hook\PageContentSave;
 
 use BlueSpice\Hook\PageContentSave;
 use ManualLogEntry;
+use MediaWiki\MediaWikiServices;
 use MediaWiki\Revision\SlotRecord;
 use TextContent;
 use Title;
@@ -37,8 +38,9 @@ class EditPageAccess extends PageContentSave {
 		$preparedUpdate = $updater->prepareUpdate();
 		$output = $preparedUpdate->getCanonicalParserOutput();
 
+		$services = MediaWikiServices::getInstance();
 		$prop = $output->getPageProperty( 'bs-page-access' );
-		$checkAccessService = $this->getServices()->getService( 'BSPageAccessCheckAccess' );
+		$checkAccessService = $services->getService( 'BSPageAccessCheckAccess' );
 
 		if ( $prop ) {
 			$accessGroups = $checkAccessService->groupsStringToArray( $prop );
@@ -61,14 +63,12 @@ class EditPageAccess extends PageContentSave {
 				return false;
 			}
 		}
-		$service = $this->getServices()->getService( 'BSUtilityFactory' );
-		$accessGroupsOld = $checkAccessService->groupsStringToArray(
-			$service->getPagePropHelper( $this->wikipage->getTitle() )->getPageProp( 'bs-page-access' )
-		);
+		$title = $this->wikipage->getTitle();
+		$pageProps = $services->getPageProps()->getProperties( $title, 'bs-page-access' );
+		$accessGroupsOld = $pageProps[$title->getArticleID()] ?? [];
 
 		if ( $accessGroups != $accessGroupsOld ) {
 			// Create a log entry for the change on the page-access settings
-			$title = $this->wikipage->getTitle();
 			$logger = new ManualLogEntry( 'bs-pageaccess', 'change' );
 			$logger->setPerformer( $this->user );
 			$logger->setTarget( $title );
