@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Alshamiri1",
 			"Meno25",
 			"ديفيد",
 			"محمد أحمد عبد الفتاح"
@@ -27,5 +28,7 @@
 	"bs-pageaccess-tag-pageaccess-desc": "يقيد الوصول إلى هذه الصفحة وكتابتها على الوصول إلى المجموعات المُدرجة أدناه",
 	"bs-pageaccess-ve-pageaccessinspector-groups": "المجموعات",
 	"bs-pageaccess-tag-pageaccess-desc-param-groups": "هذه المجموعات فقط لديها حق الوصول إلى الصفحة",
-	"bs-pageaccess-blockactionsontag-lockdown-reason": "اتخاذ الإجراء \"$1\" متوفر فقط لل{{PLURAL:$2|مجموعة|مجموعات}} $3"
+	"bs-pageaccess-blockactionsontag-lockdown-reason": "اتخاذ الإجراء \"$1\" متوفر فقط لل{{PLURAL:$2|مجموعة|مجموعات}} $3",
+	"bs-pageaccess-droplet-name": "الوصول إلى الصفحة",
+	"bs-pageaccess-droplet-description": "Restricts access to the page to the specified groups"
 }
