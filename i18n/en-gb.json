@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piano1forte2"
+		]
+	},
+	"bs-pageaccess-error-included-forbidden-template": "You have tried to use the template '$1' to which you do not have read access. In order to prevent you from locking yourself out, saving was disabled.",
+	"logentry-bs-pageaccess-change": "$1 {{GENDER:$2|has changed}} the access permissions of $3 to '$4'",
+	"action-pageaccess-viewspecialpage": "view the special page '{{int:pageaccess}}'",
+	"bs-pageaccess-blockactionsontag-lockdown-reason": "The action '$1' is only available for the {{PLURAL:$2|group|groups}} $3"
+}
