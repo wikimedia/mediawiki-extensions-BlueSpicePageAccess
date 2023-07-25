@@ -6,7 +6,8 @@
 			"Fitoschido",
 			"Francodiaz7",
 			"Macofe",
-			"Themasterriot"
+			"Themasterriot",
+			"AnupamM"
 		]
 	},
 	"bs-pageaccess-desc": "Controla el acceso a nivel de página",
@@ -30,5 +31,6 @@
 	"bs-pageaccess-tag-pageaccess-desc": "Restringe el acceso de lectura y escritura para esta página a los grupos nombrados a continuación",
 	"bs-pageaccess-ve-pageaccessinspector-groups": "Grupos",
 	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Solo estos grupos tienen acceso a la página",
-	"bs-pageaccess-blockactionsontag-lockdown-reason": "La acción «$1» solo está disponible para {{PLURAL:$2|el grupo|los grupos}} $3"
+	"bs-pageaccess-blockactionsontag-lockdown-reason": "La acción «$1» solo está disponible para {{PLURAL:$2|el grupo|los grupos}} $3",
+	"bs-pageaccess-droplet-name": "Acceso a la página"
 }
