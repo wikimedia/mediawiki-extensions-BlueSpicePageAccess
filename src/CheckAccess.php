@@ -76,11 +76,11 @@ class CheckAccess {
 		$allTitles = $title->getTemplateLinksFrom();
 		$allTitles[] = $title;
 		$accessGroups = [];
+		$pageProps = MediaWikiServices::getInstance()->getPageProps();
 		foreach ( $allTitles as $titleToCheck ) {
-			$prop = $this->getPagePropHelper( $titleToCheck )->getPageProp(
-				'bs-page-access'
-			);
-			if ( !$prop ) {
+			$titleProp = $pageProps->getProperties( $titleToCheck, 'bs-page-access' );
+			$prop = $titleProp[$titleToCheck->getArticleID()] ?? '';
+			if ( $prop === '' ) {
 				continue;
 			}
 			$accessGroups = array_merge(
