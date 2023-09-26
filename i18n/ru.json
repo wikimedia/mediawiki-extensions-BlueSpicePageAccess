@@ -34,5 +34,7 @@
 	"bs-pageaccess-tag-pageaccess-desc": "Ограничение доступа к чтению и записи страницы для указанных ниже групп",
 	"bs-pageaccess-ve-pageaccessinspector-groups": "Группы",
 	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Только эти группы имеют доступ к странице",
-	"bs-pageaccess-blockactionsontag-lockdown-reason": "Действие «$1» доступно лишь для {{PLURAL:$2|группы|групп}} «$3»"
+	"bs-pageaccess-blockactionsontag-lockdown-reason": "Действие «$1» доступно лишь для {{PLURAL:$2|группы|групп}} «$3»",
+	"bs-pageaccess-droplet-name": "Доступ к странице",
+	"bs-pageaccess-droplet-description": "Ограничивает доступ к странице указанным группам"
 }

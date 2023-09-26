@@ -29,5 +29,6 @@
 	"bs-pageaccess-ve-pageaccessinspector-groups": "Grupos",
 	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Somente esses grupos têm acesso à página",
 	"bs-pageaccess-blockactionsontag-lockdown-reason": "A ação \"$1\" só está disponível para {{PLURAL:$2|o grupo|os grupos}} $3",
-	"bs-pageaccess-droplet-name": "Acessos à página"
+	"bs-pageaccess-droplet-name": "Acessos à página",
+	"bs-pageaccess-droplet-description": "Restringe o acesso à página para os grupos especificados"
 }
