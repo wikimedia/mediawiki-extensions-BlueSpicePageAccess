@@ -9,7 +9,6 @@
 	"bs-pageaccess-error-not-member-of-given-groups": "Verilen grupların üyesi değilsiniz. Kendinizi kilitlemenizi önlemek için kaydetme devre dışı bırakıldı.",
 	"bs-pageaccess-error-included-forbidden-template": "Okuma erişiminiz olmayan \"$1\" şablonunu kullanmaya çalıştınız. Kendinizi kilitlemenizi önlemek için kaydetme devre dışı bırakıldı.",
 	"bs-pageaccess-tag-groups-desc": "Bir sayfaya özel erişimi olan grupları tanımlar. Birkaç grup virgülle ayrılır.",
-	"pageaccess": "PageAccess tarafından korunan sayfalar",
 	"log-name-bs-pageaccess": "Sayfa erişim günlüğü",
 	"log-description-bs-pageaccess": "Bu sayfa erişim ayarlarındaki değişikliklerin bir günlüğüdür.",
 	"log-show-hide-bs-pageaccess": "$1 sayfa erişim günlüğü",

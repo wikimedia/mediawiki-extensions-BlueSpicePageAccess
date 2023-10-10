@@ -11,7 +11,6 @@
 	"bs-pageaccess-error-not-member-of-given-groups": "您並非所指定群組的成員之一。為了防止您發生自我封鎖的情況，儲存已被停用。",
 	"bs-pageaccess-error-included-forbidden-template": "您並沒有您所嘗試使用模板「$1」的讀取權限。為了防止您發生自我封鎖的情況，儲存已被停用。",
 	"bs-pageaccess-tag-groups-desc": "定義可獨享存取頁面的群組。多個群組請以逗號分隔。",
-	"pageaccess": "頁面透過 PageAccess 來維護",
 	"log-name-bs-pageaccess": "頁面存取日誌",
 	"log-description-bs-pageaccess": "此為頁面存取設定的更改日誌。",
 	"log-show-hide-bs-pageaccess": "$1頁面存取日誌",

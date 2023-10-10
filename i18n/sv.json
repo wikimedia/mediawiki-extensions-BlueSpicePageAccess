@@ -13,7 +13,6 @@
 	"bs-pageaccess-error-not-member-of-given-groups": "Du inte är medlem i de angivna grupperna. För att förhindra att du låser dig själv ute så inaktiverades sparandet.",
 	"bs-pageaccess-error-included-forbidden-template": "Du har försökt att använda mallen \"$1\" för vilken du inte har läsbehörighet. För att förhindra att du låser dig själv ute, har spara inaktiverats.",
 	"bs-pageaccess-tag-groups-desc": "Definierar de grupper som ska ha exklusiv tillgång till den här sidan. Flera grupper kan separeras med kommatecken.",
-	"pageaccess": "Sidor som skyddas av PageAccess",
 	"log-name-bs-pageaccess": "Logg för sidåtkomst",
 	"log-description-bs-pageaccess": "Detta är en logg över ändringar i sidans åtkomstinställningar.",
 	"log-show-hide-bs-pageaccess": "$1 logg för sidåtkomst",

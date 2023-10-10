@@ -9,7 +9,6 @@
 	"bs-pageaccess-error-not-member-of-given-groups": "Du er ikke medlem av de angitte gruppene. For at du ikke skal bli stengt ute ble lagringen deaktivert.",
 	"bs-pageaccess-error-included-forbidden-template": "Du har prøvd å bruke malen «$1» som du ikke har lesetilgang til. For å forhindre at du blir utestengt ble lagring deaktivert.",
 	"bs-pageaccess-tag-groups-desc": "Definerer gruppene som har eksklusiv tilgang til en side. Flere grupper atskilles med komma.",
-	"pageaccess": "Sider som er sikret med PageAccess",
 	"log-name-bs-pageaccess": "Sidetilgangslogg",
 	"log-description-bs-pageaccess": "Dette er en logg over endringer i sidetilgangsinnstillingene.",
 	"log-show-hide-bs-pageaccess": "$1 sidetilgangslogg",

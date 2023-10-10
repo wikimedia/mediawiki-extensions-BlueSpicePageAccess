@@ -9,7 +9,6 @@
 	"bs-pageaccess-error-not-member-of-given-groups": "Tu non es membro del gruppos indicate. Pro impedir que tu exclude te mesme, le salveguardar ha essite disactivate.",
 	"bs-pageaccess-error-included-forbidden-template": "Tu ha essayate de usar le patrono \"$1\" pro le qual tu non ha accesso de lectura. Pro impedir que tu exclude te mesme, le salveguardar ha essite disactivate.",
 	"bs-pageaccess-tag-groups-desc": "Defini le gruppos que ha accesso exclusive a un pagina. Plure gruppos se separa per commas.",
-	"pageaccess": "Paginas protegite per PageAccess",
 	"log-name-bs-pageaccess": "Registro de accesso a paginas",
 	"log-description-bs-pageaccess": "Isto es un registro de cambiamentos apportate al parametros de accesso de paginas.",
 	"log-show-hide-bs-pageaccess": "$1 le registro de accesso a paginas",
