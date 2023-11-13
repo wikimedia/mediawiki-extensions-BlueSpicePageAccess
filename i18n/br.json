@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Adriendelucca",
 			"Fohanno"
 		]
 	},
-	"bs-pageaccess-error-no-groups-given": "N'eus bet diferet strollad ebet."
+	"bs-pageaccess-error-no-groups-given": "N'eus bet diferet strollad ebet.",
+	"bs-pageaccess-column-groups": "Strolladoù",
+	"bs-pageaccess-ve-pageaccessinspector-groups": "Strolladoù"
 }
