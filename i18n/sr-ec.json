@@ -28,5 +28,6 @@
 	"bs-pageaccess-ve-pageaccessinspector-groups": "Групе",
 	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Само ове групе имају приступ страници",
 	"bs-pageaccess-blockactionsontag-lockdown-reason": "Акција \"$1\" је доступна само {{PLURAL:$2|групи|групама}} $3",
-	"bs-pageaccess-droplet-name": "Приступ страници"
+	"bs-pageaccess-droplet-name": "Приступ страници",
+	"bs-pageaccess-droplet-description": "Ограничава приступ страници наведеним групама"
 }
