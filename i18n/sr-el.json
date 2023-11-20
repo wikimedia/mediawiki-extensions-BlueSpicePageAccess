@@ -22,5 +22,7 @@
 	"bs-pageaccess-tag-pageaccess-desc": "Ograničava pristup čitanja i pisanja za ovu stranicu na doleimenovane grupe",
 	"bs-pageaccess-ve-pageaccessinspector-groups": "Grupe",
 	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Samo ove grupe imaju pristup stranici",
-	"bs-pageaccess-blockactionsontag-lockdown-reason": "Akcija \"$1\" je dostupna samo {{PLURAL:$2|grupi|grupama}} $3"
+	"bs-pageaccess-blockactionsontag-lockdown-reason": "Akcija \"$1\" je dostupna samo {{PLURAL:$2|grupi|grupama}} $3",
+	"bs-pageaccess-droplet-name": "Pristup stranici",
+	"bs-pageaccess-droplet-description": "Ograničava pristup stranici navedenim grupama"
 }
