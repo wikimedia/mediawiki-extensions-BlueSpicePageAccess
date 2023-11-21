@@ -11,7 +11,6 @@
 	"bs-pageaccess-error-not-member-of-given-groups": "Нисте члан дате групе. Да би сте спречили да се закључате, чување је онемогућено.",
 	"bs-pageaccess-error-included-forbidden-template": "Покушали сте да користите шаблон \"$1\" коме немате приступ за читање. Да бисте спречили да се закључате, чување је онемогућено.",
 	"bs-pageaccess-tag-groups-desc": "Дефинише групе које имају ексклузивни приступ страници. Неколико група раздвојено је зарезима.",
-	"pageaccess": "Осигуране странице од стране PageAccess",
 	"log-name-bs-pageaccess": "Дневник приступа страници",
 	"log-description-bs-pageaccess": "Ово је дневник промена у подешавањима приступа страницама.",
 	"log-show-hide-bs-pageaccess": "$1 дневник приступа страници",
@@ -27,5 +26,7 @@
 	"bs-pageaccess-tag-pageaccess-desc": "Ограничава приступ читања и писања за ову страницу на долеименоване групе",
 	"bs-pageaccess-ve-pageaccessinspector-groups": "Групе",
 	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Само ове групе имају приступ страници",
-	"bs-pageaccess-blockactionsontag-lockdown-reason": "Акција \"$1\" је доступна само {{PLURAL:$2|групи|групама}} $3"
+	"bs-pageaccess-blockactionsontag-lockdown-reason": "Акција \"$1\" је доступна само {{PLURAL:$2|групи|групама}} $3",
+	"bs-pageaccess-droplet-name": "Приступ страници",
+	"bs-pageaccess-droplet-description": "Ограничава приступ страници наведеним групама"
 }
