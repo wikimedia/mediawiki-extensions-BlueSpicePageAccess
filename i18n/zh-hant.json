@@ -28,5 +28,6 @@
 	"bs-pageaccess-ve-pageaccessinspector-groups": "群組",
 	"bs-pageaccess-tag-pageaccess-desc-param-groups": "僅有這些群組可以存取頁面",
 	"bs-pageaccess-blockactionsontag-lockdown-reason": "操作「$1」僅對{{PLURAL:$2|群組}}$3可用",
-	"bs-pageaccess-droplet-name": "頁面存取"
+	"bs-pageaccess-droplet-name": "頁面存取",
+	"bs-pageaccess-droplet-description": "限制指定群組的頁面存取"
 }
