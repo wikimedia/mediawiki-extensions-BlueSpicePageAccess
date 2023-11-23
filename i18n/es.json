@@ -1,13 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"AnupamM",
 			"DannyS712",
 			"DiegoAmbrocio",
 			"Fitoschido",
 			"Francodiaz7",
 			"Macofe",
-			"Themasterriot",
-			"AnupamM"
+			"Themasterriot"
 		]
 	},
 	"bs-pageaccess-desc": "Controla el acceso a nivel de página",
