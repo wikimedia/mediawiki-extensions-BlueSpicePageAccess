@@ -4,7 +4,8 @@
 			"2nd-player",
 			"Shirayuki",
 			"Suyama",
-			"UsagiNeko"
+			"UsagiNeko",
+			"もなー(偽物)"
 		]
 	},
 	"bs-pageaccess-desc": "ページ単位でアクセスを制御する",
@@ -17,5 +18,7 @@
 	"action-pageaccess-viewspecialpage": "特別ページ「{{int:pageaccess}}」の閲覧",
 	"bs-pageaccess-column-groups": "グループ",
 	"right-pageaccess-viewspecialpage": "特別ページ [[Special:PageAccess]] を利用",
-	"bs-pageaccess-ve-pageaccessinspector-groups": "グループ"
+	"bs-pageaccess-ve-pageaccessinspector-groups": "グループ",
+	"bs-pageaccess-column-title": "ページ名",
+	"apihelp-bs-pageaccess-store-summary": "ページ単位でアクセスを制御する"
 }
