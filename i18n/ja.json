@@ -20,5 +20,7 @@
 	"right-pageaccess-viewspecialpage": "特別ページ [[Special:PageAccess]] を利用",
 	"bs-pageaccess-ve-pageaccessinspector-groups": "グループ",
 	"bs-pageaccess-column-title": "ページ名",
-	"apihelp-bs-pageaccess-store-summary": "ページ単位でアクセスを制御する"
+	"apihelp-bs-pageaccess-store-summary": "ページ単位でアクセスを制御する",
+	"bs-pageaccess-tag-pageaccess-title": "ページへのアクセス",
+	"bs-pageaccess-droplet-name": "ページへのアクセス"
 }
