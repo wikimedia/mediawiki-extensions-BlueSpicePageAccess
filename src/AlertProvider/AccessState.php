@@ -18,9 +18,9 @@ class AccessState extends AlertProviderBase {
 			return '';
 		}
 
-		$groups = MediaWikiServices::getInstance()->getService( 'BSUtilityFactory' )
-			->getPagePropHelper( $title )
-			->getPageProp( 'bs-page-access' );
+		$pageProps = MediaWikiServices::getInstance()->getPageProps()
+			->getProperties( $title, 'bs-page-access' );
+		$groups = $pageProps[$title->getArticleID()] ?? [];
 
 		if ( !$groups ) {
 			return '';
