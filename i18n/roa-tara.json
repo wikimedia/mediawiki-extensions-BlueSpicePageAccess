@@ -25,5 +25,7 @@
 	"bs-pageaccess-tag-pageaccess-desc": "Restringe l'accesse a letture e scretture pe sta pàgene a le gruppe nnomenate aqquà sotte",
 	"bs-pageaccess-ve-pageaccessinspector-groups": "Gruppe",
 	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Sole chiste gruppe onne accesse a 'a pàgene",
-	"bs-pageaccess-blockactionsontag-lockdown-reason": "L'azione \"$1\" jè sulamende disponibbele {{PLURAL:$2|pu|pe le}} gruppe $3"
+	"bs-pageaccess-blockactionsontag-lockdown-reason": "L'azione \"$1\" jè sulamende disponibbele {{PLURAL:$2|pu|pe le}} gruppe $3",
+	"bs-pageaccess-droplet-name": "Accesse 'a pàgene",
+	"bs-pageaccess-droplet-description": "Restringe l'accesse a' pàgene a gruppe specificate"
 }
