@@ -9,7 +9,6 @@
 	"bs-pageaccess-error-not-member-of-given-groups": "Non ge sì membre de ste gruppe. Pe no te fà bloccà da sule, le reggistrazziune onne state disabbilitate.",
 	"bs-pageaccess-error-included-forbidden-template": "Ste pruève a ausà 'u modelle \"$1\" 'u quale non ge tène l'accesse in letture. Pe no te fà bloccà da sule, le reggistrazziune onne state disabbilitate.",
 	"bs-pageaccess-tag-groups-desc": "Definisce le gruppe ca onne accesse esclusive a'na pàgene. Cchiù gruppe avènene separate da 'a virgole.",
-	"pageaccess": "Pàggene prutette da PageAccess",
 	"log-name-bs-pageaccess": "Archivije de le trasute jndr'à pàgene",
 	"log-description-bs-pageaccess": "Quiste jè 'n'archivije de cangiaminde jndr'à le 'mbostaziune de accesse d'a pàgene.",
 	"log-show-hide-bs-pageaccess": "$1 archivije de le trasute jndr'à pàgene",
@@ -25,5 +24,7 @@
 	"bs-pageaccess-tag-pageaccess-desc": "Restringe l'accesse a letture e scretture pe sta pàgene a le gruppe nnomenate aqquà sotte",
 	"bs-pageaccess-ve-pageaccessinspector-groups": "Gruppe",
 	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Sole chiste gruppe onne accesse a 'a pàgene",
-	"bs-pageaccess-blockactionsontag-lockdown-reason": "L'azione \"$1\" jè sulamende disponibbele {{PLURAL:$2|pu|pe le}} gruppe $3"
+	"bs-pageaccess-blockactionsontag-lockdown-reason": "L'azione \"$1\" jè sulamende disponibbele {{PLURAL:$2|pu|pe le}} gruppe $3",
+	"bs-pageaccess-droplet-name": "Accesse 'a pàgene",
+	"bs-pageaccess-droplet-description": "Restringe l'accesse a' pàgene a gruppe specificate"
 }
