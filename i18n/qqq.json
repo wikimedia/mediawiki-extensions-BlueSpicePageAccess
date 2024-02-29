@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Beta16",
 			"Leonid Verhovskij <verhovskij@hallowelt.com>",
 			"Liuxinyu970226",
@@ -19,7 +20,7 @@
 	"log-description-bs-pageaccess": "Used in [[Special:Log]], description of the log type",
 	"log-show-hide-bs-pageaccess": "Used in [[Special:Log]]. Parameters:\n* $1 - link text; one of {{msg-mw|Show}} or {{msg-mw|Hide}}\n{{Related|Log-show-hide}}",
 	"logeventslist-bs-pageaccess-log": "Page access log option label on [[Special:Log]]",
-	"logentry-bs-pageaccess-change": "Log message about changes on the access settings for a page.\nParameters:\n* $4 - comma separated list of the allowed groups",
+	"logentry-bs-pageaccess-change": "Log message about changes on the access settings for a page.\nParameters:\n* $4 - comma-separated list of the allowed groups",
 	"action-pageaccess-viewspecialpage": "placeholder to describe that view of special page \"{{int:pageaccess}}\" is restricted for the current user.\n\n{{Doc-action|pageaccess-viewspecialpage}}",
 	"bs-pageaccess-column-title": "Extjs grid calumn label for Pagetitle\n{{Identical|Page title}}",
 	"bs-pageaccess-column-groups": "Extjs grid calumn label for Groups\n{{Identical|Group}}",
@@ -30,7 +31,7 @@
 	"bs-pageaccess-tag-pageaccess-desc": "Description of page access tag used in visual editor inspector",
 	"bs-pageaccess-ve-pageaccessinspector-groups": "Label for groups parameter in visual editor tag inspector\n{{Identical|Group}}",
 	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Help text for groups parameter in visual editor tag inspector",
-	"bs-pageaccess-blockactionsontag-lockdown-reason": "Used to describe that the requested permission for this page is only available for users, that are member of a comma separated list of groups.\n* $1 - Name of the requested action\n* $2 - Number of allowed groups\n* $3 - Comma separated list of groups, that are allowed to access the action on this page",
+	"bs-pageaccess-blockactionsontag-lockdown-reason": "Used to describe that the requested permission for this page is only available for users, that are member of a comma-separated list of groups.\n* $1 - Name of the requested action\n* $2 - Number of allowed groups\n* $3 - Comma-separated list of groups, that are allowed to access the action on this page",
 	"bs-pageaccess-droplet-name": "Title of droplet for tag PageAccess",
 	"bs-pageaccess-droplet-description": "Description of droplet for tag PageAccess"
 }
