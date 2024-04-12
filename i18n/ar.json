@@ -3,6 +3,7 @@
 		"authors": [
 			"Alshamiri1",
 			"Meno25",
+			"أيوب",
 			"ديفيد",
 			"محمد أحمد عبد الفتاح"
 		]
@@ -29,5 +30,5 @@
 	"bs-pageaccess-tag-pageaccess-desc-param-groups": "هذه المجموعات فقط لديها حق الوصول إلى الصفحة",
 	"bs-pageaccess-blockactionsontag-lockdown-reason": "اتخاذ الإجراء \"$1\" متوفر فقط لل{{PLURAL:$2|مجموعة|مجموعات}} $3",
 	"bs-pageaccess-droplet-name": "الوصول إلى الصفحة",
-	"bs-pageaccess-droplet-description": "Restricts access to the page to the specified groups"
+	"bs-pageaccess-droplet-description": "تقييد الوصول إلى الصفحة للمجموعات المحددة"
 }
