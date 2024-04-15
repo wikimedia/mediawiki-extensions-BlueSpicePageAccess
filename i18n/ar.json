@@ -4,7 +4,8 @@
 			"Alshamiri1",
 			"Meno25",
 			"ديفيد",
-			"محمد أحمد عبد الفتاح"
+			"محمد أحمد عبد الفتاح",
+			"أيوب"
 		]
 	},
 	"bs-pageaccess-desc": "يتحكم في الوصول على مستوى الصفحة",
@@ -12,7 +13,6 @@
 	"bs-pageaccess-error-not-member-of-given-groups": "أنت لست عضوا في المجموعات المحددة، لمنعك من قفل نفسك; تم تعطيل الحفظ.",
 	"bs-pageaccess-error-included-forbidden-template": "لقد حاولت استخدام القالب \"$1\" الذي ليس لديك حق الوصول لقراءته، لمنعك من قفل نفسك; تم تعطيل الحفظ.",
 	"bs-pageaccess-tag-groups-desc": "يحدد المجموعات التي لها وصول خاص إلى صفحة، يتم فصل عدة مجموعات بواسطة فواصل.",
-	"pageaccess": "الصفحات المؤمنة بواسطة PageAccess",
 	"log-name-bs-pageaccess": "سجل الوصول للصفحة",
 	"log-description-bs-pageaccess": "هذا سجل التغييرات في إعدادات الوصول إلى الصفحة.",
 	"log-show-hide-bs-pageaccess": "$1 سجل الوصول لصفحة",
@@ -30,5 +30,5 @@
 	"bs-pageaccess-tag-pageaccess-desc-param-groups": "هذه المجموعات فقط لديها حق الوصول إلى الصفحة",
 	"bs-pageaccess-blockactionsontag-lockdown-reason": "اتخاذ الإجراء \"$1\" متوفر فقط لل{{PLURAL:$2|مجموعة|مجموعات}} $3",
 	"bs-pageaccess-droplet-name": "الوصول إلى الصفحة",
-	"bs-pageaccess-droplet-description": "Restricts access to the page to the specified groups"
+	"bs-pageaccess-droplet-description": "تقييد الوصول إلى الصفحة للمجموعات المحددة"
 }
