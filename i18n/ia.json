@@ -20,7 +20,7 @@
 	"bs-pageaccess-column-groups": "Gruppos",
 	"apihelp-bs-pageaccess-store-summary": "Controlar le accesso al nivello de pagina",
 	"right-pageaccess-viewspecialpage": "Accesso al pagina special [[Special:PageAccess]]",
-	"bs-pageaccess-access-restricted": "Le accesso a iste pagina es limitate al gruppo{{PLURAL:$1||s}} <strong>$2</strong>.",
+	"bs-pageaccess-access-restricted": "Le accesso a iste pagina es limitate al gruppo{{PLURAL:$1||s}} <strong>$2<\/strong>.",
 	"bs-pageaccess-tag-pageaccess-title": "Accesso al pagina",
 	"bs-pageaccess-tag-pageaccess-desc": "Limita le accesso de lectura e scriptura a iste pagina al gruppos indicate hic infra",
 	"bs-pageaccess-ve-pageaccessinspector-groups": "Gruppos",

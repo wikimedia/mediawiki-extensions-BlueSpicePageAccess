@@ -1,31 +1,31 @@
 {
 	"@metadata": {
 		"authors": [
-			"Jon Harald Søby"
+			"Jon Harald S\u00f8by"
 		]
 	},
-	"bs-pageaccess-desc": "Kontrollerer tilgang på sidenivå",
+	"bs-pageaccess-desc": "Kontrollerer tilgang p\u00e5 sideniv\u00e5",
 	"bs-pageaccess-error-no-groups-given": "Ingen grupper ble angitt.",
 	"bs-pageaccess-error-not-member-of-given-groups": "Du er ikke medlem av de angitte gruppene. For at du ikke skal bli stengt ute ble lagringen deaktivert.",
-	"bs-pageaccess-error-included-forbidden-template": "Du har prøvd å bruke malen «$1» som du ikke har lesetilgang til. For å forhindre at du blir utestengt ble lagring deaktivert.",
+	"bs-pageaccess-error-included-forbidden-template": "Du har pr\u00f8vd \u00e5 bruke malen \u00ab$1\u00bb som du ikke har lesetilgang til. For \u00e5 forhindre at du blir utestengt ble lagring deaktivert.",
 	"bs-pageaccess-tag-groups-desc": "Definerer gruppene som har eksklusiv tilgang til en side. Flere grupper atskilles med komma.",
 	"pageaccess": "Sider som er sikret med PageAccess",
 	"log-name-bs-pageaccess": "Sidetilgangslogg",
 	"log-description-bs-pageaccess": "Dette er en logg over endringer i sidetilgangsinnstillingene.",
 	"log-show-hide-bs-pageaccess": "$1 sidetilgangslogg",
 	"logeventslist-bs-pageaccess-log": "Logg for sidetilgang",
-	"logentry-bs-pageaccess-change": "$1 {{GENDER:$2|har endret}} tilgangstillatelsene for $3 til «$4»",
-	"action-pageaccess-viewspecialpage": "vise spesialsiden «{{int:pageaccess}}»",
+	"logentry-bs-pageaccess-change": "$1 {{GENDER:$2|har endret}} tilgangstillatelsene for $3 til \u00ab$4\u00bb",
+	"action-pageaccess-viewspecialpage": "vise spesialsiden \u00ab{{int:pageaccess}}\u00bb",
 	"bs-pageaccess-column-title": "Sidetittel",
 	"bs-pageaccess-column-groups": "Grupper",
-	"apihelp-bs-pageaccess-store-summary": "Kontroller tilgang på sidenivå",
+	"apihelp-bs-pageaccess-store-summary": "Kontroller tilgang p\u00e5 sideniv\u00e5",
 	"right-pageaccess-viewspecialpage": "Tilgang til spesialsiden [[Special:PageAccess]].",
-	"bs-pageaccess-access-restricted": "Tilgang til denne siden er begrenset til {{PLURAL:$1|gruppa|gruppene}} <strong>$2</strong>.",
+	"bs-pageaccess-access-restricted": "Tilgang til denne siden er begrenset til {{PLURAL:$1|gruppa|gruppene}} <strong>$2<\/strong>.",
 	"bs-pageaccess-tag-pageaccess-title": "Sidetilgang",
 	"bs-pageaccess-tag-pageaccess-desc": "Begrenser lese- og skrivetilgang for denne siden til gruppene som nevnes nedenfor",
 	"bs-pageaccess-ve-pageaccessinspector-groups": "Grupper",
 	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Bare disse gruppene har tilgang til siden",
-	"bs-pageaccess-blockactionsontag-lockdown-reason": "Handlingen «$1» er bare tilgjengelig for {{PLURAL:$2|gruppa|gruppene}} $3",
+	"bs-pageaccess-blockactionsontag-lockdown-reason": "Handlingen \u00ab$1\u00bb er bare tilgjengelig for {{PLURAL:$2|gruppa|gruppene}} $3",
 	"bs-pageaccess-droplet-name": "Sidetilgang",
 	"bs-pageaccess-droplet-description": "Begrenser tilgangen til sider til spesifiserte grupper"
 }
