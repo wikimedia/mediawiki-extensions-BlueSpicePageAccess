@@ -5,18 +5,18 @@
 			"Elisardojm"
 		]
 	},
-	"bs-pageaccess-desc": "Controla o acceso a nivel de páxina",
-	"bs-pageaccess-error-no-groups-given": "Non se especificou ningún grupo.",
-	"bs-pageaccess-error-not-member-of-given-groups": "No é membro dos grupos dados. Desactivouse o gardado para evitar que se bloquee o acceso.",
-	"bs-pageaccess-error-included-forbidden-template": "Tentou utilizar o modelo \"$1\", para o que non ten acceso para leitura. A gravación foi desativada para evitar o bloqueo do seu acceso.",
-	"bs-pageaccess-tag-groups-desc": "Define os grupos que teñen acceso exclusivo a unha páxina. Separe os distintos grupos con comas.",
-	"pageaccess": "Páxinas aseguradas por PageAccess",
-	"log-name-bs-pageaccess": "Rexistro de acceso a páxinas",
-	"log-description-bs-pageaccess": "Este é un rexistro dos cambios na configuración de acceso á páxina.",
-	"log-show-hide-bs-pageaccess": "$1 rexistro de acceso á páxina",
+	"bs-pageaccess-desc": "Controla o acceso a nivel de p\u00e1xina",
+	"bs-pageaccess-error-no-groups-given": "Non se especificou ning\u00fan grupo.",
+	"bs-pageaccess-error-not-member-of-given-groups": "No \u00e9 membro dos grupos dados. Desactivouse o gardado para evitar que se bloquee o acceso.",
+	"bs-pageaccess-error-included-forbidden-template": "Tentou utilizar o modelo \"$1\", para o que non ten acceso para leitura. A gravaci\u00f3n foi desativada para evitar o bloqueo do seu acceso.",
+	"bs-pageaccess-tag-groups-desc": "Define os grupos que te\u00f1en acceso exclusivo a unha p\u00e1xina. Separe os distintos grupos con comas.",
+	"pageaccess": "P\u00e1xinas aseguradas por PageAccess",
+	"log-name-bs-pageaccess": "Rexistro de acceso a p\u00e1xinas",
+	"log-description-bs-pageaccess": "Este \u00e9 un rexistro dos cambios na configuraci\u00f3n de acceso \u00e1 p\u00e1xina.",
+	"log-show-hide-bs-pageaccess": "$1 rexistro de acceso \u00e1 p\u00e1xina",
 	"logentry-bs-pageaccess-change": "$1 {{GENDER:$2|cambiou}} os permisos de acceso de $3 a \"$4\"",
-	"action-pageaccess-viewspecialpage": "ver a páxina especial \"{{int:pageaccess}}\"",
-	"bs-pageaccess-column-title": "Título da páxina",
+	"action-pageaccess-viewspecialpage": "ver a p\u00e1xina especial \"{{int:pageaccess}}\"",
+	"bs-pageaccess-column-title": "T\u00edtulo da p\u00e1xina",
 	"bs-pageaccess-column-groups": "Grupos",
-	"apihelp-bs-pageaccess-store-summary": "Controla o acceso a nivel de páxina"
+	"apihelp-bs-pageaccess-store-summary": "Controla o acceso a nivel de p\u00e1xina"
 }
