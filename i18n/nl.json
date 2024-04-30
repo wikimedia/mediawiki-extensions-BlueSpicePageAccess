@@ -25,7 +25,7 @@
 	"bs-pageaccess-column-groups": "Groepen",
 	"apihelp-bs-pageaccess-store-summary": "De toegang regelen op paginaniveau",
 	"right-pageaccess-viewspecialpage": "Toegang hebben tot de speciale pagina [[Special:PageAccess]]",
-	"bs-pageaccess-access-restricted": "Toegang tot deze pagina is beperkt tot de {{PLURAL:$1|volgende groep|volgende groepen}} <strong>$2<\/strong>.",
+	"bs-pageaccess-access-restricted": "Toegang tot deze pagina is beperkt tot de {{PLURAL:$1|volgende groep|volgende groepen}} <strong>$2</strong>.",
 	"bs-pageaccess-tag-pageaccess-title": "Paginatoegang",
 	"bs-pageaccess-tag-pageaccess-desc": "Beperkt de lees- en schrijfrechten voor deze pagina tot de groepen die hieronder worden genoemd",
 	"bs-pageaccess-ve-pageaccessinspector-groups": "Groepen",

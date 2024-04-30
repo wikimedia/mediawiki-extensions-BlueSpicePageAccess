@@ -6,12 +6,12 @@
 	},
 	"bs-pageaccess-desc": "Beschtemmp der Zohjang om Nivoh vun einzel Sigge",
 	"bs-pageaccess-error-no-groups-given": "Kein Joppe sin aanjejovve woode.",
-	"bs-pageaccess-error-not-member-of-given-groups": "Do be nit en einer vun d\u00e4 aanjejovve Jroppe.",
-	"bs-pageaccess-error-included-forbidden-template": "Do h\u00e4s di Schablohn \u201e$1\u201c heh ennjebonge, di ze L\u00e4sse De kei R\u00e4\u00e4sch h\u00e4s. \u00d6m Desch nit s\u00e4llver vun heh d\u00e4 Sigg u\u00dfzeschp\u00e4rre, d\u00e4hts De dat b\u00e4\u00dfer nit. Ding \u00c4nderong es j\u00e4z eets ens nit fa\u00dfjehallde.",
+	"bs-pageaccess-error-not-member-of-given-groups": "Do be nit en einer vun dä aanjejovve Jroppe.",
+	"bs-pageaccess-error-included-forbidden-template": "Do häs di Schablohn „$1“ heh ennjebonge, di ze Lässe De kei Rääsch häs. Öm Desch nit sällver vun heh dä Sigg ußzeschpärre, dähts De dat bäßer nit. Ding Änderong es jäz eets ens nit faßjehallde.",
 	"bs-pageaccess-tag-groups-desc": "Jiff de Metmaacher_Jroppe aan, di alleijns Zohjang op heh di Sigg hann sulle. Donn Kommas zwesche de Jroppe schrihve.",
-	"pageaccess": "Sigge, di \u00f6ver PageAccess jeseschert sin.",
-	"log-name-bs-pageaccess": "Logbohch f\u00f6r der Siggezohjreff",
-	"log-description-bs-pageaccess": "Logbohch vun de \u00c4nnderonge aan de Zohjreffsr\u00e4\u00e4schte op Sigge.",
-	"log-show-hide-bs-pageaccess": "$1 et Logbohch f\u00f6r der Siggezohjreff",
-	"logentry-bs-pageaccess-change": "{{GENDER:$2|D\u00e4 Metmaacher|De Metmaacher\u0117n|D\u00e4 Metmaacher|De Metmaacher\u0117n|D\u00e4 Metmaacher}} $1 h\u00e4t de Zohjangsr\u00e4\u00e4schde vun $3 op \u201e$4\u201c ver\u00e4nndert."
+	"pageaccess": "Sigge, di över PageAccess jeseschert sin.",
+	"log-name-bs-pageaccess": "Logbohch för der Siggezohjreff",
+	"log-description-bs-pageaccess": "Logbohch vun de Ännderonge aan de Zohjreffsrääschte op Sigge.",
+	"log-show-hide-bs-pageaccess": "$1 et Logbohch för der Siggezohjreff",
+	"logentry-bs-pageaccess-change": "{{GENDER:$2|Dä Metmaacher|De Metmaacherėn|Dä Metmaacher|De Metmaacherėn|Dä Metmaacher}} $1 hät de Zohjangsrääschde vun $3 op „$4“ veränndert."
 }
