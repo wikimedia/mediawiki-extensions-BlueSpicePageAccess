@@ -5,22 +5,22 @@
 			"Shirayuki",
 			"Suyama",
 			"UsagiNeko",
-			"\u3082\u306a\u30fc(\u507d\u7269)"
+			"もなー(偽物)"
 		]
 	},
-	"bs-pageaccess-desc": "\u30da\u30fc\u30b8\u5358\u4f4d\u3067\u30a2\u30af\u30bb\u30b9\u3092\u5236\u5fa1\u3059\u308b",
-	"bs-pageaccess-error-no-groups-given": "\u30b0\u30eb\u30fc\u30d7\u304c\u6307\u5b9a\u3055\u308c\u3066\u3044\u307e\u305b\u3093\u3002",
-	"bs-pageaccess-tag-groups-desc": "\u30da\u30fc\u30b8\u306b\u6392\u4ed6\u7684\u306b\u30a2\u30af\u30bb\u30b9\u3067\u304d\u308b\u30b0\u30eb\u30fc\u30d7\u3092\u5b9a\u7fa9\u3059\u308b\u3002\u30ab\u30f3\u30de\u533a\u5207\u308a\u3067\u8907\u6570\u306e\u30b0\u30eb\u30fc\u30d7\u3092\u6307\u5b9a\u3059\u308b\u3002",
-	"log-name-bs-pageaccess": "\u30da\u30fc\u30b8\u30a2\u30af\u30bb\u30b9\u8a18\u9332",
-	"log-description-bs-pageaccess": "\u3053\u308c\u306f\u3001\u30da\u30fc\u30b8\u306e\u30a2\u30af\u30bb\u30b9\u8a2d\u5b9a\u306e\u5909\u66f4\u8a18\u9332\u3067\u3059\u3002",
-	"log-show-hide-bs-pageaccess": "\u30da\u30fc\u30b8\u30a2\u30af\u30bb\u30b9\u8a18\u9332\u3092$1",
-	"logentry-bs-pageaccess-change": "$1 \u304c $3 \u306e\u30a2\u30af\u30bb\u30b9\u8a31\u53ef\u3092\u300c$4\u300d\u306b{{GENDER:$2|\u5909\u66f4\u3057\u307e\u3057\u305f}}",
-	"action-pageaccess-viewspecialpage": "\u7279\u5225\u30da\u30fc\u30b8\u300c{{int:pageaccess}}\u300d\u306e\u95b2\u89a7",
-	"bs-pageaccess-column-groups": "\u30b0\u30eb\u30fc\u30d7",
-	"right-pageaccess-viewspecialpage": "\u7279\u5225\u30da\u30fc\u30b8 [[Special:PageAccess]] \u3092\u5229\u7528",
-	"bs-pageaccess-ve-pageaccessinspector-groups": "\u30b0\u30eb\u30fc\u30d7",
-	"bs-pageaccess-column-title": "\u30da\u30fc\u30b8\u540d",
-	"apihelp-bs-pageaccess-store-summary": "\u30da\u30fc\u30b8\u5358\u4f4d\u3067\u30a2\u30af\u30bb\u30b9\u3092\u5236\u5fa1\u3059\u308b",
-	"bs-pageaccess-tag-pageaccess-title": "\u30da\u30fc\u30b8\u3078\u306e\u30a2\u30af\u30bb\u30b9",
-	"bs-pageaccess-droplet-name": "\u30da\u30fc\u30b8\u3078\u306e\u30a2\u30af\u30bb\u30b9"
+	"bs-pageaccess-desc": "ページ単位でアクセスを制御する",
+	"bs-pageaccess-error-no-groups-given": "グループが指定されていません。",
+	"bs-pageaccess-tag-groups-desc": "ページに排他的にアクセスできるグループを定義する。カンマ区切りで複数のグループを指定する。",
+	"log-name-bs-pageaccess": "ページアクセス記録",
+	"log-description-bs-pageaccess": "これは、ページのアクセス設定の変更記録です。",
+	"log-show-hide-bs-pageaccess": "ページアクセス記録を$1",
+	"logentry-bs-pageaccess-change": "$1 が $3 のアクセス許可を「$4」に{{GENDER:$2|変更しました}}",
+	"action-pageaccess-viewspecialpage": "特別ページ「{{int:pageaccess}}」の閲覧",
+	"bs-pageaccess-column-groups": "グループ",
+	"right-pageaccess-viewspecialpage": "特別ページ [[Special:PageAccess]] を利用",
+	"bs-pageaccess-ve-pageaccessinspector-groups": "グループ",
+	"bs-pageaccess-column-title": "ページ名",
+	"apihelp-bs-pageaccess-store-summary": "ページ単位でアクセスを制御する",
+	"bs-pageaccess-tag-pageaccess-title": "ページへのアクセス",
+	"bs-pageaccess-droplet-name": "ページへのアクセス"
 }
