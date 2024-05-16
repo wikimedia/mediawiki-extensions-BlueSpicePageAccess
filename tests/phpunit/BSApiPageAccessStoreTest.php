@@ -10,6 +10,8 @@ use BlueSpice\Tests\BSApiExtJSStoreTestBase;
  * @group BlueSpiceExtensions
  */
 class BSApiPageAccessStoreTest extends BSApiExtJSStoreTestBase {
+
+	/** @var int */
 	protected $iFixtureTotal = 2;
 
 	protected function getStoreSchema() {
