@@ -13,6 +13,7 @@
 	"bs-pageaccess-error-not-member-of-given-groups": "أنت لست عضوا في المجموعات المحددة، لمنعك من قفل نفسك; تم تعطيل الحفظ.",
 	"bs-pageaccess-error-included-forbidden-template": "لقد حاولت استخدام القالب \"$1\" الذي ليس لديك حق الوصول لقراءته، لمنعك من قفل نفسك; تم تعطيل الحفظ.",
 	"bs-pageaccess-tag-groups-desc": "يحدد المجموعات التي لها وصول خاص إلى صفحة، يتم فصل عدة مجموعات بواسطة فواصل.",
+	"pageaccess": "الصفحات المؤمنة بواسطة PageAccess",
 	"log-name-bs-pageaccess": "سجل الوصول للصفحة",
 	"log-description-bs-pageaccess": "هذا سجل التغييرات في إعدادات الوصول إلى الصفحة.",
 	"log-show-hide-bs-pageaccess": "$1 سجل الوصول لصفحة",

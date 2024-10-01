@@ -15,6 +15,7 @@
 	"bs-pageaccess-error-not-member-of-given-groups": "Du bist nicht Mitglied der angegebenen Gruppen. Um zu verhindern, dass Du dich aus der Seite aussperrst, wurde das Speichern deaktiviert.",
 	"bs-pageaccess-error-included-forbidden-template": "Du hast die Vorlage „$1“ hier eingebunden, auf die du keine Leseberechtigung hast. Um zu verhindern, dass du dich aus der Seite aussperrst, wurde das Abspeichern verhindert.",
 	"bs-pageaccess-tag-groups-desc": "Definiert die Gruppen, die exklusiven Zugriff auf eine Seite haben. Mehrere Gruppen werden durch Kommata getrennt.",
+	"pageaccess": "Durch Page Access geschützte Seiten",
 	"log-name-bs-pageaccess": "Seitenberechtigungs-Logbuch",
 	"log-description-bs-pageaccess": "Logbuch von Änderungen an den Seitenberechtigungen.",
 	"log-show-hide-bs-pageaccess": "$1 Seitenberechtigung-Logbuch",

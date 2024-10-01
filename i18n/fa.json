@@ -14,6 +14,7 @@
 	"bs-pageaccess-error-not-member-of-given-groups": "شما عضوی از گروه‌های داده‌شده نیستید. به منظور جلوگیری از قفل‌کردن خودتان، ذخیره غیرفعال شده است.",
 	"bs-pageaccess-error-included-forbidden-template": "شما تلاش کردید از الگوی «$1»، که دسترسی خواندن آن را ندارید، استفاده کنید. جهت جلوگیری از قفل شدن شما، ذخیره غیرفعال شد.",
 	"bs-pageaccess-tag-groups-desc": "گروه‌هایی که دسترسی اختصاصی به یک صفحه دارند را تعریف می‌کند. گروه‌های متعدد با ویرگول از هم جدا شده‌اند.",
+	"pageaccess": "صفحه‌های امن‌شده توسط PageAccess",
 	"log-name-bs-pageaccess": "سیاههٔ دسترسی به صفحه",
 	"log-description-bs-pageaccess": "این، سیاهه‌ای از تغییرات تنظیمات دسترسی به صفحه است.",
 	"log-show-hide-bs-pageaccess": "$1 سیاههٔ دسترسی به صفحه",

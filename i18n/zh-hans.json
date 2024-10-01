@@ -14,6 +14,7 @@
 	"bs-pageaccess-error-not-member-of-given-groups": "您不是这些组的成员之一。基于防止错误自我封禁，保存被禁用。",
 	"bs-pageaccess-error-included-forbidden-template": "您尝试使用的模板“$1”要求访问权限，但您并没有对应权限。基于防止错误自我封禁，保存被禁用。",
 	"bs-pageaccess-tag-groups-desc": "定义对页面有独占访问权的组。多个组之间以逗号分隔。",
+	"pageaccess": "页面由PageAccess保护安全",
 	"log-name-bs-pageaccess": "页面访问日志",
 	"log-description-bs-pageaccess": "这是页面访问设置中的更改日志。",
 	"log-show-hide-bs-pageaccess": "$1页面访问日志",

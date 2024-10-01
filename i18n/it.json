@@ -12,6 +12,7 @@
 	"bs-pageaccess-error-not-member-of-given-groups": "Non sei un membro del gruppo indicato. Per impedire che l'accesso venga bloccato è stato disabilitato il salvataggio.",
 	"bs-pageaccess-error-included-forbidden-template": "Si è cercato di utilizzare il template \"$1\", per il quale non si ha accesso in lettura. Per evitare che l'utente venga bloccato, il salvataggio è stato disabilitato.",
 	"bs-pageaccess-tag-groups-desc": "Definisce i gruppi che hanno accesso esclusivo a una pagina. Diversi gruppi sono separati da virgole.",
+	"pageaccess": "Pagine protette da PageAccess",
 	"log-name-bs-pageaccess": "Registro di accesso pagina",
 	"log-show-hide-bs-pageaccess": "$1 registro di accesso pagina",
 	"logeventslist-bs-pageaccess-log": "Registro di accesso pagina",

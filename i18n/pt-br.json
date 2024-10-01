@@ -12,6 +12,7 @@
 	"bs-pageaccess-error-not-member-of-given-groups": "Não é um membro dos grupos citados. A gravação foi desativada a fim de evitar o bloqueio do seu acesso.",
 	"bs-pageaccess-error-included-forbidden-template": "Tentou utilizar a predefinição \"$1\", ao qual não tem acesso para leitura. A gravação foi desativada a fim de evitar o bloqueio do seu acesso.",
 	"bs-pageaccess-tag-groups-desc": "Define os grupos que têm acesso exclusivo a uma página. Separe os grupos com vírgula.",
+	"pageaccess": "Páginas protegidas por PageAccess",
 	"log-name-bs-pageaccess": "Log de acesso da página",
 	"log-description-bs-pageaccess": "Este é um registo de alterações de configurações de acesso às páginas.",
 	"log-show-hide-bs-pageaccess": "$1 log de acesso da página",

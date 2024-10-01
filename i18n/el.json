@@ -7,6 +7,7 @@
 	},
 	"bs-pageaccess-desc": "Ελέγχει την πρόσβαση σε επίπεδο σελίδας",
 	"bs-pageaccess-error-no-groups-given": "Δεν ορίστηκαν ομάδες.",
+	"pageaccess": "Ασφαλισμένες σελίδες από το PageAccess",
 	"log-name-bs-pageaccess": "Μητρώο πρόσβασης σελίδας",
 	"action-pageaccess-viewspecialpage": "προβολή της ειδικής σελίδας \"{{int:pageaccess}}\"",
 	"bs-pageaccess-column-title": "Τίτλος σελίδας",

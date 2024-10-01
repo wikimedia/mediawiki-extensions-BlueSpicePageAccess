@@ -13,6 +13,7 @@
 	"bs-pageaccess-error-not-member-of-given-groups": "Vous n’êtes pas membre des groupes indiqués. Afin de vous éviter de vous bloquer vous-même, l’enregistrement a été désactivé.",
 	"bs-pageaccess-error-included-forbidden-template": "Vous avez essayé d’utiliser le modèle « $1 » auquel vous n’avez pas accès en lecture. Afin de vous éviter de vous bloquer vous-même, l’enregistrement a été désactivé.",
 	"bs-pageaccess-tag-groups-desc": "Définit les groupes qui ont un accès exclusif à cette page. Les groupes sont séparés par des virgules.",
+	"pageaccess": "Pages sécurisées par PageAccess",
 	"log-name-bs-pageaccess": "Journal des accès aux pages",
 	"log-description-bs-pageaccess": "Ceci est un journal des modifications des paramètres d’accès aux pages.",
 	"log-show-hide-bs-pageaccess": "$1 le journal des accès aux pages",

@@ -7,6 +7,7 @@
 	"bs-pageaccess-error-not-member-of-given-groups": "Niste član date grupe. Da bi ste sprečili da se zaključate, čuvanje je onemogućeno.",
 	"bs-pageaccess-error-included-forbidden-template": "Pokušali ste da koristite šablon \"$1\" kome nemate pristup za čitanje. Da biste sprečili da se zaključate, čuvanje je onemogućeno.",
 	"bs-pageaccess-tag-groups-desc": "Definiše grupe koje imaju ekskluzivni pristup stranici. Nekoliko grupa razdvojeno je zarezima.",
+	"pageaccess": "Osigurane stranice od strane PageAccess",
 	"log-name-bs-pageaccess": "Dnevnik pristupa stranici",
 	"log-description-bs-pageaccess": "Ovo je dnevnik promena u podešavanjima pristupa stranicama.",
 	"log-show-hide-bs-pageaccess": "$1 dnevnik pristupa stranici",

@@ -15,6 +15,7 @@
 	"bs-pageaccess-error-not-member-of-given-groups": "No eres miembro de los grupos dados. Se desactivó el guardado para evitar que te bloquees el acceso.",
 	"bs-pageaccess-error-included-forbidden-template": "Has intentado usar la plantilla «$1» para la cual no tienes acceso de lectura. Se desactivó el guardado para evitar que te bloquees el acceso.",
 	"bs-pageaccess-tag-groups-desc": "Define los grupos que tienen acceso exclusivo a una página. Separa los distintos grupos con comas.",
+	"pageaccess": "Páginas aseguradas por PageAccess",
 	"log-name-bs-pageaccess": "Registro de acceso a páginas",
 	"log-description-bs-pageaccess": "Este es un registro de los cambios en la configuración de acceso a la página.",
 	"log-show-hide-bs-pageaccess": "$1 el registro de acceso a páginas",

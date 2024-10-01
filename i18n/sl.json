@@ -12,6 +12,7 @@
 	"bs-pageaccess-error-not-member-of-given-groups": "Niste član danih skupin. Shranjevanje je bilo onemogočeno za primer preprečitve odstranitve lastnega dostopa.",
 	"bs-pageaccess-error-included-forbidden-template": "Poskusili ste uporabiti predlogo \"$1\" do katere nimate (bralskega) dostopa. Shranjevanje je bilo onemogočeno za primer preprečitve odstranitve lastnega dostopa.",
 	"bs-pageaccess-tag-groups-desc": "Določa skupine z izključnim dostopom do strani. Več skupin ločite z vejicami.",
+	"pageaccess": "Strani so zaščitene s PageAccessom",
 	"log-name-bs-pageaccess": "Dnevnik dostopa do strani",
 	"log-description-bs-pageaccess": "To je dnevnik sprememb v nastavitvah dostopa do strani.",
 	"log-show-hide-bs-pageaccess": "$1 dnevnik dostopa do strani",
