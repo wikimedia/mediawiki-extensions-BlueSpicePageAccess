@@ -27,5 +27,6 @@
 	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Only these groups have access to the page",
 	"bs-pageaccess-blockactionsontag-lockdown-reason": "The action \"$1\" is only available for the {{PLURAL:$2|group|groups}} $3",
 	"bs-pageaccess-droplet-name": "Page access",
-	"bs-pageaccess-droplet-description": "Restricts access to the page to the specified groups"
+	"bs-pageaccess-droplet-description": "Restricts access to the page to the specified groups",
+	"pageaccess": "Pages secured by PageAccess"
 }

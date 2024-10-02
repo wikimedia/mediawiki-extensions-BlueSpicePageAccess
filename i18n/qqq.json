@@ -33,5 +33,6 @@
 	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Help text for groups parameter in visual editor tag inspector",
 	"bs-pageaccess-blockactionsontag-lockdown-reason": "Used to describe that the requested permission for this page is only available for users, that are member of a comma-separated list of groups.\n* $1 - Name of the requested action\n* $2 - Number of allowed groups\n* $3 - Comma-separated list of groups, that are allowed to access the action on this page",
 	"bs-pageaccess-droplet-name": "Title of droplet for tag PageAccess",
-	"bs-pageaccess-droplet-description": "Description of droplet for tag PageAccess"
+	"bs-pageaccess-droplet-description": "Description of droplet for tag PageAccess",
+	"pageaccess": "{{doc-special|PageAccess}}"
 }
