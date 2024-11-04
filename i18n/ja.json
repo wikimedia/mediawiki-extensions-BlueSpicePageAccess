@@ -16,11 +16,11 @@
 	"log-show-hide-bs-pageaccess": "ページアクセス記録を$1",
 	"logentry-bs-pageaccess-change": "$1 が $3 のアクセス許可を「$4」に{{GENDER:$2|変更しました}}",
 	"action-pageaccess-viewspecialpage": "特別ページ「{{int:pageaccess}}」の閲覧",
-	"bs-pageaccess-column-groups": "グループ",
-	"right-pageaccess-viewspecialpage": "特別ページ [[Special:PageAccess]] を利用",
-	"bs-pageaccess-ve-pageaccessinspector-groups": "グループ",
 	"bs-pageaccess-column-title": "ページ名",
+	"bs-pageaccess-column-groups": "グループ",
 	"apihelp-bs-pageaccess-store-summary": "ページ単位でアクセスを制御する",
+	"right-pageaccess-viewspecialpage": "特別ページ [[Special:PageAccess]] を利用",
 	"bs-pageaccess-tag-pageaccess-title": "ページへのアクセス",
+	"bs-pageaccess-ve-pageaccessinspector-groups": "グループ",
 	"bs-pageaccess-droplet-name": "ページへのアクセス"
 }

@@ -6,7 +6,8 @@
 			"Ff98sha",
 			"Liuxinyu970226",
 			"佛壁灯",
-			"科劳"
+			"科劳",
+			"沈澄心"
 		]
 	},
 	"bs-pageaccess-desc": "页面级别上控制访问",
@@ -30,5 +31,7 @@
 	"bs-pageaccess-tag-pageaccess-desc": "限制下方群组对此页面的读写权限",
 	"bs-pageaccess-ve-pageaccessinspector-groups": "用户组",
 	"bs-pageaccess-tag-pageaccess-desc-param-groups": "只有这些用户组才可以访问页面。",
-	"bs-pageaccess-droplet-name": "页面访问"
+	"bs-pageaccess-blockactionsontag-lockdown-reason": "操作“$1”仅对{{PLURAL:$2|群组}}$3可用",
+	"bs-pageaccess-droplet-name": "页面访问",
+	"bs-pageaccess-droplet-description": "限制特定群组的页面访问"
 }
