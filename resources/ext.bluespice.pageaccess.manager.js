@@ -1,22 +1,14 @@
-( function( mw, $, bs, d, undefined ){
-	function _renderGrid() {
-		Ext.onReady(function(){
-			Ext.Loader.setPath(
-				'BS.PageAccess',
-				mw.config.get( "wgScriptPath" ) + '/extensions/BlueSpicePageAccess/resources/BS.PageAccess'
-			);
-			Ext.create( 'BS.PageAccess.panel.Manager', {
-				renderTo: 'bs-pageaccess-manager'
-			});
-		});
-	}
+( ( $ ) => {
 
-	var deps = mw.config.get( 'bsPageAccessManagerDeps', false );
-	if( deps ) {
-		mw.loader.using( deps, _renderGrid );
-	}
-	else {
-		_renderGrid();
-	}
+	$( () => {
+		const $container = $( '#bs-pageaccess-manager' ); // eslint-disable-line no-jquery/no-global-selector
+		if ( $container.length === 0 ) {
+			return;
+		}
 
-})( mediaWiki, jQuery, blueSpice, document );
+		const panel = new ext.bluespice.pageaccess.ui.panel.Manager();
+
+		$container.append( panel.$element );
+	} );
+
+} )( jQuery );
