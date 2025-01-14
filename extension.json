@@ -100,6 +100,9 @@
 	"AutoloadNamespaces": {
 		"BlueSpice\\PageAccess\\": "src/"
 	},
+	"TestAutoloadNamespaces": {
+		"BlueSpice\\PageAccess\\Tests\\": "tests/phpunit/"
+	},
 	"Hooks": {
 		"PageContentSave": "\\BlueSpice\\PageAccess\\Hook\\PageContentSave\\EditPageAccess::callback",
 		"BSUsageTrackerRegisterCollectors": "\\BlueSpice\\PageAccess\\Hook\\BSUsageTrackerRegisterCollectors\\AddPageAccessTag::callback"
