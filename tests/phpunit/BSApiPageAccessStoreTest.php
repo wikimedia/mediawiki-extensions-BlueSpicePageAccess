@@ -1,5 +1,7 @@
 <?php
 
+namespace BlueSpice\PageAccess\Tests;
+
 use BlueSpice\Tests\BSApiExtJSStoreTestBase;
 
 /**
