@@ -68,7 +68,7 @@
 		"pageaccess-viewspecialpage"
 	],
 	"SpecialPages": {
-		"PageAccess": "SpecialPageAccess"
+		"PageAccess": "\\BlueSpice\\PageAccess\\Special\\PageAccess"
 	},
 	"APIModules": {
 		"bs-pageaccess-store": "BSApiPageAccessStore"
@@ -88,10 +88,9 @@
 		]
 	},
 	"ExtensionMessagesFiles": {
-		"BlueSpicePageAccessAlias": "includes/specials/SpecialPageAccess.alias.php"
+		"PageAccessAlias": "languages/SpecialPageAccess.alias.php"
 	},
 	"AutoloadClasses": {
-		"SpecialPageAccess": "includes/specials/SpecialPageAccess.php",
 		"BSApiPageAccessStore": "includes/api/BSApiPageAccessStore.php"
 	},
 	"ServiceWiringFiles": [
@@ -108,16 +107,18 @@
 		"BSUsageTrackerRegisterCollectors": "\\BlueSpice\\PageAccess\\Hook\\BSUsageTrackerRegisterCollectors\\AddPageAccessTag::callback"
 	},
 	"ResourceModules": {
-		"ext.PageAccess.manager": {
+		"ext.pageaccess.manager": {
 			"scripts": [
-				"ext.bluespice.pageaccess.manager.js"
+				"ext.bluespice.pageaccess.manager.js",
+				"ui/panel/Manager.js"
 			],
 			"messages": [
 				"bs-pageaccess-column-title",
 				"bs-pageaccess-column-groups"
 			],
 			"dependencies": [
-				"ext.bluespice.extjs"
+				"oojs-ui",
+				"ext.oOJSPlus.data"
 			]
 		},
 		"ext.bluespice.pageaccess.visualEditorTagDefinition": {
