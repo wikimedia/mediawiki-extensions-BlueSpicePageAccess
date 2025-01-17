@@ -4,7 +4,7 @@ namespace BlueSpice\PageAccess;
 
 use Config;
 use MediaWiki\MediaWikiServices;
-use Title;
+use MediaWiki\Title\Title;
 use User;
 
 class CheckAccess {
