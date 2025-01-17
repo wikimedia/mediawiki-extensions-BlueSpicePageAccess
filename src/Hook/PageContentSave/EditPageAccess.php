@@ -6,8 +6,8 @@ use BlueSpice\Hook\PageContentSave;
 use ManualLogEntry;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Revision\SlotRecord;
+use MediaWiki\Title\Title;
 use TextContent;
-use Title;
 
 class EditPageAccess extends PageContentSave {
 
