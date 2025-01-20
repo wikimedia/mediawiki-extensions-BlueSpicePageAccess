@@ -7,8 +7,8 @@ use Config;
 use IContextSource;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Title\Title;
+use MediaWiki\User\User;
 use Message;
-use User;
 
 class BlockActionsOnTagPageAccess extends \BlueSpice\Permission\Lockdown\Module {
 
