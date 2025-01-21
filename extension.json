@@ -1,15 +1,15 @@
 {
 	"name": "BlueSpicePageAccess",
 	"license-name": "GPL-3.0-only",
-	"version": "4.2.0-alpha",
+	"version": "5.0.0",
 	"url": "https://en.wiki.bluespice.com/wiki/Reference:BlueSpicePageAccess",
 	"author": "Marc Reymann",
 	"descriptionmsg": "bs-pageaccess-desc",
 	"type": "bluespice",
 	"requires": {
-		"MediaWiki": ">= 1.39.0",
+		"MediaWiki": ">= 1.43.0",
 		"extensions": {
-			"BlueSpiceFoundation": ">= 4.3"
+			"BlueSpiceFoundation": ">= 5.0.0"
 		}
 	},
 	"attributes": {
