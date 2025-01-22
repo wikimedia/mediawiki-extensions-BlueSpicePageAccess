@@ -6,9 +6,9 @@ use BlueSpice\PageAccess\CheckAccess;
 use Config;
 use IContextSource;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Message\Message;
 use MediaWiki\Title\Title;
 use MediaWiki\User\User;
-use Message;
 
 class BlockActionsOnTagPageAccess extends \BlueSpice\Permission\Lockdown\Module {
 
