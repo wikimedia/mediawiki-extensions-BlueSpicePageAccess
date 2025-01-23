@@ -2,7 +2,7 @@
 
 namespace BlueSpice\PageAccess;
 
-use Config;
+use MediaWiki\Config\Config;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Title\Title;
 use MediaWiki\User\User;
