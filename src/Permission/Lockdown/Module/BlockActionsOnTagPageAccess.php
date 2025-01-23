@@ -3,8 +3,8 @@
 namespace BlueSpice\PageAccess\Permission\Lockdown\Module;
 
 use BlueSpice\PageAccess\CheckAccess;
-use Config;
 use IContextSource;
+use MediaWiki\Config\Config;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Message\Message;
 use MediaWiki\Title\Title;
