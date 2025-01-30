@@ -6,23 +6,23 @@ bs.pgaccss.util.tag.PageAccessDefinition = function BsVecUtilTagPageAccessDefini
 
 OO.inheritClass( bs.pgaccss.util.tag.PageAccessDefinition, bs.vec.util.tag.Definition );
 
-bs.pgaccss.util.tag.PageAccessDefinition.prototype.getCfg = function() {
-	var cfg = bs.pgaccss.util.tag.PageAccessDefinition.super.prototype.getCfg.call( this );
+bs.pgaccss.util.tag.PageAccessDefinition.prototype.getCfg = function () {
+	const cfg = bs.pgaccss.util.tag.PageAccessDefinition.super.prototype.getCfg.call( this );
 	return $.extend( cfg, {
-		classname : 'PageAccess',
+		classname: 'PageAccess',
 		name: 'pageAccess',
 		tagname: 'bs:pageaccess',
 		menuItemMsg: 'bs-pageaccess-tag-pageaccess-title',
 		descriptionMsg: 'bs-pageaccess-tag-pageaccess-desc',
-		attributes: [{
+		attributes: [ {
 			name: 'groups',
 			labelMsg: 'bs-pageaccess-ve-pageaccessinspector-groups',
 			helpMsg: 'bs-pageaccess-tag-pageaccess-desc-param-groups',
 			type: 'custom',
 			widgetClass: bs.vec.ui.GroupListInputWidget,
-			default: 'sysop'
-		}]
-	});
+			default: ''
+		} ]
+	} );
 };
 
 bs.vec.registerTagDefinition(
