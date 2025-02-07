@@ -6,13 +6,14 @@ use BlueSpice\ParamProcessor\ParamDefinition;
 use BlueSpice\ParamProcessor\ParamType;
 use BlueSpice\Tag\Tag;
 use MediaWiki\Parser\Parser;
+use MediaWiki\Parser\PPFrame;
 
 class PageAccess extends Tag {
 	/**
 	 * @param mixed $processedInput
 	 * @param array $processedArgs
 	 * @param Parser $parser
-	 * @param \PPFrame $frame
+	 * @param PPFrame $frame
 	 *
 	 * @return IHandler
 	 */
@@ -20,7 +21,7 @@ class PageAccess extends Tag {
 		$processedInput,
 		array $processedArgs,
 		Parser $parser,
-		\PPFrame $frame
+		PPFrame $frame
 		) {
 		return new PageAccessHandler( $processedInput, $processedArgs, $parser, $frame );
 	}
