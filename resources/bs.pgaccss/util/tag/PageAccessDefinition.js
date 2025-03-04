@@ -18,9 +18,7 @@ bs.pgaccss.util.tag.PageAccessDefinition.prototype.getCfg = function () {
 			name: 'groups',
 			labelMsg: 'bs-pageaccess-ve-pageaccessinspector-groups',
 			helpMsg: 'bs-pageaccess-tag-pageaccess-desc-param-groups',
-			type: 'custom',
-			widgetClass: bs.vec.ui.GroupListInputWidget,
-			default: ''
+			type: 'groups'
 		} ]
 	} );
 };
