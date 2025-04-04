@@ -49,9 +49,10 @@ class BlockActionsOnTagPageAccess extends \BlueSpice\Permission\Lockdown\Module 
 	 * @param CheckAccess|null $accessFactory
 	 * @return \static
 	 */
-	public static function getInstance( Config $config, IContextSource $context,
-		MediaWikiServices $services, array $blockableActions = null,
-		CheckAccess $accessFactory = null ) {
+	public static function getInstance(
+		Config $config, IContextSource $context, MediaWikiServices $services,
+		?array $blockableActions = null, ?CheckAccess $accessFactory = null
+	) {
 		if ( !$blockableActions ) {
 			$blockableActions = [];
 			if ( $config->has( 'PageAccessBlockableActions' ) ) {
