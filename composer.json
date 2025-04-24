@@ -28,8 +28,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"BlueSpice\\PageAccess\\": "src",
-			"BlueSpice\\PageAccess\\Tests\\": "tests/phpunit"
+			"BlueSpice\\PageAccess\\": "src"
 		}
 	},
 	"extra": {
