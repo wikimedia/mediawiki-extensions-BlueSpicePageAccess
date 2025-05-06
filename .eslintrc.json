@@ -1,10 +1,14 @@
 {
 	"root": true,
 	"extends": [
-		"wikimedia/client-es6",
+		"wikimedia/client",
 		"wikimedia/jquery",
 		"wikimedia/mediawiki"
 	],
+	"parserOptions": {
+		"sourceType": "commonjs",
+		"ecmaVersion": 2017
+	},
 	"globals": {
 		"bs": "readonly",
 		"ext": "readonly",
@@ -12,9 +16,7 @@
 		"OOJSPlus": "readonly"
 	},
 	"rules": {
+		"es-x/no-async-functions": "off",
 		"max-len": "off"
-	},
-	"parserOptions": {
-		"ecmaVersion": 8
 	}
 }
