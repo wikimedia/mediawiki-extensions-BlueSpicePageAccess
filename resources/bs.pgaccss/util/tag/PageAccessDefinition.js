@@ -8,7 +8,7 @@ OO.inheritClass( bs.pgaccss.util.tag.PageAccessDefinition, bs.vec.util.tag.Defin
 
 bs.pgaccss.util.tag.PageAccessDefinition.prototype.getCfg = function () {
 	const cfg = bs.pgaccss.util.tag.PageAccessDefinition.super.prototype.getCfg.call( this );
-	return $.extend( cfg, {
+	return $.extend( cfg, { // eslint-disable-line no-jquery/no-extend
 		classname: 'PageAccess',
 		name: 'pageAccess',
 		tagname: 'bs:pageaccess',
