@@ -30,24 +30,20 @@ ext.bluespice.pageaccess.ui.panel.Manager.prototype.setupGridConfig = function (
 				type: 'text',
 				sortable: true,
 				filter: { type: 'text' },
-				valueParser: ( value ) => {
-					return new OO.ui.HtmlSnippet( mw.html.element(
-						'a',
-						{
-							href: mw.util.getUrl( value )
-						},
-						value
-					) );
-				}
+				valueParser: ( value ) => new OO.ui.HtmlSnippet( mw.html.element(
+					'a',
+					{
+						href: mw.util.getUrl( value )
+					},
+					value
+				) )
 			},
 			groups: {
 				headerText: mw.message( 'bs-pageaccess-column-groups' ).plain(),
 				type: 'text',
 				sortable: true,
 				filter: { type: 'text' },
-				valueParser: ( value ) => {
-					return value.map( ( group ) => group.displayname ).join( ', ' );
-				}
+				valueParser: ( value ) => value.map( ( group ) => group.displayname ).join( ', ' )
 			}
 		},
 		store: this.store,
@@ -81,7 +77,7 @@ ext.bluespice.pageaccess.ui.panel.Manager.prototype.setupGridConfig = function (
 
 					$table.append( $thead, $tbody );
 
-					deferred.resolve( `<table>${$table.html()}</table>` );
+					deferred.resolve( `<table>${ $table.html() }</table>` );
 				} catch ( error ) {
 					deferred.reject( 'Failed to load data' );
 				}
