@@ -2,16 +2,22 @@
 
 namespace BlueSpice\PageAccess\Tag;
 
-use BlueSpice\Tag\Handler;
+use MediaWiki\Parser\Parser;
+use MediaWiki\Parser\PPFrame;
+use MWStake\MediaWiki\Component\GenericTagHandler\ITagHandler;
 
-class PageAccessHandler extends Handler {
+class PageAccessHandler implements ITagHandler {
 
-	public function handle() {
-		$oldAccessGroups = $this->parser->getOutput()->getPageProperty( 'bs-page-access' );
+	/**
+	 * @inheritDoc
+	 */
+	public function getRenderedContent( string $input, array $params, Parser $parser, PPFrame $frame ): string {
+		$groups = implode( ',', $params['groups'] ?? [] );
+		$oldAccessGroups = $parser->getOutput()->getPageProperty( 'bs-page-access' );
 		if ( $oldAccessGroups ) {
-			$this->processedArgs['groups'] = $oldAccessGroups . "," . $this->processedArgs['groups'];
+			$groups = $oldAccessGroups . "," . $groups;
 		}
-		$this->parser->getOutput()->setPageProperty( 'bs-page-access', $this->processedArgs['groups'] );
+		$parser->getOutput()->setPageProperty( 'bs-page-access', $groups );
 
 		return '';
 	}

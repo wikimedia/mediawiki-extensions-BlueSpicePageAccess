@@ -32,7 +32,7 @@ class AccessDroplet extends TagDroplet {
 	 * @inheritDoc
 	 */
 	public function getRLModules(): array {
-		return [ 'ext.bluespice.pageaccess.visualEditorTagDefinition' ];
+		return [ 'ext.bluespice.pageaccess.droplet' ];
 	}
 
 	/**
@@ -70,7 +70,7 @@ class AccessDroplet extends TagDroplet {
 	 * @return string|null
 	 */
 	public function getVeCommand(): ?string {
-		return 'pageAccessCommand';
+		return 'pageaccessCommand';
 	}
 
 }
