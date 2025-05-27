@@ -2,57 +2,76 @@
 
 namespace BlueSpice\PageAccess\Tag;
 
-use BlueSpice\ParamProcessor\ParamDefinition;
-use BlueSpice\ParamProcessor\ParamType;
-use BlueSpice\Tag\Tag;
-use MediaWiki\Parser\Parser;
-use MediaWiki\Parser\PPFrame;
+use MediaWiki\MediaWikiServices;
+use MediaWiki\Message\Message;
+use MediaWiki\User\UserGroupManager;
+use MWStake\MediaWiki\Component\FormEngine\StandaloneFormSpecification;
+use MWStake\MediaWiki\Component\GenericTagHandler\ClientTagSpecification;
+use MWStake\MediaWiki\Component\GenericTagHandler\GenericTag;
+use MWStake\MediaWiki\Component\GenericTagHandler\ITagHandler;
+use MWStake\MediaWiki\Component\InputProcessor\Processor\UserGroupListValue;
 
-class PageAccess extends Tag {
-	/**
-	 * @param mixed $processedInput
-	 * @param array $processedArgs
-	 * @param Parser $parser
-	 * @param PPFrame $frame
-	 *
-	 * @return IHandler
-	 */
-	public function getHandler(
-		$processedInput,
-		array $processedArgs,
-		Parser $parser,
-		PPFrame $frame
-		) {
-		return new PageAccessHandler( $processedInput, $processedArgs, $parser, $frame );
+class PageAccess extends GenericTag {
+
+	public function __construct(
+		private readonly UserGroupManager $userGroupManager
+	) {
 	}
 
 	/**
-	 *
-	 * @return \ParamDefinition[]
+	 * @inheritDoc
 	 */
-	public function getArgsDefinitions() {
-		return [
-			new ParamDefinition(
-				ParamType::STRING,
-				'groups',
-				null,
-				null,
-				false
-			)
-		];
-	}
-
-	/**
-	 * @return string[]
-	 */
-	public function getTagNames() {
+	public function getTagNames(): array {
 		return [ 'bs:pageaccess', 'pageaccess' ];
 	}
 
 	/**
 	 * @return bool
 	 */
-	public function needsDisabledParserCache() {
-		return true;
+	public function hasContent(): bool {
+		return false;
+	}
+
+	/**
+	 * @inheritDoc
+	 */
+	public function getHandler( MediaWikiServices $services ): ITagHandler {
+		return new PageAccessHandler();
+	}
+
+	/**
+	 * @inheritDoc
+	 */
+	public function getParamDefinition(): ?array {
+		$groups = ( new UserGroupListValue( $this->userGroupManager ) )
+			->setRequired( true )
+			->setListSeparator( ',' );
+
+		return [
+			'groups' => $groups
+		];
+	}
+
+	/**
+	 * @inheritDoc
+	 */
+	public function getClientTagSpecification(): ClientTagSpecification|null {
+		$formSpec = new StandaloneFormSpecification();
+		$formSpec->setItems( [
+			[
+				'type' => 'group_multiselect',
+				'name' => 'groups',
+				'label' => Message::newFromKey( 'bs-pageaccess-ve-pageaccessinspector-groups' )->text(),
+				'help' => Message::newFromKey( 'bs-pageaccess-tag-pageaccess-desc-param-groups' )->text(),
+				'widget_$overlay' => true,
+			],
+		] );
+
+		return new ClientTagSpecification(
+			'PageAccess',
+			Message::newFromKey( 'bs-pageaccess-tag-pageaccess-desc' ),
+			$formSpec,
+			Message::newFromKey( 'bs-pageaccess-tag-pageaccess-title' )
+		);
 	}
 }

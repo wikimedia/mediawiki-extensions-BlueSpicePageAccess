@@ -20,9 +20,6 @@
 					"extPath": "/BlueSpicePageAccess"
 				}
 			},
-			"TagRegistry": {
-				"pageaccess": "\\BlueSpice\\PageAccess\\Tag\\PageAccess"
-			},
 			"AlertProviderRegistry": {
 				"bs-pageaccess-accessstate": "\\BlueSpice\\PageAccess\\AlertProvider\\AccessState::factory"
 			},
@@ -39,11 +36,6 @@
 			"PermissionLockdownRegistry": {
 				"pageaccess-blockactionsontagpageaccess": "\\BlueSpice\\PageAccess\\Permission\\Lockdown\\Module\\BlockActionsOnTagPageAccess::getInstance"
 			}
-		},
-		"BlueSpiceVisualEditorConnector": {
-			"TagDefinitions": [
-				"ext.bluespice.pageaccess.visualEditorTagDefinition"
-			]
 		},
 		"ContentDroplets": {
 			"Droplets": {
@@ -104,7 +96,14 @@
 	},
 	"Hooks": {
 		"PageContentSave": "\\BlueSpice\\PageAccess\\Hook\\PageContentSave\\EditPageAccess::callback",
-		"BSUsageTrackerRegisterCollectors": "\\BlueSpice\\PageAccess\\Hook\\BSUsageTrackerRegisterCollectors\\AddPageAccessTag::callback"
+		"BSUsageTrackerRegisterCollectors": "\\BlueSpice\\PageAccess\\Hook\\BSUsageTrackerRegisterCollectors\\AddPageAccessTag::callback",
+		"MWStakeGenericTagHandlerInitTags": "registerTags"
+	},
+	"HookHandlers": {
+		"registerTags": {
+			"class": "\\BlueSpice\\PageAccess\\Hook\\RegisterTags",
+			"services": [ "UserGroupManager" ]
+		}
 	},
 	"ResourceModules": {
 		"ext.pageaccess.manager": {
@@ -121,20 +120,8 @@
 				"ext.oOJSPlus.data"
 			]
 		},
-		"ext.bluespice.pageaccess.visualEditorTagDefinition": {
-			"scripts": [
-				"bs.pgaccss/util/tag/PageAccessDefinition.js"
-			],
-			"styles": "stylesheets/bluespice.pageaccess.droplet.css",
-			"messages": [
-				"bs-pageaccess-tag-pageaccess-desc",
-				"bs-pageaccess-tag-pageaccess-title",
-				"bs-pageaccess-ve-pageaccessinspector-groups",
-				"bs-pageaccess-tag-pageaccess-desc-param-groups"
-			],
-			"dependencies": [
-				"ext.bluespice.visualEditorConnector.tags.classes"
-			]
+		"ext.bluespice.pageaccess.droplet": {
+			"styles": "stylesheets/bluespice.pageaccess.droplet.css"
 		}
 	},
 	"ResourceFileModulePaths": {
