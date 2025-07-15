@@ -4,15 +4,15 @@
 			"Умар"
 		]
 	},
-	"bs-pageaccess-column-title": "АгӀонан корта",
-	"bs-pageaccess-column-groups": "Тобанаш",
-	"bs-pageaccess-ve-pageaccessinspector-groups": "Тобанаш",
-	"bs-pageaccess-droplet-name": "АгӀонан тӀекхачар",
 	"bs-pageaccess-error-no-groups-given": "Цхьа а тоба билгалйаьккхина йацара.",
 	"log-name-bs-pageaccess": "АгӀонашна тӀекхачаран журнал",
 	"log-show-hide-bs-pageaccess": "$1 агӀонашна тӀекхачаран журнал",
 	"logeventslist-bs-pageaccess-log": "АгӀонашна тӀекхачаран журнал",
 	"logentry-bs-pageaccess-change": "$1 {{GENDER:$2|хийцина}} тӀекхачаран бакъонаш $3 - «$4»",
 	"action-pageaccess-viewspecialpage": "белхан агӀоне хьажар «{{int:pageaccess}}»",
-	"bs-pageaccess-tag-pageaccess-title": "АгӀонан тӀекхачар"
+	"bs-pageaccess-column-title": "АгӀонан корта",
+	"bs-pageaccess-column-groups": "Тобанаш",
+	"bs-pageaccess-tag-pageaccess-title": "АгӀонан тӀекхачар",
+	"bs-pageaccess-ve-pageaccessinspector-groups": "Тобанаш",
+	"bs-pageaccess-droplet-name": "АгӀонан тӀекхачар"
 }
