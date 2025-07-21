@@ -21,7 +21,7 @@
 	"logeventslist-bs-pageaccess-log": "Paginatoegangslogboek",
 	"logentry-bs-pageaccess-change": "$1 {{GENDER:$2|heeft}} de toegangsrechten van $3 gewijzigd in “$4”",
 	"action-pageaccess-viewspecialpage": "bekijk de speciale pagina \"{{int:pageaccess}}\"",
-	"bs-pageaccess-column-title": "Paginanaam",
+	"bs-pageaccess-column-title": "Paginatitel",
 	"bs-pageaccess-column-groups": "Groepen",
 	"apihelp-bs-pageaccess-store-summary": "De toegang regelen op paginaniveau",
 	"right-pageaccess-viewspecialpage": "Toegang hebben tot de speciale pagina [[Special:PageAccess]]",
