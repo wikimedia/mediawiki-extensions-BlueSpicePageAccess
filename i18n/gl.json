@@ -2,21 +2,32 @@
 	"@metadata": {
 		"authors": [
 			"Athena in Wonderland",
-			"Elisardojm"
+			"Elisardojm",
+			"Toliño"
 		]
 	},
 	"bs-pageaccess-desc": "Controla o acceso a nivel de páxina",
 	"bs-pageaccess-error-no-groups-given": "Non se especificou ningún grupo.",
-	"bs-pageaccess-error-not-member-of-given-groups": "No é membro dos grupos dados. Desactivouse o gardado para evitar que se bloquee o acceso.",
-	"bs-pageaccess-error-included-forbidden-template": "Tentou utilizar o modelo \"$1\", para o que non ten acceso para leitura. A gravación foi desativada para evitar o bloqueo do seu acceso.",
-	"bs-pageaccess-tag-groups-desc": "Define os grupos que teñen acceso exclusivo a unha páxina. Separe os distintos grupos con comas.",
-	"pageaccess": "Páxinas aseguradas por PageAccess",
-	"log-name-bs-pageaccess": "Rexistro de acceso a páxinas",
+	"bs-pageaccess-error-not-member-of-given-groups": "Non pertences aos grupos indicados. Desactivouse o gardado para evitar que te bloquees.",
+	"bs-pageaccess-error-included-forbidden-template": "Tentaches utilizar o modelo «$1» ao que non tes acceso de lectura. Desactivouse o gardado para evitar que te bloquees.",
+	"bs-pageaccess-tag-groups-desc": "Define os grupos que teñen acceso exclusivo a unha páxina. Separa os distintos grupos con comas.",
+	"pageaccess": "Páxinas protexidas por PageAccess",
+	"log-name-bs-pageaccess": "Rexistro de acceso á páxina",
 	"log-description-bs-pageaccess": "Este é un rexistro dos cambios na configuración de acceso á páxina.",
 	"log-show-hide-bs-pageaccess": "$1 rexistro de acceso á páxina",
-	"logentry-bs-pageaccess-change": "$1 {{GENDER:$2|cambiou}} os permisos de acceso de $3 a \"$4\"",
-	"action-pageaccess-viewspecialpage": "ver a páxina especial \"{{int:pageaccess}}\"",
+	"logentry-bs-pageaccess-change": "$1 {{GENDER:$2|cambiou}} os permisos de acceso de $3 a «$4»",
+	"action-pageaccess-viewspecialpage": "ver a páxina especial «{{int:pageaccess}}»",
 	"bs-pageaccess-column-title": "Título da páxina",
 	"bs-pageaccess-column-groups": "Grupos",
-	"apihelp-bs-pageaccess-store-summary": "Controla o acceso a nivel de páxina"
+	"apihelp-bs-pageaccess-store-summary": "Controla o acceso a nivel de páxina",
+	"logeventslist-bs-pageaccess-log": "Rexistro de acceso á páxina",
+	"right-pageaccess-viewspecialpage": "Acceso á páxina especial [[Special:PageAccess]]",
+	"bs-pageaccess-access-restricted": "O acceso a esta páxina está restrinxido {{PLURAL:$1|ao grupo|aos grupos}} <strong>$2</strong>.",
+	"bs-pageaccess-tag-pageaccess-title": "Acceso á páxina",
+	"bs-pageaccess-tag-pageaccess-desc": "Restrinxe o acceso de lectura e escritura para esta páxina aos grupos indicados a continuación",
+	"bs-pageaccess-ve-pageaccessinspector-groups": "Grupos",
+	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Só estes grupos teñen acceso á páxina",
+	"bs-pageaccess-blockactionsontag-lockdown-reason": "A acción «$1» só está dispoñible para {{PLURAL:$2|o grupo|os grupos}} $3",
+	"bs-pageaccess-droplet-name": "Acceso á páxina",
+	"bs-pageaccess-droplet-description": "Restrinxe o acceso á páxina aos grupos especificados"
 }
