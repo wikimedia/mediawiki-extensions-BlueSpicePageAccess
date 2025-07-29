@@ -10,19 +10,20 @@ use BlueSpice\Tests\BSApiExtJSStoreTestBase;
  * @group Database
  * @group BlueSpice
  * @group BlueSpiceExtensions
+ * @covers BSApiPageAccessStore
  */
 class BSApiPageAccessStoreTest extends BSApiExtJSStoreTestBase {
 
 	/** @var int */
-	protected $iFixtureTotal = 2;
+	protected $iFixtureTotal = 1;
 
 	protected function getStoreSchema() {
 		return [
 			'page_id' => [
-				'type' => 'integer'
+				'type' => 'numeric'
 			],
 			'page_namespace' => [
-				'type' => 'integer'
+				'type' => 'numeric'
 			],
 			'page_title' => [
 				'type' => 'string'
@@ -37,17 +38,21 @@ class BSApiPageAccessStoreTest extends BSApiExtJSStoreTestBase {
 	}
 
 	protected function createStoreFixtureData() {
-		$aFixtures = [
-			[ 'Template:Test', "<bs:pageaccess groups='sysop' />" ],
-			[ 'Test page', "<bs:pageaccess groups='user' />" ],
-			[ 'Test page 2', "Dummy text" ]
+		$dbw = $this->getDb();
+		$this->setUp();
 
-		];
-		foreach ( $aFixtures as $aFixture ) {
-			$this->insertPage( $aFixture[0], $aFixture[1] );
-		}
+		$pageID = $this->insertPage( 'Test' )['id'];
+		$dbw->insert(
+			'page_props',
+			[
+				'pp_page' => $pageID,
+				'pp_propname' => 'bs-page-access',
+				'pp_value' => 'sysop'
+			],
+			__METHOD__
+		);
 
-		return 2;
+		return 1;
 	}
 
 	protected function getModuleName() {
@@ -56,7 +61,7 @@ class BSApiPageAccessStoreTest extends BSApiExtJSStoreTestBase {
 
 	public function provideSingleFilterData() {
 		return [
-			'Filter by page_title' => [ 'string', 'ct', 'page_title', 'Test', 2 ]
+			'Filter by page_title' => [ 'string', 'ct', 'page_title', 'Test', 1 ]
 		];
 	}
 
@@ -68,7 +73,7 @@ class BSApiPageAccessStoreTest extends BSApiExtJSStoreTestBase {
 						'type' => 'numeric',
 						'comparison' => 'eq',
 						'field' => 'page_namespace',
-						'value' => 10
+						'value' => 0
 					],
 					[
 						'type' => 'string',
@@ -84,8 +89,8 @@ class BSApiPageAccessStoreTest extends BSApiExtJSStoreTestBase {
 
 	public function provideKeyItemData() {
 		return [
-			'Test Template:Test for page_title' => [ "page_title", "Test" ],
-			'Test Template:Test for page_namespace' => [ "page_namespace", 10 ],
+			'Test page_title' => [ 'page_title', 'Test' ],
+			'Test page_namespace' => [ 'page_namespace', 0 ]
 		];
 	}
 }
