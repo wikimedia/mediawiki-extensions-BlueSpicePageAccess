@@ -102,7 +102,14 @@
 	},
 	"Hooks": {
 		"PageContentSave": "\\BlueSpice\\PageAccess\\Hook\\PageContentSave\\EditPageAccess::callback",
-		"BSUsageTrackerRegisterCollectors": "\\BlueSpice\\PageAccess\\Hook\\BSUsageTrackerRegisterCollectors\\AddPageAccessTag::callback"
+		"BSUsageTrackerRegisterCollectors": "\\BlueSpice\\PageAccess\\Hook\\BSUsageTrackerRegisterCollectors\\AddPageAccessTag::callback",
+		"SpecialPageBeforeExecute": "checkBrowsePagePermission"
+	},
+	"HookHandlers": {
+		"checkBrowsePagePermission": {
+			"class": "\\BlueSpice\\PageAccess\\Hook\\SpecialPageBeforeExecute\\CheckBrowsePagePermission",
+			"services": [ "TitleFactory", "PermissionManager" ]
+		}
 	},
 	"ResourceModules": {
 		"ext.PageAccess.manager": {
