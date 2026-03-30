@@ -97,12 +97,17 @@
 	"Hooks": {
 		"PageContentSave": "\\BlueSpice\\PageAccess\\Hook\\PageContentSave\\EditPageAccess::callback",
 		"BSUsageTrackerRegisterCollectors": "\\BlueSpice\\PageAccess\\Hook\\BSUsageTrackerRegisterCollectors\\AddPageAccessTag::callback",
-		"MWStakeGenericTagHandlerInitTags": "registerTags"
+		"MWStakeGenericTagHandlerInitTags": "registerTags",
+		"SpecialPageBeforeExecute": "checkBrowsePagePermission"
 	},
 	"HookHandlers": {
 		"registerTags": {
 			"class": "\\BlueSpice\\PageAccess\\Hook\\RegisterTags",
 			"services": [ "UserGroupManager" ]
+		},
+		"checkBrowsePagePermission": {
+			"class": "\\BlueSpice\\PageAccess\\Hook\\SpecialPageBeforeExecute\\CheckBrowsePagePermission",
+			"services": [ "TitleFactory", "PermissionManager" ]
 		}
 	},
 	"ResourceModules": {
