@@ -66,8 +66,8 @@ class CheckBrowsePagePermission implements SpecialPageBeforeExecuteHook {
 		$page = ltrim( $page, ':' );
 
 		$page = str_replace(
-			[ '-2F', '-3A', '-5F' ],
-			[ '/', ':', '_' ],
+			[ '-20', '-2F', '-3A', '-5F' ],
+			[ ' ', '/', ':', '_' ],
 			$page
 		);
 
