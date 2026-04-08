@@ -33,11 +33,16 @@ class CheckBrowsePagePermission implements SpecialPageBeforeExecuteHook {
 			return;
 		}
 
-		if ( !$subPage ) {
+		$page = $subPage;
+		if ( !$page ) {
+			$page = $special->getRequest()->getVal( 'article' );
+		}
+
+		if ( !$page ) {
 			return;
 		}
 
-		$title = $this->parseTitle( $subPage );
+		$title = $this->parseTitle( $page );
 		if ( !$title ) {
 			return;
 		}
