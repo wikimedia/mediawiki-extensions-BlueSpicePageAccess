@@ -3,6 +3,7 @@
 namespace BlueSpice\PageAccess\Hook\PageContentSave;
 
 use BlueSpice\Hook\PageContentSave;
+use BlueSpice\PageAccess\CheckAccess;
 use ManualLogEntry;
 use MediaWiki\Content\TextContent;
 use MediaWiki\MediaWikiServices;
@@ -40,6 +41,7 @@ class EditPageAccess extends PageContentSave {
 
 		$services = MediaWikiServices::getInstance();
 		$prop = $output->getPageProperty( 'bs-page-access' );
+		/** @var CheckAccess $checkAccessService */
 		$checkAccessService = $services->getService( 'BSPageAccessCheckAccess' );
 
 		if ( $prop ) {
@@ -76,6 +78,9 @@ class EditPageAccess extends PageContentSave {
 				'4::accessGroups' => $accessGroups
 			] );
 			$logger->insert();
+
+			// Invalidate the WAN cache so other requests pick up the change
+			$checkAccessService->invalidateCache();
 		}
 
 		# All seems good. Let user save.
