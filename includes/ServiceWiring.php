@@ -5,6 +5,10 @@ use MediaWiki\MediaWikiServices;
 
 return [
 	'BSPageAccessCheckAccess' => static function ( MediaWikiServices $services ) {
-		return new CheckAccess( $services->getConfigFactory()->makeConfig( 'bsg' ) );
+		return new CheckAccess(
+			$services->getConfigFactory()->makeConfig( 'bsg' ),
+			$services->getMainWANObjectCache(),
+			$services->getConnectionProvider()
+		);
 	},
 ];
