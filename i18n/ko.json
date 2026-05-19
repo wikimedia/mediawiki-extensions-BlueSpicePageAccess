@@ -25,5 +25,6 @@
 	"bs-pageaccess-desc": "문서 레벨에서 접근을 제어합니다",
 	"pageaccess": "PageAccess에 의해 보호된 문서",
 	"apihelp-bs-pageaccess-store-summary": "문서 레벨에서 접근을 제어합니다",
-	"bs-pageaccess-droplet-name": "문서 접근"
+	"bs-pageaccess-droplet-name": "문서 접근",
+	"bs-pageaccess-droplet-description": "지정된 그룹으로 문서 접근을 제한합니다."
 }
