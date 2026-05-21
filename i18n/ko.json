@@ -21,10 +21,13 @@
 	"bs-pageaccess-tag-pageaccess-desc": "이 문서의 읽기 및 쓰기 권한을 아래에 명시된 그룹으로 제한합니다",
 	"bs-pageaccess-ve-pageaccessinspector-groups": "그룹",
 	"bs-pageaccess-tag-pageaccess-desc-param-groups": "이 그룹만 문서 접근 권한이 있습니다",
-	"bs-pageaccess-blockactionsontag-lockdown-reason": "\"$1\" 동작은 $3 {{PLURAL:$2|그룹}}에만 사용할 수 있습니다",
+	"bs-pageaccess-blockactionsontag-lockdown-reason": "\"$1\" 작업은 $3 {{PLURAL:$2|그룹}}에만 사용할 수 있습니다",
 	"bs-pageaccess-desc": "문서 레벨에서 접근을 제어합니다",
 	"pageaccess": "PageAccess에 의해 보호된 문서",
 	"apihelp-bs-pageaccess-store-summary": "문서 레벨에서 접근을 제어합니다",
 	"bs-pageaccess-droplet-name": "문서 접근",
-	"bs-pageaccess-droplet-description": "지정된 그룹으로 문서 접근을 제한합니다."
+	"bs-pageaccess-droplet-description": "지정된 그룹으로 문서 접근을 제한합니다.",
+	"bs-pageaccess-error-not-member-of-given-groups": "당신은 주어진 그룹의 회원이 아닙니다. 자기 자신은 잠구는 것을 방지하기 위해 저장 기능이 비활성화되었습니다.",
+	"bs-pageaccess-error-included-forbidden-template": "읽기 권한이 없는 \"$1\" 틀을 사용하려고 시도했습니다. 자기 자신을 잠구는 것을 방지하기 위해 저장 기능이 비활성화되었습니다.",
+	"bs-pageaccess-tag-groups-desc": "문서에 대한 독점적 접근 권한을 가진 그룹을 정의합니다. 여러 그룹은 쉼표로 구분합니다."
 }
