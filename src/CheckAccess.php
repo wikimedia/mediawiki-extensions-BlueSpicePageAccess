@@ -166,6 +166,22 @@ class CheckAccess {
 	}
 
 	/**
+	 * @param User $user
+	 * @return int[]
+	 */
+	public function getForbiddenPageIdsForUser( User $user ): array {
+		$allProps = $this->getAllAccessGroupProps();
+		$forbidden = [];
+		foreach ( $allProps as $pageId => $groupsString ) {
+			$accessGroups = $this->groupsStringToArray( $groupsString );
+			if ( $this->processGroups( $user, $accessGroups ) ) {
+				$forbidden[] = (int)$pageId;
+			}
+		}
+		return $forbidden;
+	}
+
+	/**
 	 * Invalidate the WAN cache for all access group properties.
 	 * Should be called when page access settings change.
 	 */
