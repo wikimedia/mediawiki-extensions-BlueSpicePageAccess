@@ -46,7 +46,6 @@ class CheckAccessTest extends TestCase {
 
 		// Reset the static in-process cache between tests to prevent cross-test pollution
 		$prop = ( new \ReflectionClass( CheckAccess::class ) )->getProperty( 'accessGroupsByPageId' );
-		$prop->setAccessible( true );
 		$prop->setValue( null, [] );
 	}
 
@@ -187,7 +186,6 @@ class CheckAccessTest extends TestCase {
 		// Clear the static in-process cache to simulate a new service instance
 		$reflection = new \ReflectionClass( CheckAccess::class );
 		$prop = $reflection->getProperty( 'accessGroupsByPageId' );
-		$prop->setAccessible( true );
 		$prop->setValue( null, [] );
 
 		$checkAccess2 = new CheckAccess( $config, $this->cache, $connectionProvider2 );
