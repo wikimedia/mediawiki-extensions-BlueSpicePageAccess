@@ -94,7 +94,6 @@ class CheckAccess {
 	}
 
 	/**
-	 *
 	 * @param Title $title
 	 * @return string[]
 	 */
@@ -193,7 +192,6 @@ class CheckAccess {
 	}
 
 	/**
-	 *
 	 * @param Title $title
 	 * @return \BlueSpice\Utility\PagePropHelper
 	 */
@@ -202,7 +200,6 @@ class CheckAccess {
 	}
 
 	/**
-	 *
 	 * @return MediaWikiServices
 	 */
 	public function getServices() {
