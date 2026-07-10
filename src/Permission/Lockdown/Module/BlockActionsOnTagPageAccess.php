@@ -13,19 +13,16 @@ use MediaWiki\User\User;
 class BlockActionsOnTagPageAccess extends \BlueSpice\Permission\Lockdown\Module {
 
 	/**
-	 *
 	 * @var string[]
 	 */
 	protected $blockableActions = null;
 
 	/**
-	 *
 	 * @var CheckAccess
 	 */
 	protected $accessFactory = null;
 
 	/**
-	 *
 	 * @param Config $config
 	 * @param IContextSource $context
 	 * @param MediaWikiServices $services
@@ -41,7 +38,6 @@ class BlockActionsOnTagPageAccess extends \BlueSpice\Permission\Lockdown\Module 
 	}
 
 	/**
-	 *
 	 * @param Config $config
 	 * @param IContextSource $context
 	 * @param MediaWikiServices $services
@@ -75,7 +71,6 @@ class BlockActionsOnTagPageAccess extends \BlueSpice\Permission\Lockdown\Module 
 	}
 
 	/**
-	 *
 	 * @param Title $title
 	 * @param User $user
 	 * @return bool
@@ -91,7 +86,6 @@ class BlockActionsOnTagPageAccess extends \BlueSpice\Permission\Lockdown\Module 
 	}
 
 	/**
-	 *
 	 * @param Title $title
 	 * @param User $user
 	 * @param string $action
@@ -106,7 +100,6 @@ class BlockActionsOnTagPageAccess extends \BlueSpice\Permission\Lockdown\Module 
 	}
 
 	/**
-	 *
 	 * @param Title $title
 	 * @param User $user
 	 * @param string $action
