@@ -32,6 +32,9 @@ class EditPageAccess extends PageContentSave {
 		return $templateTitles;
 	}
 
+	/**
+	 * @return bool
+	 */
 	protected function doProcess() {
 		# Prevent user from locking himself out of his own page
 		$updater = $this->wikipage->newPageUpdater( $this->user );
