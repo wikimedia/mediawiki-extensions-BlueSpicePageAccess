@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"شاه زمان پټان"
+		]
+	},
+	"bs-pageaccess-desc": "د مخ په کچه لاسرسی کنترولوي",
+	"bs-pageaccess-error-no-groups-given": "هېڅ ډلې مشخص نه شوې.",
+	"bs-pageaccess-error-not-member-of-given-groups": "تاسو د ورکړل شويو ډلو غړي نه ياست. د دې لپاره چې تاسو خپل ځان تاله نکړئ؛ نو خوندي‌کول ناچارن شوي وو.",
+	"bs-pageaccess-error-included-forbidden-template": "تاسو د \"$1\" کينډۍ کارولو هڅه کړې، چې تاسو ورته د لوستلو لاسرسی نلرئ. د دې لپاره چې تاسو ځان تاله نکړئ؛ نو خوندي‌کول ناچارن‌شوي وو.",
+	"bs-pageaccess-tag-groups-desc": "هغه ډلې څرگندوي چې يو مخ ته ځانگړی لاسرسی لري. څو ډلې د کامې په وسيله جلا شوې دي.",
+	"pageaccess": "هغه مخونه چې د مخ‌لاسرسي له‌خوا خوندي‌شوې دي",
+	"log-name-bs-pageaccess": "د مخ لاسرسي يادښت",
+	"log-description-bs-pageaccess": "دا په اوڼنو کې د مخ لاسرسي د بدلونونو يادښت دی.",
+	"log-show-hide-bs-pageaccess": "د $1 مخ د لاسرسي يادښت",
+	"logeventslist-bs-pageaccess-log": "د مخ لاسرسي يادښت",
+	"logentry-bs-pageaccess-change": "$1 د $3 څخه $4 ته دلاسرسي اجازې {{GENDER:$2|بدلې کړې}}",
+	"action-pageaccess-viewspecialpage": "\"{{int:pageaccess}}\" ځانگړی مخ کتل",
+	"bs-pageaccess-column-title": "مخ سرليک",
+	"bs-pageaccess-column-groups": "ډلې",
+	"apihelp-bs-pageaccess-store-summary": "د مخ په کچه د لاسرسی کنترول",
+	"right-pageaccess-viewspecialpage": "[[Special:PageAccess]] ځانگړي مخ ته لاسرسی",
+	"bs-pageaccess-access-restricted": "دې مخ ته لاسرسی <strong>$2</strong> {{PLURAL:$1|ډلې|ډلو}} پورې محدود دی.",
+	"bs-pageaccess-tag-pageaccess-title": "مخ لاسرسی",
+	"bs-pageaccess-tag-pageaccess-desc": "د لاندې نومونو لرونکي ډلو لپاره د دې مخ د لوستلو او ليکلو لاسرسی محدودوي",
+	"bs-pageaccess-ve-pageaccessinspector-groups": "ډلې",
+	"bs-pageaccess-tag-pageaccess-desc-param-groups": "يوازې دا ډلې مخ ته لاسرسی لري",
+	"bs-pageaccess-blockactionsontag-lockdown-reason": "\"$1\" چاره يوازې د  $3 {{PLURAL:$2|ډلې|ډلو}} لپاره د لاسرسي وړ ده",
+	"bs-pageaccess-droplet-name": "مخ لاسرسی",
+	"bs-pageaccess-droplet-description": "مخ ته لاسرسی د محدودو ډلو لپاره محدودوي"
+}
