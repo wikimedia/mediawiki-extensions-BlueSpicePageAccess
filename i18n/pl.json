@@ -4,11 +4,13 @@
 			"Chrumps",
 			"InternerowyGołąb",
 			"Rail",
-			"Railfail536"
+			"Railfail536",
+			"PanWor"
 		]
 	},
 	"bs-pageaccess-error-no-groups-given": "Grupy nie zostały określone.",
 	"log-description-bs-pageaccess": "Jest to rejestr zmian w ustawieniach dostępu do strony.",
+	"logentry-bs-pageaccess-change": "$1 {{GENDER:$2|zmienił|zmieniła|zmienił(a)}} uprawnienia dostępu $3, przyznając je grupie „$4”",
 	"action-pageaccess-viewspecialpage": "zobacz stronę specjalną „{{int:pageaccess}}”",
 	"bs-pageaccess-column-title": "Tytuł strony",
 	"bs-pageaccess-column-groups": "Grupy",
