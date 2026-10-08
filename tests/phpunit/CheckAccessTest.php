@@ -3,10 +3,10 @@
 namespace BlueSpice\PageAccess\Tests;
 
 use BlueSpice\PageAccess\CheckAccess;
-use HashBagOStuff;
 use MediaWiki\Config\HashConfig;
 use MediaWiki\Title\Title;
 use PHPUnit\Framework\TestCase;
+use Wikimedia\ObjectCache\HashBagOStuff;
 use Wikimedia\ObjectCache\WANObjectCache;
 use Wikimedia\Rdbms\FakeResultWrapper;
 use Wikimedia\Rdbms\IConnectionProvider;
