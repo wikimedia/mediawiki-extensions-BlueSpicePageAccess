@@ -3,6 +3,7 @@
 		"authors": [
 			"Chrumps",
 			"InternerowyGołąb",
+			"PanWor",
 			"Rail",
 			"Railfail536"
 		]
@@ -14,5 +15,6 @@
 	"bs-pageaccess-column-groups": "Grupy",
 	"right-pageaccess-viewspecialpage": "Dostęp do strony specjalnej [[Special:PageAccess]]",
 	"bs-pageaccess-ve-pageaccessinspector-groups": "Grupy",
-	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Tylko te grupy mają dostęp do strony"
+	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Tylko te grupy mają dostęp do strony",
+	"logentry-bs-pageaccess-change": "$1 {{GENDER:$2|zmienił|zmieniła|zmienił(a)}} uprawnienia dostępu $3, przyznając je grupie „$4”"
 }
