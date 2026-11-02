@@ -2,11 +2,11 @@
 
 namespace BlueSpice\PageAccess\Hook\SpecialPageBeforeExecute;
 
+use MediaWiki\Exception\PermissionsError;
 use MediaWiki\Permissions\PermissionManager;
 use MediaWiki\SpecialPage\Hook\SpecialPageBeforeExecuteHook;
 use MediaWiki\Title\Title;
 use MediaWiki\Title\TitleFactory;
-use PermissionsError;
 
 class CheckBrowsePagePermission implements SpecialPageBeforeExecuteHook {
 
